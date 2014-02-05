@@ -2768,6 +2768,7 @@ Examples:
     <rdfs:range rdf:resource="http://erlangen-crm.org/120111/E4_Period"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/120111/E4_Period"/>
+    <owl:inverseOf rdf:resource="http://erlangen-crm.org/120111/P133_is_separated_from"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/120111/P37i_was_assigned_by">
     <rdfs:range rdf:resource="http://erlangen-crm.org/120111/E15_Identifier_Assignment"/>
