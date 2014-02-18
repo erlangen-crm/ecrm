@@ -2051,6 +2051,7 @@ Examples:
       <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P140i_was_attributed_by"/>
     </rdfs:subPropertyOf>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E17_Type_Assignment"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P41_classified"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P148i_is_component_of">
     <rdfs:label xml:lang="en">P148 is component of</rdfs:label>
@@ -2058,6 +2059,7 @@ Examples:
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E89_Propositional_Object"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E89_Propositional_Object"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P148_has_component"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P103_was_intended_for">
     <rdfs:label xml:lang="en">P103 was intended for</rdfs:label>
@@ -2079,6 +2081,7 @@ Examples:
     <skos:notation>P62i</skos:notation>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E24_Physical_Man-Made_Thing"/>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E1_CRM_Entity"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P62_depicts"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P13i_was_destroyed_by">
     <rdfs:label xml:lang="en">P13 was destroyed by</rdfs:label>
@@ -2103,6 +2106,7 @@ When a Linguistic Object is translated into a new language it becomes a new Ling
 Examples:
 - "Les Baigneurs" (E33) has translation "The Bathers" (E33)</rdfs:comment>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E33_Linguistic_Object"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P73i_is_translation_of"/>
     <rdfs:subPropertyOf>
       <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P130_shows_features_of"/>
     </rdfs:subPropertyOf>
@@ -2135,6 +2139,7 @@ Examples:
     <rdfs:label xml:lang="en">P134 continued</rdfs:label>
     <skos:notation>P134</skos:notation>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E7_Activity"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P134i_was_continued_by"/>
     <rdfs:comment xml:lang="en">Scope note:
 This property allows two activities to be related where the domain is considered as an intentional continuation of the range.
 Used multiple times, this allows a chain of related activities to be created which follow each other in sequence.
@@ -2151,6 +2156,7 @@ Examples:
     <skos:notation>P4i</skos:notation>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E52_Time-Span"/>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E2_Temporal_Entity"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P4_has_time-span"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P68i_use_foreseen_by">
     <rdfs:label xml:lang="en">P68 use foreseen by</rdfs:label>
@@ -2172,6 +2178,7 @@ Examples:
       <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P141_assigned"/>
     </rdfs:subPropertyOf>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E42_Identifier"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P37i_was_assigned_by"/>
     <rdfs:comment xml:lang="en">Scope note:
 This property records the identifier that was assigned to an item in an Identifier Assignment activity.
 The same identifier may be assigned on more than one occasion.
@@ -2197,6 +2204,7 @@ Examples:
     <skos:notation>P74i</skos:notation>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E39_Actor"/>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E53_Place"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P74_has_current_or_former_residence"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P56i_is_found_on">
     <rdfs:label xml:lang="en">P56 is found on</rdfs:label>
@@ -2238,6 +2246,7 @@ Examples:
     <skos:notation>P102i</skos:notation>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E71_Man-Made_Thing"/>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E35_Title"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P102_has_title"/>
     <rdfs:subPropertyOf>
       <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P1i_identifies"/>
     </rdfs:subPropertyOf>
@@ -2247,6 +2256,7 @@ Examples:
     <skos:notation>P147</skos:notation>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E78_Collection"/>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E87_Curation_Activity"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P147i_was_curated_by"/>
     <rdfs:comment xml:lang="en">Scope note:
 This property associates an instance of E87 Curation Activity with the instance of E78 Collection or collections with that is subject of athat curation activity following some implicit or explicit curation plan. 
 
@@ -2263,6 +2273,7 @@ Examples:
       <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P92i_was_brought_into_existence_by"/>
     </rdfs:subPropertyOf>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E67_Birth"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P98_brought_into_life"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P117i_includes">
     <rdfs:label xml:lang="en">P117 includes</rdfs:label>
@@ -2270,24 +2281,28 @@ Examples:
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E2_Temporal_Entity"/>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E2_Temporal_Entity"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P117_occurs_during"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P43i_is_dimension_of">
     <rdfs:label xml:lang="en">P43 is dimension of</rdfs:label>
     <skos:notation>P43i</skos:notation>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E70_Thing"/>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E54_Dimension"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P43_has_dimension"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P125i_was_type_of_object_used_in">
     <rdfs:label xml:lang="en">P125 was type of object used in</rdfs:label>
     <skos:notation>P125i</skos:notation>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E55_Type"/>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E7_Activity"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P125_used_object_of_type"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P94_has_created">
     <rdfs:label xml:lang="en">P94 has created</rdfs:label>
     <skos:notation>P94</skos:notation>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E28_Conceptual_Object"/>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E65_Creation"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P94i_was_created_by"/>
     <rdfs:comment xml:lang="en">Scope note:
 This property allows a conceptual E65 Creation to be linked to the E28 Conceptual Object created by it.
 It represents the act of conceiving the intellectual content of the E28 Conceptual Object. It does not represent the act of creating the first physical carrier of the E28 Conceptual Object. As an example, this is the composition of a poem, not its commitment to paper.
@@ -2364,6 +2379,7 @@ Examples:
 - Matthew's paperback copy of Reach for the Sky (E84) carries the text of Reach for the Sky (E73)</rdfs:comment>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E24_Physical_Man-Made_Thing"/>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E90_Symbolic_Object"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P128i_is_carried_by"/>
     <rdfs:subPropertyOf>
       <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P130_shows_features_of"/>
     </rdfs:subPropertyOf>
@@ -2376,6 +2392,7 @@ Examples:
     </rdfs:subPropertyOf>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E1_CRM_Entity"/>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E36_Visual_Item"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P138_represents"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P44_has_condition">
     <rdfs:label xml:lang="en">P44 has condition</rdfs:label>
@@ -2390,6 +2407,7 @@ Examples:
 </rdfs:comment>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E3_Condition_State"/>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E18_Physical_Thing"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P44i_is_condition_of"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P30i_custody_transferred_through">
     <rdfs:label xml:lang="en">P30 custody transferred through</rdfs:label>
@@ -2411,6 +2429,7 @@ In reality title is either transferred to or from someone, or both.
 Examples:
 - acquisition of the Amoudrouz collection by the Geneva Ethnographic Museum (E8) transferred title from Heirs of Amoudrouz (E74)</rdfs:comment>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E8_Acquisition"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P23i_surrendered_title_through"/>
     <rdfs:subPropertyOf>
       <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P14_carried_out_by"/>
     </rdfs:subPropertyOf>
@@ -2429,12 +2448,14 @@ Examples:
     </rdfs:subPropertyOf>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E1_CRM_Entity"/>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E83_Type_Creation"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P136i_supported_type_creation"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P113i_was_removed_by">
     <rdfs:label xml:lang="en">P113 was removed by</rdfs:label>
     <skos:notation>P113i</skos:notation>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E18_Physical_Thing"/>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E80_Part_Removal"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P113_removed"/>
     <rdfs:subPropertyOf>
       <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P12i_was_present_at"/>
     </rdfs:subPropertyOf>
@@ -2444,6 +2465,7 @@ Examples:
     <skos:notation>P123i</skos:notation>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E77_Persistent_Item"/>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E81_Transformation"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P123_resulted_in"/>
     <rdfs:subPropertyOf>
       <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P92i_was_brought_into_existence_by"/>
     </rdfs:subPropertyOf>
@@ -2456,6 +2478,7 @@ Examples:
       <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P53_has_former_or_current_location"/>
     </rdfs:subPropertyOf>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E19_Physical_Object"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P55i_currently_holds"/>
     <rdfs:comment xml:lang="en">Scope note:
 This property records the location of an E19 Physical Object at the time of validity of the record or database containing the statement that uses this property.
 This property is a specialisation of P53 has former or current location (is former or current location of). It indicates that the E53 Place associated with the E19 Physical Object is the current location of the object. The property does not allow any indication of how long the Object has been at the current location.
@@ -2469,6 +2492,7 @@ Examples:
     <skos:notation>P84i</skos:notation>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E54_Dimension"/>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E52_Time-Span"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P84_had_at_most_duration"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P30_transferred_custody_of">
     <rdfs:label xml:lang="en">P30 transferred custody of</rdfs:label>
@@ -2481,11 +2505,13 @@ Examples:
 - the delivery of paintings by Secure Deliveries Inc. to the National Gallery (E10) transferred custody of paintings from The Iveagh Bequest (E19)</rdfs:comment>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E10_Transfer_of_Custody"/>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E18_Physical_Thing"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P30i_custody_transferred_through"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P17_was_motivated_by">
     <rdfs:label xml:lang="en">P17 was motivated by</rdfs:label>
     <skos:notation>P17</skos:notation>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E1_CRM_Entity"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P17i_motivated"/>
     <rdfs:comment xml:lang="en">Scope note:
 This property describes an item or items that are regarded as a reason for carrying out the E7 Activity.
 For example, the discovery of a large hoard of treasure may call for a celebration, an order from head quarters can start a military manoeuvre.
@@ -2518,6 +2544,7 @@ Examples:
       <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P1_is_identified_by"/>
     </rdfs:subPropertyOf>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E53_Place"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P87i_identifies"/>
     <rdfs:comment xml:lang="en">Scope note:
 This property identifies an E53 Place using an E44 Place Appellation.
 Examples of Place Appellations used to identify Places include instances of E48 Place Name, addresses, E47 Spatial Coordinates etc.
@@ -2549,6 +2576,7 @@ Examples:
     <skos:notation>P118i</skos:notation>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E2_Temporal_Entity"/>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E2_Temporal_Entity"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P118_overlaps_in_time_with"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P150i_defines_typical_wholes_for">
     <rdfs:label xml:lang="en">P150 defines typical wholes for</rdfs:label>
@@ -2565,6 +2593,7 @@ Examples:
     <skos:notation>P11i</skos:notation>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E39_Actor"/>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E5_Event"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P11_had_participant"/>
     <rdfs:subPropertyOf>
       <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P12i_was_present_at"/>
     </rdfs:subPropertyOf>
@@ -2580,12 +2609,14 @@ Examples:
 - Lady Diana Spencer's wedding dress (E71) was made for Wedding of Prince Charles and Lady Diana Spencer (E7) mode use of To Be Worn (E55)</rdfs:comment>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E71_Man-Made_Thing"/>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E7_Activity"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P19i_was_made_for"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P103i_was_intention_of">
     <rdfs:label xml:lang="en">P103 was intention of</rdfs:label>
     <skos:notation>P103i</skos:notation>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E71_Man-Made_Thing"/>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E55_Type"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P103_was_intended_for"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P62_depicts">
     <rdfs:label xml:lang="en">P62 depicts</rdfs:label>
@@ -2615,6 +2646,7 @@ Examples:
     <skos:notation>P105i</skos:notation>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E72_Legal_Object"/>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E39_Actor"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P105_right_held_by"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P48_has_preferred_identifier">
     <rdfs:label xml:lang="en">P48 has preferred identifier</rdfs:label>
@@ -2631,6 +2663,7 @@ P48 has preferred identifier (is preferred identifier of), is a shortcut for the
 Examples:
 - the pair of Lederhosen donated by Dr Martin Doerr (E22) has preferred identifier OXCMS:2001.1.32 (E42)</rdfs:comment>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E42_Identifier"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P48i_is_preferred_identifier_of"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P29i_received_custody_through">
     <rdfs:label xml:lang="en">P29 received custody through</rdfs:label>
@@ -2639,12 +2672,14 @@ Examples:
       <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P14i_performed"/>
     </rdfs:subPropertyOf>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E10_Transfer_of_Custody"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P29_custody_received_by"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P7_took_place_at">
     <rdfs:label xml:lang="en">P7 took place at</rdfs:label>
     <skos:notation>P7</skos:notation>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E4_Period"/>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E53_Place"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P7i_witnessed"/>
     <rdfs:comment xml:lang="en">Scope note:
 his property describes the spatial location of an instance of E4 Period.
 The related E53 Place should be seen as an approximation of the geographical area within which the phenomena that characterise the period in question occurred. P7 took place at (witnessed) does not convey any meaning other than spatial positioning (generally on the surface of the earth).  For example, the period "Révolution française" can be said to have taken place in "France", the "Victorian" period, may be said to have taken place in "Britain" and its colonies, as well as other parts of Europe and north America.
@@ -2659,6 +2694,7 @@ Examples
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E52_Time-Span"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E52_Time-Span"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P86_falls_within"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P127_has_broader_term">
     <rdfs:label xml:lang="en">P127 has broader term</rdfs:label>
@@ -2666,6 +2702,7 @@ Examples
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E55_Type"/>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E55_Type"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P127i_has_narrower_term"/>
     <rdfs:comment xml:lang="en">Scope note:
 This property identifies a super-Type to which an E55 Type is related.
 It allows Types to be organised into hierarchies. This is the sense of "broader term generic (BTG)" as defined in ISO 2788.
@@ -2680,6 +2717,7 @@ Examples:
       <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P14i_performed"/>
     </rdfs:subPropertyOf>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E8_Acquisition"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P22_transferred_title_to"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P67i_is_referred_to_by">
@@ -2687,6 +2725,7 @@ Examples:
     <skos:notation>P67i</skos:notation>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E89_Propositional_Object"/>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E1_CRM_Entity"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P67_refers_to"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P106i_forms_part_of">
     <rdfs:label xml:lang="en">P106 forms part of</rdfs:label>
@@ -2694,6 +2733,7 @@ Examples:
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E90_Symbolic_Object"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E90_Symbolic_Object"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P106_is_composed_of"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P133_is_separated_from">
     <rdfs:label xml:lang="en">P133 is separated from</rdfs:label>
@@ -2721,6 +2761,7 @@ Examples:
     <skos:notation>P93i</skos:notation>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E64_End_of_Existence"/>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E77_Persistent_Item"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P93_took_out_of_existence"/>
     <rdfs:subPropertyOf>
       <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P12i_was_present_at"/>
     </rdfs:subPropertyOf>
@@ -2738,6 +2779,7 @@ Examples:
 (E55) (Activity type)</rdfs:comment>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E7_Activity"/>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E55_Type"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P21i_was_purpose_of"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P100i_died_in">
     <rdfs:label xml:lang="en">P100 died in</rdfs:label>
@@ -2782,6 +2824,7 @@ Examples:
     </rdfs:subPropertyOf>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E24_Physical_Man-Made_Thing"/>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E11_Modification"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P31_has_modified"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P25_moved">
     <rdfs:label xml:lang="en">P25 moved</rdfs:label>
@@ -2807,6 +2850,7 @@ Examples:
     <skos:notation>P58i</skos:notation>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E46_Section_Definition"/>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E18_Physical_Thing"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P58_has_section_definition"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P96i_gave_birth">
     <rdfs:label xml:lang="en">P96 gave birth</rdfs:label>
@@ -2850,6 +2894,7 @@ This property is not intended for the documentation of E57 Materials that were u
 Examples:
 - procedure for soda glass manufacture (E29) foresees use of soda (E57)</rdfs:comment>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E29_Design_or_Procedure"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P68i_use_foreseen_by"/>
     <rdfs:subPropertyOf rdf:resource="http://erlangen-crm.org/140218/P67_refers_to"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P78_is_identified_by">
@@ -2861,6 +2906,7 @@ This property identifies an E52 Time-Span using an E49 Time Appellation.
 Examples:
 - the time span 1926 to 1988 (E52) is identified by "Showa" (Japanese time appellation) (E49)</rdfs:comment>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E52_Time-Span"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P78i_identifies"/>
     <rdfs:subPropertyOf>
       <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P1_is_identified_by"/>
     </rdfs:subPropertyOf>
@@ -2898,6 +2944,7 @@ Examples:
 - National Museum of Science and Industry (E40) has current or former member The National Railway Museum (E40)
 - The married couple Queen Elisabeth and Prince Phillip (E74) has current or former member Prince Phillip (E21) with P107.1 kind of member husband (E55 Type)</rdfs:comment>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E74_Group"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P107i_is_current_or_former_member_of"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P144_joined_with">
     <rdfs:label xml:lang="en">P144 joined with</rdfs:label>
@@ -2952,6 +2999,7 @@ Examples:
     <skos:notation>P76i</skos:notation>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E51_Contact_Point"/>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E39_Actor"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P76_has_contact_point"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P69_has_association_with">
     <rdfs:label xml:lang="en">P69 has association with</rdfs:label>
@@ -2986,6 +3034,7 @@ Examples:
     <skos:notation>P12</skos:notation>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E5_Event"/>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E77_Persistent_Item"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P12i_was_present_at"/>
     <rdfs:comment xml:lang="en">Scope note:
 This property describes the active or passive presence of an E77 Persistent Item in an E5 Event without implying any specific role.
 It connects the history of a thing with the E53 Place and E50 Date of an event. For example, an object may be the desk, now in a museum on which a treaty was signed. The presence of an immaterial thing implies the presence of at least one of its carriers.
@@ -3013,6 +3062,7 @@ Examples:
     <rdfs:subPropertyOf rdf:resource="http://erlangen-crm.org/140218/P94i_was_created_by"/>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E55_Type"/>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E83_Type_Creation"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P135_created_type"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P86_falls_within">
     <rdfs:label xml:lang="en">P86 falls within</rdfs:label>
@@ -3042,6 +3092,7 @@ Examples:
     <skos:notation>P15i</skos:notation>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E1_CRM_Entity"/>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E7_Activity"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P15_was_influenced_by"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P101_had_as_general_use">
     <rdfs:label xml:lang="en">P101 had as general use</rdfs:label>
@@ -3054,12 +3105,14 @@ Examples:
 - Tony Gill's Ford Mustang (E22) had as general use transportation (E55)</rdfs:comment>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E70_Thing"/>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E55_Type"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P101i_was_use_of"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P97i_was_father_for">
     <rdfs:label xml:lang="en">P97 was father for</rdfs:label>
     <skos:notation>P97i</skos:notation>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E21_Person"/>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E67_Birth"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P97_from_father"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P117_occurs_during">
     <rdfs:label xml:lang="en">P117 occurs during</rdfs:label>
@@ -3080,6 +3133,7 @@ Examples:
     <skos:notation>P119i</skos:notation>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E2_Temporal_Entity"/>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E2_Temporal_Entity"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P119_meets_in_time_with"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P150_defines_typical_parts_of">
     <rdfs:label xml:lang="en">P150 defines typical parts of</rdfs:label>
@@ -3101,6 +3155,7 @@ Examples:
     <skos:notation>P53</skos:notation>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E18_Physical_Thing"/>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E53_Place"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P53i_is_former_or_current_location_of"/>
     <rdfs:comment xml:lang="en">Scope note:
 This property allows an instance of E53 Place to be associated as the former or current location of an instance of E18 Physical Thing.
 In the case of E19 Physical Objects, the property does not allow any indication of the Time-Span during which the Physical Object was located at this Place, nor if this is the current location.
@@ -3173,6 +3228,7 @@ Examples:
     <skos:notation>P34i</skos:notation>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E14_Condition_Assessment"/>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E18_Physical_Thing"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P34_concerned"/>
     <rdfs:subPropertyOf>
       <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P140i_was_attributed_by"/>
     </rdfs:subPropertyOf>
@@ -3182,6 +3238,7 @@ Examples:
     <skos:notation>P20</skos:notation>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E5_Event"/>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E7_Activity"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P20i_was_purpose_of"/>
     <rdfs:comment xml:lang="en">Scope note:
 This property identifies the relationship between a preparatory activity and the event it is intended to be preparation for.
 This includes activities, orders and other organisational actions, taken in preparation for other activities or events.
@@ -3253,6 +3310,7 @@ Examples:
       <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P128i_is_carried_by"/>
     </rdfs:subPropertyOf>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E36_Visual_Item"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P65_shows_visual_item"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P37i_was_assigned_by">
     <rdfs:label xml:lang="en">P37 was assigned by</rdfs:label>
@@ -3270,6 +3328,7 @@ Examples:
     <rdfs:subPropertyOf rdf:resource="http://erlangen-crm.org/140218/P1_is_identified_by"/>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E39_Actor"/>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E82_Actor_Appellation"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P131i_identifies"/>
     <rdfs:comment xml:lang="en">Scope note:
 This property identifies a name used specifically to identify an E39 Actor.
 This property is a specialisation of P1 is identified by (identifies) is identified by.
@@ -3287,6 +3346,7 @@ A Material, such as a theoretical alloy, may not have any physical instances.
 silver cup 232 (E22) consists of silver (E57)</rdfs:comment>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E57_Material"/>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E18_Physical_Thing"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P45i_is_incorporated_in"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P146_separated_from">
     <rdfs:label xml:lang="en">P146 separated from</rdfs:label>
@@ -3314,6 +3374,7 @@ Parliament
     <skos:notation>P83</skos:notation>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E54_Dimension"/>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E52_Time-Span"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P83i_was_minimum_duration_of"/>
     <rdfs:comment xml:lang="en">Scope note:
 This property describes the minimum length of time covered by an E52 Time-Span.
 It allows an E52 Time-Span to be associated with an E54 Dimension representing it's minimum duration (i.e. it's inner boundary) independent from the actual beginning and end.
@@ -3342,6 +3403,7 @@ Examples:
     <skos:notation>P75</skos:notation>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E30_Right"/>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E39_Actor"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P75i_is_possessed_by"/>
     <rdfs:comment xml:lang="en">Scope note:
 This property identifies former or current instances of E30 Rights held by an E39 Actor.
 
@@ -3356,6 +3418,7 @@ Examples:
       <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P141i_was_assigned_by"/>
     </rdfs:subPropertyOf>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E16_Measurement"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P40_observed_dimension"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P31_has_modified">
     <rdfs:label xml:lang="en">P31 has modified</rdfs:label>
@@ -3403,6 +3466,7 @@ A Type may be intellectually constructed independent from assigning an instance 
 Examples:
 - 31 August 1997 classification of silver cup 232 (E17) assigned goblet (E55)</rdfs:comment>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E55_Type"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P42i_was_assigned_by"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P38_deassigned">
     <rdfs:label xml:lang="en">P38 deassigned</rdfs:label>
@@ -3461,6 +3525,7 @@ Examples:
     </rdfs:subPropertyOf>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E28_Conceptual_Object"/>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E75_Conceptual_Object_Appellation"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P149_is_identified_by"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P54i_is_current_permanent_location_of">
     <rdfs:label xml:lang="en">P54 is current permanent location of</rdfs:label>
@@ -3477,6 +3542,7 @@ Examples:
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E7_Activity"/>
     <rdfs:subPropertyOf rdf:resource="http://erlangen-crm.org/140218/P125_used_object_of_type"/>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E55_Type"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P32i_was_technique_of"/>
     <rdfs:comment xml:lang="en">Scope note:
 This property identifies the technique that was employed in an act of modification.
 These techniques should be drawn from an external E55 Type hierarchy of consistent terminology of general techniques such as embroidery, oil-painting, etc. Specific techniques may be further described as instances of E29 Design or Procedure.
@@ -3489,6 +3555,7 @@ Examples:
     <skos:notation>P10</skos:notation>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E4_Period"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P10i_contains"/>
     <rdfs:comment xml:lang="en">Scope note:
 This property describes an instance of E4 Period, which falls within the E53 Place and E52 Time-Span of another.
 The difference with P9 consists of (forms part of) is subtle. Unlike P9 consists of (forms part of), P10 falls within (contains) does not imply any logical connection between the two periods and it may refer to a period of a completely different type.
@@ -3533,6 +3600,7 @@ This property identifies the E39 Actor or Actors who had custody of an instance 
 Examples:
 - painting from The Iveagh Bequest (E18) has current keeper The National Gallery (E40)</rdfs:comment>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E18_Physical_Thing"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P50i_is_current_keeper_of"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P141i_was_assigned_by">
     <rdfs:label xml:lang="en">P141 was assigned by</rdfs:label>
@@ -3598,6 +3666,7 @@ Examples:
       <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P49_has_former_or_current_keeper"/>
     </rdfs:subPropertyOf>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E39_Actor"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P109i_is_current_or_former_curator_of"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P151i_participated_in">
     <rdfs:label xml:lang="en">P151 participated in</rdfs:label>
@@ -3663,12 +3732,14 @@ Examples:
     <skos:notation>P59i</skos:notation>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E53_Place"/>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E18_Physical_Thing"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P59_has_section"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P51i_is_former_or_current_owner_of">
     <rdfs:label xml:lang="en">P51 is former or current owner of</rdfs:label>
     <skos:notation>P51i</skos:notation>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E39_Actor"/>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E18_Physical_Thing"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P51_has_former_or_current_owner"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P19i_was_made_for">
     <rdfs:label xml:lang="en">P19 was made for</rdfs:label>
@@ -3689,6 +3760,7 @@ Examples:
 - the final nail-insertion Event (E79) augmented  Coffin of George VI (E24)</rdfs:comment>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E79_Part_Addition"/>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E24_Physical_Man-Made_Thing"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P110i_was_augmented_by"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P92i_was_brought_into_existence_by">
     <rdfs:label xml:lang="en">P92 was brought into existence by</rdfs:label>
@@ -3707,6 +3779,7 @@ Examples:
     <skos:notation>P140</skos:notation>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E13_Attribute_Assignment"/>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E1_CRM_Entity"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P140i_was_attributed_by"/>
     <rdfs:comment xml:lang="en">Scope note:
 This property indicates the item to which an attribute or relation is assigned.
 
@@ -3758,6 +3831,7 @@ Examples:
     <rdfs:subPropertyOf rdf:resource="http://erlangen-crm.org/140218/P15i_influenced"/>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E70_Thing"/>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E7_Activity"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P16_used_specific_object"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P148_has_component">
     <rdfs:label xml:lang="en">P148 has component</rdfs:label>
@@ -3808,6 +3882,7 @@ Examples:
     <skos:notation>P38i</skos:notation>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E15_Identifier_Assignment"/>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E42_Identifier"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P38_deassigned"/>
     <rdfs:subPropertyOf rdf:resource="http://erlangen-crm.org/140218/P141i_was_assigned_by"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P34_concerned">
@@ -3853,6 +3928,7 @@ Examples:
     <skos:notation>P2i</skos:notation>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E55_Type"/>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E1_CRM_Entity"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P2_has_type"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P52_has_current_owner">
     <rdfs:label xml:lang="en">P52 has current owner</rdfs:label>
@@ -3877,6 +3953,7 @@ Examples:
     <skos:notation>P130</skos:notation>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E70_Thing"/>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E70_Thing"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P130i_features_are_also_found_on"/>
     <rdfs:comment xml:lang="en">Scope note:
 This property generalises the notions of  "copy of" and "similar to" into a dynamic, asymmetric relationship, where the domain expresses the derivative, if such a direction can be established.
 Otherwise, the relationship is symmetric. It is a short-cut of P15 was influenced by (influenced) in a creation or production, if such a reason for the similarity can be verified. Moreover it expresses similarity in cases that can be stated between two objects only, without historical knowledge about its reasons.
@@ -3896,6 +3973,7 @@ Examples:
     <rdfs:subPropertyOf rdf:resource="http://erlangen-crm.org/140218/P12_occurred_in_the_presence_of"/>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E63_Beginning_of_Existence"/>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E77_Persistent_Item"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P92i_was_brought_into_existence_by"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P25i_moved_by">
     <rdfs:label xml:lang="en">P25 moved by</rdfs:label>
@@ -3905,6 +3983,7 @@ Examples:
     </rdfs:subPropertyOf>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E19_Physical_Object"/>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E9_Move"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P25_moved"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P74_has_current_or_former_residence">
     <rdfs:label xml:lang="en">P74 has current or former residence</rdfs:label>
@@ -3959,6 +4038,7 @@ the death and mummification of Tut-Ankh-Amun (E81) transformed the ruling Pharao
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E2_Temporal_Entity"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E2_Temporal_Entity"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P116_starts"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P35i_was_identified_by">
     <rdfs:label xml:lang="en">P35 was identified by</rdfs:label>
@@ -3993,6 +4073,7 @@ Examples:
     <skos:notation>P129</skos:notation>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E1_CRM_Entity"/>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E89_Propositional_Object"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P129i_is_subject_of"/>
     <rdfs:comment xml:lang="en">Scope note:
 This property documents that an E89 Propositional Object has as subject an instance of E1 CRM Entity.
 This differs from P67 refers to (is referred to by), which refers to an E1 CRM Entity, in that it describes the primary subject or subjects of an E89 Propositional Object.
@@ -4019,6 +4100,7 @@ Examples:
 - 1997 condition assessment of silver cup 232 (E14) has identified oxidation traces were present in 1997 (E3) has type oxidation traces (E55)</rdfs:comment>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E14_Condition_Assessment"/>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E3_Condition_State"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P35i_was_identified_by"/>
     <rdfs:subPropertyOf>
       <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P141_assigned"/>
     </rdfs:subPropertyOf>
@@ -4064,6 +4146,7 @@ Examples:
     <skos:notation>P96</skos:notation>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E67_Birth"/>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E21_Person"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P96i_gave_birth"/>
     <rdfs:comment xml:lang="en">Scope note:
 This property links an E67 Birth event to an E21 Person as a participant in the role of birth-giving mother.
 Note that biological fathers are not necessarily participants in the Birth (see P97 from father (was father for)). The Person being born is linked to the Birth with the property P98 brought into life (was born). This is not intended for use with general natural history material, only people. There is no explicit method for modelling conception and gestation except by using extensions. This is a sub-property of P11 had participant (participated in).
@@ -4094,6 +4177,7 @@ Examples:
 - the coffin of Tut-Ankh-Amun (E22) was diminished by The opening of the coffin of Tut-Ankh-Amun (E80)</rdfs:comment>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E24_Physical_Man-Made_Thing"/>
     <rdfs:subPropertyOf rdf:resource="http://erlangen-crm.org/140218/P31_has_modified"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P112i_was_diminished_by"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P95_has_formed">
     <rdfs:label xml:lang="en">P95 has formed</rdfs:label>
@@ -4106,6 +4190,7 @@ Examples:
 - the formation of the CIDOC CRM SIG at the August 2000 CIDOC Board meeting (E66) has formed the CIDOC CRM Special Interest Group (E74)</rdfs:comment>
     <rdfs:subPropertyOf rdf:resource="http://erlangen-crm.org/140218/P92_brought_into_existence"/>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E74_Group"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P95i_was_formed_by"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P16_used_specific_object">
     <rdfs:label xml:lang="en">P16 used specific object</rdfs:label>
@@ -4186,6 +4271,7 @@ Examples:
     <skos:notation>P143</skos:notation>
     <rdfs:subPropertyOf rdf:resource="http://erlangen-crm.org/140218/P11_had_participant"/>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E85_Joining"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P143i_was_joined_by"/>
     <rdfs:comment xml:lang="en">Scope note:
 This property identifies the instance of E39 Actor that becomes member of a E74 Group in an E85 Joining.
 Joining events allow for describing people becoming members of a group with a more detailed path from E74 Group through P144 joined with (gained member by), E85 Joining, P143 joined (was joined by) to E39 Actor, compared to the shortcut offered by P107 has current or former member (is current or former member of).
@@ -4254,6 +4340,7 @@ Examples:
     <rdfs:label xml:lang="en">P141 assigned</rdfs:label>
     <skos:notation>P141</skos:notation>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E1_CRM_Entity"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P141i_was_assigned_by"/>
     <rdfs:comment xml:lang="en">Scope note:
 This property indicates the attribute that was assigned or the item that was related to the item denoted by a property P140 assigned attribute to in an Attribute assignment action.
 
@@ -4266,6 +4353,7 @@ Examples:
     <rdfs:label xml:lang="en">P28 custody surrendered by</rdfs:label>
     <skos:notation>P28</skos:notation>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E10_Transfer_of_Custody"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P28i_surrendered_custody_through"/>
     <rdfs:comment xml:lang="en">Scope note:
 This property identifies the E39 Actor or Actors who surrender custody of an instance of E18 Physical Thing in an E10 Transfer of Custody activity.
 The property will typically describe an Actor surrendering custody of an object when it is handed over to someone else's care. On occasion, physical custody may be surrendered involuntarily – through accident, loss or theft.
@@ -4296,6 +4384,7 @@ This property documents a source E32 Authority Document for an instance of an E1
 Examples:
 - the Art &amp; Architecture Thesaurus (E32) lists alcazars (E55)</rdfs:comment>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E1_CRM_Entity"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P71i_is_listed_in"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P44i_is_condition_of">
     <rdfs:label xml:lang="en">P44 is condition of</rdfs:label>
@@ -4309,6 +4398,9 @@ Examples:
     <skos:notation>P1i</skos:notation>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E1_CRM_Entity"/>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E41_Appellation"/>
+	<owl:inverseOf>
+		<owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P1_is_identified_by"/>
+	</owl:inverseOf>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P124i_was_transformed_by">
     <rdfs:label xml:lang="en">P124 was transformed by</rdfs:label>
@@ -4316,6 +4408,7 @@ Examples:
     <rdfs:subPropertyOf rdf:resource="http://erlangen-crm.org/140218/P93i_was_taken_out_of_existence_by"/>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E77_Persistent_Item"/>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E81_Transformation"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P124_transformed"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P33i_was_used_by">
     <rdfs:label xml:lang="en">P33 was used by</rdfs:label>
@@ -4323,6 +4416,7 @@ Examples:
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E29_Design_or_Procedure"/>
     <rdfs:subPropertyOf rdf:resource="http://erlangen-crm.org/140218/P16i_was_used_for"/>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E7_Activity"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P33_used_specific_technique"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P108i_was_produced_by">
     <rdfs:label xml:lang="en">P108 was produced by</rdfs:label>
@@ -4357,6 +4451,7 @@ Examples:
     <rdfs:subPropertyOf rdf:resource="http://erlangen-crm.org/140218/P11i_participated_in"/>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E74_Group"/>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E86_Leaving"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P146_separated_from"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P108_has_produced">
     <rdfs:label xml:lang="en">P108 has produced</rdfs:label>
@@ -4371,6 +4466,7 @@ Examples:
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E24_Physical_Man-Made_Thing"/>
     <rdfs:subPropertyOf rdf:resource="http://erlangen-crm.org/140218/P31_has_modified"/>
     <rdfs:subPropertyOf rdf:resource="http://erlangen-crm.org/140218/P92_brought_into_existence"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P108i_was_produced_by"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P56_bears_feature">
     <rdfs:label xml:lang="en">P56 bears feature</rdfs:label>
@@ -4387,6 +4483,7 @@ Examples:
     </rdfs:subPropertyOf>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E19_Physical_Object"/>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E26_Physical_Feature"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P56i_is_found_on"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P119_meets_in_time_with">
     <rdfs:label xml:lang="en">P119 meets in time with</rdfs:label>
@@ -4406,6 +4503,7 @@ Examples:
     <rdfs:label xml:lang="en">P14 performed</rdfs:label>
     <skos:notation>P14i</skos:notation>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E7_Activity"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P14_carried_out_by"/>
     <rdfs:subPropertyOf rdf:resource="http://erlangen-crm.org/140218/P11i_participated_in"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P115_finishes">
@@ -4420,6 +4518,7 @@ Examples:
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E2_Temporal_Entity"/>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E2_Temporal_Entity"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P115i_is_finished_by"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P142i_was_used_in">
     <rdfs:label xml:lang="en">P142 was used in</rdfs:label>
@@ -4437,6 +4536,7 @@ Examples:
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E31_Document"/>
     <rdfs:subPropertyOf rdf:resource="http://erlangen-crm.org/140218/P67i_is_referred_to_by"/>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E1_CRM_Entity"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P70_documents"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P26i_was_destination_of">
     <rdfs:label xml:lang="en">P26 was destination of</rdfs:label>
@@ -4460,6 +4560,7 @@ Examples:
     <skos:notation>P91i</skos:notation>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E54_Dimension"/>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E58_Measurement_Unit"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P91_has_unit"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P151_was_formed_from">
     <rdfs:label xml:lang="en">P151 was formed from</rdfs:label>
@@ -4494,12 +4595,14 @@ Examples:
     <rdfs:subPropertyOf rdf:resource="http://erlangen-crm.org/140218/P11i_participated_in"/>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E74_Group"/>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E85_Joining"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P144_joined_with"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P99i_was_dissolved_by">
     <rdfs:label xml:lang="en">P99 was dissolved by</rdfs:label>
     <skos:notation>P99i</skos:notation>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E74_Group"/>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E68_Dissolution"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P99_dissolved"/>
     <rdfs:subPropertyOf rdf:resource="http://erlangen-crm.org/140218/P11i_participated_in"/>
     <rdfs:subPropertyOf rdf:resource="http://erlangen-crm.org/140218/P93i_was_taken_out_of_existence_by"/>
   </owl:ObjectProperty>
@@ -4537,12 +4640,14 @@ This property associates an instance of E16 Measurement with the instance of E1 
 Examples:
 - 31 August 1997 measurement of height of silver cup 232 (E16) measured silver cup 232 (E22)</rdfs:comment>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E16_Measurement"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P39i_was_measured_by"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P24i_changed_ownership_through">
     <rdfs:label xml:lang="en">P24 changed ownership through</rdfs:label>
     <skos:notation>P24i</skos:notation>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E18_Physical_Thing"/>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E8_Acquisition"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P24_transferred_title_of"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P28i_surrendered_custody_through">
     <rdfs:label xml:lang="en">P28 surrendered custody through</rdfs:label>
@@ -4594,11 +4699,13 @@ Examples:
 - Early Bronze Age (E4) occurs before Late Bronze age (E4)</rdfs:comment>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E2_Temporal_Entity"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P120i_occurs_after"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P26_moved_to">
     <rdfs:label xml:lang="en">P26 moved to</rdfs:label>
     <skos:notation>P26</skos:notation>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E9_Move"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P26i_was_destination_of"/>
     <rdfs:subPropertyOf rdf:resource="http://erlangen-crm.org/140218/P7_took_place_at"/>
     <rdfs:comment xml:lang="en">Scope note:
 This property identifies the destination of a E9 Move.
@@ -4653,23 +4760,27 @@ Examples:
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E90_Symbolic_Object"/>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E15_Identifier_Assignment"/>
     <rdfs:subPropertyOf rdf:resource="http://erlangen-crm.org/140218/P16_used_specific_object"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P142i_was_used_in"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P126i_was_employed_in">
     <rdfs:label xml:lang="en">P126 was employed in</rdfs:label>
     <skos:notation>P126i</skos:notation>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E11_Modification"/>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E57_Material"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P126_employed"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P72i_is_language_of">
     <rdfs:label xml:lang="en">P72 is language of</rdfs:label>
     <skos:notation>P72i</skos:notation>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E33_Linguistic_Object"/>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E56_Language"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P72_has_language"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P54_has_current_permanent_location">
     <rdfs:label xml:lang="en">P54 has current permanent location</rdfs:label>
     <skos:notation>P54</skos:notation>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E19_Physical_Object"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P54i_is_current_permanent_location_of"/>
     <rdfs:comment xml:lang="en">Scope note:
 This property records the foreseen permanent location of an instance of E19 Physical Object at the time of validity of the record or database containing the statement that uses this property.
 P54 has current permanent location (is current permanent location of) is similar to P55 has current location (currently holds). However, it indicates the E53 Place currently reserved for an object, such as the permanent storage location or a permanent exhibit location. The object may be temporarily removed from the permanent location, for example when used in temporary exhibitions or loaned to another institution. The object may never actually be located at its permanent location.
@@ -4691,6 +4802,7 @@ Examples:
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E21_Person"/>
     <rdfs:subPropertyOf rdf:resource="http://erlangen-crm.org/140218/P93_took_out_of_existence"/>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E69_Death"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P100i_died_in"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P27_moved_from">
     <rdfs:label xml:lang="en">P27 moved from</rdfs:label>
@@ -4699,6 +4811,7 @@ Examples:
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E9_Move"/>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E53_Place"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P27i_was_origin_of"/>
     <rdfs:comment xml:lang="en">Scope note:
 This property identifies the starting E53 Place of an E9 Move.
 A move will be linked to an origin, such as the move of an artefact from storage to display. A move may be linked to many origins. In this case the move describes the picking up of a set of objects. The area of the move includes the origin, route and destination.
@@ -4731,6 +4844,7 @@ Examples:
     <skos:notation>P49</skos:notation>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E39_Actor"/>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E18_Physical_Thing"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P49i_is_former_or_current_keeper_of"/>
     <rdfs:comment xml:lang="en">Scope note:
 This property identifies the E39 Actor or Actors who have or have had custody of an instance of E18 Physical Thing at some time.
 The distinction with P50 has current keeper (is current keeper of) is that P49 has former or current keeper (is former or current keeper of) leaves open the question as to whether the specified keepers are current.
@@ -4779,6 +4893,7 @@ The P137.1 in the taxonomic role property of P137 exemplifies (is exemplified by
 Examples:
 - Object BM000098044 of the Clayton Herbarium (E20) exemplifies Spigelia marilandica (L.) L. (E55) in the taxonomic role lectotype</rdfs:comment>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E55_Type"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P137i_is_exemplified_by"/>
     <rdfs:subPropertyOf rdf:resource="http://erlangen-crm.org/140218/P2_has_type"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P132_overlaps_with">
@@ -4800,6 +4915,7 @@ Examples:
     <skos:notation>P89i</skos:notation>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E53_Place"/>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E53_Place"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P89_falls_within"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P83i_was_minimum_duration_of">
@@ -4815,12 +4931,14 @@ Examples:
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E39_Actor"/>
     <rdfs:subPropertyOf rdf:resource="http://erlangen-crm.org/140218/P11i_participated_in"/>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E86_Leaving"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P145_separated"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P13_destroyed">
     <rdfs:label xml:lang="en">P13 destroyed</rdfs:label>
     <skos:notation>P13</skos:notation>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E18_Physical_Thing"/>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E6_Destruction"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P13i_was_destroyed_by"/>
     <rdfs:subPropertyOf rdf:resource="http://erlangen-crm.org/140218/P93_took_out_of_existence"/>
     <rdfs:comment xml:lang="en">Scope note:
 This property allows specific instances of E18 Physical Thing that have been destroyed to be related to a destruction event.
@@ -4839,6 +4957,7 @@ This property identifies the E18 Physical Thing that is added during an E79 Part
 Examples:
 - the insertion of the final nail (E79) added the last nail in George VI's coffin (E18)</rdfs:comment>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E79_Part_Addition"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P111i_was_added_by"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P78i_identifies">
     <rdfs:label xml:lang="en">P78 identifies</rdfs:label>
@@ -4861,6 +4980,7 @@ For example, the French and German armistice of 22 June 1940 was signed in the s
 Examples:
 - the coronation of Queen Elisabeth II (E7) took place on or within Westminster Abbey (E19)</rdfs:comment>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E18_Physical_Thing"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P8i_witnessed"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P42i_was_assigned_by">
     <rdfs:label xml:lang="en">P42 was assigned by</rdfs:label>
@@ -4895,6 +5015,7 @@ Examples:
     <rdfs:label xml:lang="en">P52 is current owner of</rdfs:label>
     <skos:notation>P52i</skos:notation>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E18_Physical_Thing"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P52_has_current_owner"/>
     <rdfs:subPropertyOf rdf:resource="http://erlangen-crm.org/140218/P105i_has_right_on"/>
     <rdfs:subPropertyOf rdf:resource="http://erlangen-crm.org/140218/P51i_is_former_or_current_owner_of"/>
   </owl:ObjectProperty>
@@ -4903,6 +5024,7 @@ Examples:
     <skos:notation>P104i</skos:notation>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E72_Legal_Object"/>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E30_Right"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P104_is_subject_to"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/140218/P48i_is_preferred_identifier_of">
     <rdfs:label xml:lang="en">P48 is preferred identifier of</rdfs:label>
@@ -5016,6 +5138,7 @@ Examples:
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E3_Condition_State"/>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E3_Condition_State"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P5_consists_of"/>
   </owl:TransitiveProperty>
   <owl:TransitiveProperty rdf:about="http://erlangen-crm.org/140218/P5_consists_of">
     <rdfs:label xml:lang="en">P5 consists of</rdfs:label>
@@ -5045,6 +5168,7 @@ Examples:
     <rdfs:label xml:lang="en">P46 is composed of</rdfs:label>
     <skos:notation>P46</skos:notation>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E18_Physical_Thing"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P46i_forms_part_of"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
     <rdfs:comment xml:lang="en">Scope note:
 This property allows instances of E18 Physical Thing to be analysed into component elements.
@@ -5070,6 +5194,7 @@ Examples:
     <skos:notation>P9</skos:notation>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/140218/E4_Period"/>
     <rdfs:range rdf:resource="http://erlangen-crm.org/140218/E4_Period"/>
+	<owl:inverseOf rdf:resource="http://erlangen-crm.org/140218/P9i_forms_part_of"/>
     <rdfs:comment xml:lang="en">Scope note:
 This property describes the decomposition of an instance of E4 Period into discrete, subsidiary periods.
 The sub-periods into which the period is decomposed form a logical whole - although the entire picture may not be completely known - and the sub-periods are constitutive of the general period.
