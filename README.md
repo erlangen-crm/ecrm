@@ -8,7 +8,7 @@ Scripts:
 
 Application profiles:
 - ecrm_current.owl: includes inverse, symmetric, transitive, functional, disjoint, restriction (full)
-- ecrm-inverse.owl: includes inverse, symmetric only (innate part of CRM)
-- ecrm-inverse-transitive.owl: includes inverse, symmetric, transitive.
+- ecrm_current-inverse.owl: includes inverse, symmetric only (innate part of CRM)
+- ecrm_current-inverse-transitive.owl: includes inverse, symmetric, transitive.
 
 You can generate more profiles with ecrm-simplify.xq
