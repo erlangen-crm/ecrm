@@ -1,6 +1,6 @@
 Ontology versions:
 - ecrm_current.owl: current version, using namespace http://erlangen-crm.org/ current /. Includes rdfs:label for each class and property
-- ecrm__yymmdd_.owl: older version, using namespace http://erlangen-crm.org/ _yymmdd_ /
+- ecrm_ _yymmdd_.owl: older version, using namespace http://erlangen-crm.org/ _yymmdd_ /
 
 Scripts:
 - ecrm-labels.pl: generates rdfs:label for each class and property. (Run just once: Protege remembers them)
