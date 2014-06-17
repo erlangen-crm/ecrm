@@ -18,7 +18,7 @@ The Erlangen CRM / OWL implementation of the CIDOC Conceptual Reference Model is
     <rdfs:comment xml:lang="en">Changelog: https://github.com/erlangen-crm/ecrm/commits/master</rdfs:comment>
     <rdfs:label xml:lang="en">Erlangen CRM / OWL</rdfs:label>
     <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >ECRM 140220 / CIDOC-CRM 5.1.2(draft)</owl:versionInfo>
+    >ECRM 140617 / CIDOC-CRM 5.1.2(draft)</owl:versionInfo>
   </owl:Ontology>
   <owl:Class rdf:about="http://erlangen-crm.org/current/E39_Actor">
     <rdfs:subClassOf>
@@ -392,6 +392,9 @@ Examples:
     </rdfs:subClassOf>
   </owl:Class>
   <owl:Class rdf:about="http://erlangen-crm.org/current/E91_Co-Reference_Assignment">
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >E91</skos:notation>
+    <rdfs:label xml:lang="en">E91 Co-Reference Assignment</rdfs:label>
     <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Scope note:
 This class comprises actions of making the assertion whether two or more particular instances of E89 Propositional Object refer to the same instance of E1 CRM Entity. The assertion is based on the assumption that this was an implicit fact being made explicit by this assignment. Use of this class allows for the full description of the context of this assignment.(MD will write an extension about the levels of belief)
@@ -1478,6 +1481,9 @@ Examples:
     <rdfs:subClassOf>
       <owl:Class rdf:about="http://erlangen-crm.org/current/E92_Spacetime_Volume"/>
     </rdfs:subClassOf>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >E93</skos:notation>
+    <rdfs:label xml:lang="en">E93 Spacetime Snapshot</rdfs:label>
     <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Scope Note:
 This class comprises instances of E92 Spacetime Volume that result from intersections of instances of E92  Spacetime Volume,  E53 Place or  E52  Time‐Span.    The  identity of  an  instance of this  class  is determined by the identities of its constituting items. Those are one or more of the following: 
@@ -1723,6 +1729,9 @@ Examples:
 - the image depicted on all reproductions of the Mona Lisa</rdfs:comment>
   </owl:Class>
   <owl:Class rdf:about="http://erlangen-crm.org/current/E92_Spacetime_Volume">
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >E92</skos:notation>
+    <rdfs:label xml:lang="en">E92 Spacetime Volume</rdfs:label>
     <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Scope note:
 This class comprises 4 dimensional point sets (volumes) in physical spacetime regardless its true geometric form. They may derive their identity from being the extent of a material phenomenon or from being the interpretation of an expression defining an extent in spacetime. Intersections of instances of E92 Spacetime Volume, Place and Timespan are also regarded as instances of E92 Spacetime Volume. An instance of E92 Spacetime Volume is either contiguous or composed of a finite number of contiguous subsets. Its boundaries may be fuzzy due to the properties of the phenomena it derives from or due to the limited precision up to which defining expression can be identified with a real extent in spacetime. The duration of existence of an instance of a spacetimevolume is trivially its projection on time.
@@ -2282,6 +2291,9 @@ Examples:
     </rdfs:subPropertyOf>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/current/P154i_was_regarded_not_to_co-refer_by">
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >P154i</skos:notation>
+    <rdfs:label xml:lang="en">P154 was regarded not to co-refer by</rdfs:label>
     <owl:inverseOf>
       <owl:ObjectProperty rdf:about="http://erlangen-crm.org/current/P154_assigned_non_co-reference_to"/>
     </owl:inverseOf>
@@ -2596,6 +2608,9 @@ Examples:
     <rdfs:domain rdf:resource="http://erlangen-crm.org/current/E18_Physical_Thing"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/current/P157_is_at_rest_relative_to">
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >P157</skos:notation>
+    <rdfs:label xml:lang="en">P157 is at rest relative to</rdfs:label>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/current/E53_Place"/>
     <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Scope note:
@@ -2911,6 +2926,9 @@ Examples:
     <rdfs:range rdf:resource="http://erlangen-crm.org/current/E42_Identifier"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/current/P154_assigned_non_co-reference_to">
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >P154</skos:notation>
+    <rdfs:label xml:lang="en">P154 assigned non co-reference to</rdfs:label>
     <owl:inverseOf rdf:resource="http://erlangen-crm.org/current/P154i_was_regarded_not_to_co-refer_by"/>
     <rdfs:range rdf:resource="http://erlangen-crm.org/current/E89_Propositional_Object"/>
     <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -3032,6 +3050,9 @@ Examples:
     <rdfs:range rdf:resource="http://erlangen-crm.org/current/E4_Period"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/current/P153_assigned_co-reference_to">
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >P153</skos:notation>
+    <rdfs:label xml:lang="en">P153 assigned co-reference to</rdfs:label>
     <rdfs:subPropertyOf>
       <owl:ObjectProperty rdf:about="http://erlangen-crm.org/current/P140_assigned_attribute_to"/>
     </rdfs:subPropertyOf>
@@ -3114,6 +3135,9 @@ Examples:
     <rdfs:domain rdf:resource="http://erlangen-crm.org/current/E89_Propositional_Object"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/current/P162_is_restricted_by">
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >P162</skos:notation>
+    <rdfs:label xml:lang="en">P162 is restricted by</rdfs:label>
     <rdfs:range rdf:resource="http://erlangen-crm.org/current/E92_Spacetime_Volume"/>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/current/E93_Spacetime_Snapshot"/>
     <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -3291,6 +3315,9 @@ Examples:
     </rdfs:subPropertyOf>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/current/P160_has_temporal_projection">
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >P160</skos:notation>
+    <rdfs:label xml:lang="en">P160 has temporal projection</rdfs:label>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/current/E92_Spacetime_Volume"/>
     <rdfs:range rdf:resource="http://erlangen-crm.org/current/E52_Time-Span"/>
     <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -3645,6 +3672,9 @@ Examples:
 - text 25014-32 (E33) is identified by "The Decline and Fall of the Roman Empire" (E35)</rdfs:comment>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/current/P161_has_spatial_projection">
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >P161</skos:notation>
+    <rdfs:label xml:lang="en">P161 has spatial projection</rdfs:label>
     <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Scope note:
 This property associates an instance of a E92 Spacetime Volume with an instance of E53 Place that is the result of the spatial projection of the instance of a E92 Spacetime Volume on a reference space. In general there can be more than one useful reference space to describe the spatial projection of a spacetime volume, such as that of a battle ship versus that of the seafloor. Therefore the projection is not unique. 
@@ -3655,6 +3685,9 @@ Examples:</rdfs:comment>
     <rdfs:range rdf:resource="http://erlangen-crm.org/current/E53_Place"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/current/P158_occupied">
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >P158</skos:notation>
+    <rdfs:label xml:lang="en">P158 occupied</rdfs:label>
     <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Scope note:
 This property associates an instance of E4 Period with the real (phenomenal) 4 dimensional point set (volume) in spacetime that it has occupied. The associated instance of E92 Spacetime Volume includes the trajectories of the participating physical things during their participation in the instance of E4 Period, the open spaces via which they have interacted and the spaces by which they had the potential to interact during that period or event in the way defined by the type of the respective period or event, such as the air in a meeting room transferring the voices. Another example are the areas controlled by some military power. In general, instances of E4 Period have fuzzy boundaries in spacetime. 
@@ -3807,6 +3840,9 @@ Examples:
     <owl:inverseOf rdf:resource="http://erlangen-crm.org/current/P98i_was_born"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/current/P156_occupies">
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >P156</skos:notation>
+    <rdfs:label xml:lang="en">P156 occupies</rdfs:label>
     <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Scope note:
 This property describes the maximal real volume in space that an instance of E18 Physical Thing has occupied during its lifetime with respect to a reference space relative to which the thing is at rest. In other words, it is the volume that contains all the points which the thing has covered at some time during its existence. In the case of an E26 Physical Feature the default reference space is the one in which the object that bears the feature or at least the surrounding matter of the feature is at rest. In this case there is a 1:1 relation of E26 Feature and E5 3 Place. For simplicity of implementation multiple inheritance (E26 Feature IsA E53 Pl ace) may be a practical approach. 
@@ -3860,6 +3896,9 @@ Examples:
     <rdfs:subPropertyOf rdf:resource="http://erlangen-crm.org/current/P12_occurred_in_the_presence_of"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/current/P153i_was_regarded_to_co-refer_by">
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >P153i</skos:notation>
+    <rdfs:label xml:lang="en">P153 was regarded to co-refer by</rdfs:label>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/current/E89_Propositional_Object"/>
     <rdfs:range rdf:resource="http://erlangen-crm.org/current/E91_Co-Reference_Assignment"/>
     <rdfs:subPropertyOf>
@@ -3886,6 +3925,9 @@ Examples:
     >P136i</skos:notation>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/current/P164_is_restricted_by">
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >P164</skos:notation>
+    <rdfs:label xml:lang="en">P164 is restricted by</rdfs:label>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/current/E93_Spacetime_Snapshot"/>
     <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Scope note:
@@ -4390,6 +4432,9 @@ Examples:
     <rdfs:label xml:lang="en">P38 was deassigned by</rdfs:label>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/current/P163_is_restricted_by">
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >P163</skos:notation>
+    <rdfs:label xml:lang="en">P163 is restricted by</rdfs:label>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/current/E93_Spacetime_Snapshot"/>
     <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Scope note:
@@ -4469,6 +4514,9 @@ Examples:
     <rdfs:domain rdf:resource="http://erlangen-crm.org/current/E18_Physical_Thing"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/current/P155_has_co-reference_target">
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >P155</skos:notation>
+    <rdfs:label xml:lang="en">P155 has co-reference target</rdfs:label>
     <rdfs:subPropertyOf>
       <owl:ObjectProperty rdf:about="http://erlangen-crm.org/current/P141_assigned"/>
     </rdfs:subPropertyOf>
@@ -4818,6 +4866,9 @@ Examples:
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/current/P159_occupied">
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >P159</skos:notation>
+    <rdfs:label xml:lang="en">P159 occupied</rdfs:label>
     <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Scope note:
 This property describes the real (phenomenal) 4 dimensional point sets (volumes) in spacetime that the trajectory of an instance of E18 Physical Thing occupies in spacetime in the course of its existence. We include in the occupied space the space filled by the matter of the physical thing and all its inner spaces. 
@@ -5260,6 +5311,9 @@ Examples:
     <rdfs:label xml:lang="en">P24 changed ownership through</rdfs:label>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/current/P157i_occupied">
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >P157i</skos:notation>
+    <rdfs:label xml:lang="en">P157 occupied</rdfs:label>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/current/E18_Physical_Thing"/>
     <owl:inverseOf rdf:resource="http://erlangen-crm.org/current/P157_is_at_rest_relative_to"/>
     <rdfs:range rdf:resource="http://erlangen-crm.org/current/E53_Place"/>
@@ -5558,6 +5612,9 @@ Examples:
     >P89i</skos:notation>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/current/P155i_is_co-reference_target_of">
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >P155i</skos:notation>
+    <rdfs:label xml:lang="en">P155 is co-reference target of</rdfs:label>
     <owl:inverseOf rdf:resource="http://erlangen-crm.org/current/P155_has_co-reference_target"/>
     <rdfs:range rdf:resource="http://erlangen-crm.org/current/E91_Co-Reference_Assignment"/>
     <rdfs:subPropertyOf rdf:resource="http://erlangen-crm.org/current/P141i_was_assigned_by"/>
