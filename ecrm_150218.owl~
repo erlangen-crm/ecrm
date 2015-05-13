@@ -1547,6 +1547,7 @@ Examples:
   </owl:Class>
   <owl:Class rdf:about="http://erlangen-crm.org/150218/E79_Part_Addition">
     <rdfs:label xml:lang="en">E79 Part Addition</rdfs:label>
+    <owl:disjointWith rdf:resource="http://erlangen-crm.org/150218/E80_Part_Removal"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >E79</skos:notation>
     <rdfs:subClassOf>
@@ -1757,6 +1758,7 @@ Examples:
 - "the Other Place"
 - "the City"</rdfs:comment>
     <rdfs:label xml:lang="en">E44 Place Appellation</rdfs:label>
+    <owl:disjointWith rdf:resource="http://erlangen-crm.org/150218/E49_Time_Appellation"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >E44</skos:notation>
     <rdfs:subClassOf>
@@ -1822,6 +1824,9 @@ Examples:
       </owl:Restriction>
     </rdfs:subClassOf>
     <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/150218/E1_CRM_Entity"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="http://erlangen-crm.org/150218/E53_Place"/>
+    </owl:disjointWith>
     <rdfs:label xml:lang="en">E52 Time-Span</rdfs:label>
     <rdfs:comment xml:lang="en">Scope note:
 This class comprises abstract temporal extents, in the sense of Galilean physics, having a beginning, an end and a duration.
