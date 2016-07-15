@@ -8,7 +8,7 @@
          xml:base="http://erlangen-crm.org/current/">
    <owl:Ontology rdf:about="">
       <rdfs:label xml:lang="en">Erlangen CRM / OWL</rdfs:label>
-      <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ECRM 160331 / CIDOC-CRM 6.2.1</owl:versionInfo>
+      <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ECRM 160714 / CIDOC-CRM 6.2.1</owl:versionInfo>
       <rdfs:comment xml:lang="en">Changelog: https://github.com/erlangen-crm/ecrm/commits/master</rdfs:comment>
       <rdfs:comment xml:lang="en">Erlangen CRM / OWL - An OWL DL 1.0 implementation of the CIDOC Conceptual Reference Model, based on: Nick Crofts, Martin Doerr, Tony Gill, Stephen Stead, Matthew Stiff (eds.): Definition of the CIDOC Conceptual Reference Model (http://cidoc-crm.org/).
 This implementation has been originally created by Bernhard Schiemann, Martin Oischinger and Günther Görz at the Friedrich-Alexander-University of Erlangen-Nuremberg, Department of Computer Science, Chair of Computer Science 8 (Artificial Intelligence) in cooperation with the Department of Museum Informatics of the Germanisches Nationalmuseum Nuremberg and the Department of Biodiversity Informatics of the Zoologisches Forschungsmuseum Alexander Koenig Bonn.
@@ -39,7 +39,6 @@ E21(x) ⊃ E39(x)</rdfs:comment>
       <rdfs:label xml:lang="en">E21 Person</rdfs:label>
   </owl:Class>
    <owl:Class rdf:about="http://erlangen-crm.org/current/E18_Physical_Thing">
-    
       <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E18</skos:notation>
     
       <rdfs:label xml:lang="en">E18 Physical Thing</rdfs:label>
@@ -66,6 +65,7 @@ Examples:
 In First Order Logic:
 E18(x) ⊃ E72(x)
 E18(x) ⊃ E92(x)</rdfs:comment>
+    
       <rdfs:subClassOf>
          <owl:Class rdf:about="http://erlangen-crm.org/current/E92_Spacetime_Volume"/>
       </rdfs:subClassOf>
@@ -1389,9 +1389,7 @@ E30(x) ⊃ E89(x</rdfs:comment>
    <owl:Class rdf:about="http://erlangen-crm.org/current/E28_Conceptual_Object">
       <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E28</skos:notation>
     
-      <rdfs:subClassOf>
-         <owl:Class rdf:about="http://erlangen-crm.org/current/E24_Physical_Man-Made_Thing"/>
-      </rdfs:subClassOf>
+      <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/current/E71_Man-Made_Thing"/>
       <rdfs:comment xml:lang="en">Scope note:
 This class comprises non-material products of our minds and other human produced data that have become objects of a discourse about their identity, circumstances of creation or historical implication. The production of such information may have been supported by the use of technical devices such as cameras or computers.
 
@@ -3137,9 +3135,6 @@ P111(x,y) ⊃ P16(x,y)</rdfs:comment>
          <owl:ObjectProperty rdf:about="http://erlangen-crm.org/current/P111i_was_added_by"/>
       </owl:inverseOf>
       <rdfs:subPropertyOf rdf:resource="http://erlangen-crm.org/current/P16_used_specific_object"/>
-      <rdfs:subPropertyOf>
-         <owl:ObjectProperty rdf:about="http://erlangen-crm.org/current/P12i_was_present_at"/>
-      </rdfs:subPropertyOf>
   </owl:ObjectProperty>
    <owl:ObjectProperty rdf:about="http://erlangen-crm.org/current/P35_has_identified">
       <rdfs:comment xml:lang="en">Scope note:
