@@ -13,7 +13,7 @@
   xml:base="http://erlangen-crm.org/160714/">
   <owl:Ontology rdf:about="">
     <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >ECRM 160714 / CIDOC-CRM 6.2.1</owl:versionInfo>
+    >ECRM 170309 / CIDOC-CRM 6.2.2</owl:versionInfo>
     <rdfs:comment xml:lang="en">Changelog: https://github.com/erlangen-crm/ecrm/commits/master</rdfs:comment>
     <rdfs:comment xml:lang="en">Erlangen CRM / OWL - An OWL DL 1.0 implementation of the CIDOC Conceptual Reference Model, based on: Nick Crofts, Martin Doerr, Tony Gill, Stephen Stead, Matthew Stiff (eds.): Definition of the CIDOC Conceptual Reference Model (http://cidoc-crm.org/).
 This implementation has been originally created by Bernhard Schiemann, Martin Oischinger and Günther Görz at the Friedrich-Alexander-University of Erlangen-Nuremberg, Department of Computer Science, Chair of Computer Science 8 (Artificial Intelligence) in cooperation with the Department of Museum Informatics of the Germanisches Nationalmuseum Nuremberg and the Department of Biodiversity Informatics of the Zoologisches Forschungsmuseum Alexander Koenig Bonn.
