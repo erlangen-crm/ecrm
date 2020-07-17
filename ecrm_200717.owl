@@ -18,7 +18,7 @@
 This implementation has been originally created by Bernhard Schiemann, Martin Oischinger and Günther Görz at the Friedrich-Alexander-University of Erlangen-Nuremberg, Department of Computer Science, Chair of Computer Science 8 (Artificial Intelligence) in cooperation with the Department of Museum Informatics of the Germanisches Nationalmuseum Nuremberg and the Department of Biodiversity Informatics of the Zoologisches Forschungsmuseum Alexander Koenig Bonn.
 The Erlangen CRM / OWL implementation of the CIDOC Conceptual Reference Model is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.</rdfs:comment>
     <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >ECRM 170309 / CIDOC-CRM 6.2.9</owl:versionInfo>
+    >ECRM 200717 / CIDOC-CRM 6.2.9</owl:versionInfo>
   </owl:Ontology>
   <owl:Class rdf:about="http://erlangen-crm.org/170309/E1_CRM_Entity">
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
