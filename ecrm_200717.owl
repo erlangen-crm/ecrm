@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <rdf:RDF
-    xmlns:ecrm="http://erlangen-crm.org/170309/"
+    xmlns:ecrm="http://erlangen-crm.org/200717/"
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
@@ -10,7 +10,7 @@
     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-  xml:base="http://erlangen-crm.org/170309/">
+  xml:base="http://erlangen-crm.org/200717/">
   <owl:Ontology rdf:about="">
     <rdfs:label xml:lang="en">Erlangen CRM / OWL</rdfs:label>
     <rdfs:comment xml:lang="en">Changelog: https://github.com/erlangen-crm/ecrm/commits/master</rdfs:comment>
