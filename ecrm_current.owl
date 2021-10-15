@@ -5129,9 +5129,6 @@ P123(x,y) ⊃ P92(x,y)</rdfs:comment>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/current/P26i_was_destination_of">
     <rdfs:label xml:lang="en">P26 was destination of</rdfs:label>
     <rdfs:range rdf:resource="http://erlangen-crm.org/current/E9_Move"/>
-    <rdfs:subPropertyOf>
-      <owl:ObjectProperty rdf:about="http://erlangen-crm.org/current/P7i_witnessed"/>
-    </rdfs:subPropertyOf>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >P26i</skos:notation>
     <owl:inverseOf rdf:resource="http://erlangen-crm.org/current/P26_moved_to"/>
@@ -7346,7 +7343,6 @@ P10(x,x)</rdfs:comment>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >P27i</skos:notation>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:subPropertyOf rdf:resource="http://erlangen-crm.org/current/P7i_witnessed"/>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/current/E53_Place"/>
   </owl:TransitiveProperty>
   <owl:TransitiveProperty rdf:about="http://erlangen-crm.org/current/P127_has_broader_term">
