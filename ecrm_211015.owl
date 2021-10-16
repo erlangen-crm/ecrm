@@ -2551,9 +2551,9 @@ P71(x,y) ⊃ P67(x,y)</rdfs:comment>
     >P5i</skos:notation>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/211015/E3_Condition_State"/>
   </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:about="http://erlangen-crm.org/211015/P167i_was_place_of">
+  <owl:ObjectProperty rdf:about="http://erlangen-crm.org/211015/P167i_includes">
     <owl:inverseOf>
-      <owl:ObjectProperty rdf:about="http://erlangen-crm.org/211015/P167_at"/>
+      <owl:ObjectProperty rdf:about="http://erlangen-crm.org/211015/P167_was_within"/>
     </owl:inverseOf>
     <rdfs:range rdf:resource="http://erlangen-crm.org/211015/E93_Presence"/>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/211015/E53_Place"/>
@@ -3008,12 +3008,12 @@ P136.1 in the taxonomic role: E55 Type</rdfs:comment>
     </rdfs:subPropertyOf>
     <rdfs:range rdf:resource="http://erlangen-crm.org/211015/E16_Measurement"/>
   </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:about="http://erlangen-crm.org/211015/P195_was_presence_of">
+  <owl:ObjectProperty rdf:about="http://erlangen-crm.org/211015/P195_was_a_presence_of">
     <owl:inverseOf>
       <owl:ObjectProperty rdf:about="http://erlangen-crm.org/211015/P195i_had_presence"/>
     </owl:inverseOf>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >P195 was presence of</rdfs:label>
+    >P195 was a presence of</rdfs:label>
     <rdfs:range rdf:resource="http://erlangen-crm.org/211015/E18_Physical_Thing"/>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/211015/E93_Presence"/>
     <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -3162,9 +3162,9 @@ P8(x,y) ⊃ E4(x)
 P8(x,y) ⊃ E18(y)
 P8(x,y) ⊂ (∃z) [E53(z) ∧ P7(x,z) ∧ P156i(z,y)]</rdfs:comment>
   </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:about="http://erlangen-crm.org/211015/P173_starts_before_or_at_the_end_of">
+  <owl:ObjectProperty rdf:about="http://erlangen-crm.org/211015/P173_starts_before_or_with_the_end_of">
     <owl:inverseOf>
-      <owl:ObjectProperty rdf:about="http://erlangen-crm.org/211015/P173i_ends_with_or_after_the_start_of"/>
+      <owl:ObjectProperty rdf:about="http://erlangen-crm.org/211015/P173i_ends_after_or_with_the_start_of"/>
     </owl:inverseOf>
     <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Scope note:
@@ -3182,7 +3182,7 @@ In First Order Logic:
 P173(x,y) ⊃ E2(x)
 P173(x,y) ⊃ E2(y)</rdfs:comment>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >P173 starts before or at the end of</rdfs:label>
+    >P173 starts before or with the end of</rdfs:label>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/211015/E2_Temporal_Entity"/>
     <rdfs:range rdf:resource="http://erlangen-crm.org/211015/E2_Temporal_Entity"/>
   </owl:ObjectProperty>
@@ -3757,8 +3757,8 @@ P73(x,y) ⊃ ¬P73(y,x)</rdfs:comment>
       <owl:ObjectProperty rdf:about="http://erlangen-crm.org/211015/P110_augmented"/>
     </owl:inverseOf>
   </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:about="http://erlangen-crm.org/211015/P164_during">
-    <rdfs:label xml:lang="en">P164 is restricted by</rdfs:label>
+  <owl:ObjectProperty rdf:about="http://erlangen-crm.org/211015/P164_is_temporally_specified_by">
+    <rdfs:label xml:lang="en">P164 is temporally specified by</rdfs:label>
     <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Scope note:
 This property relates an instance of E93 Presence with the instance of E52 Time-Span that defines the time-slice of the spacetime volume that this instance of E93 Presence is related to via the property P166 was a presence of (had presence).
@@ -3778,7 +3778,7 @@ P164 (x,y) ⊃ P160(x,y)</rdfs:comment>
     </rdfs:subPropertyOf>
     <rdfs:range rdf:resource="http://erlangen-crm.org/211015/E52_Time-Span"/>
     <owl:inverseOf>
-      <owl:ObjectProperty rdf:about="http://erlangen-crm.org/211015/P164i_was_time-span_of"/>
+      <owl:ObjectProperty rdf:about="http://erlangen-crm.org/211015/P164i_temporally_specifies"/>
     </owl:inverseOf>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >P164</skos:notation>
@@ -4178,7 +4178,7 @@ P34(x,y) ⊃ P140(x,y)</rdfs:comment>
     </owl:inverseOf>
     <rdfs:range rdf:resource="http://erlangen-crm.org/211015/E2_Temporal_Entity"/>
     <rdfs:subPropertyOf>
-      <owl:ObjectProperty rdf:about="http://erlangen-crm.org/211015/P173i_ends_with_or_after_the_start_of"/>
+      <owl:ObjectProperty rdf:about="http://erlangen-crm.org/211015/P173i_ends_after_or_with_the_start_of"/>
     </rdfs:subPropertyOf>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >P174 ends after the start of</rdfs:label>
@@ -4414,7 +4414,7 @@ P24(x,y) ⊃ E18(y)</rdfs:comment>
       <owl:ObjectProperty rdf:about="http://erlangen-crm.org/211015/P176i_starts_after_the_start_of"/>
     </rdfs:subPropertyOf>
     <owl:inverseOf>
-      <owl:ObjectProperty rdf:about="http://erlangen-crm.org/211015/P182_ends_before_or_at_the_start_of"/>
+      <owl:ObjectProperty rdf:about="http://erlangen-crm.org/211015/P182_ends_before_or_with_the_start_of"/>
     </owl:inverseOf>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/211015/P76_has_contact_point">
@@ -4533,7 +4533,7 @@ P2(x,y) ⊂ (∃z) [E17(z)] ∧ P41i(x,z) ∧ P42(z,y)]</rdfs:comment>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/211015/E1_CRM_Entity"/>
     <rdfs:range rdf:resource="http://erlangen-crm.org/211015/E55_Type"/>
   </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:about="http://erlangen-crm.org/211015/P182_ends_before_or_at_the_start_of">
+  <owl:ObjectProperty rdf:about="http://erlangen-crm.org/211015/P182_ends_before_or_with_the_start_of">
     <owl:inverseOf rdf:resource="http://erlangen-crm.org/211015/P182i_starts_after_or_with_the_end_of"/>
     <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Scope note:
@@ -4557,7 +4557,7 @@ P182(x,y) ⊃ P185(x,y)</rdfs:comment>
       <owl:TransitiveProperty rdf:about="http://erlangen-crm.org/211015/P176_starts_before_the_start_of"/>
     </rdfs:subPropertyOf>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >P182 ends befort or at the start of</rdfs:label>
+    >P182 ends befort or with the start of</rdfs:label>
     <rdfs:range rdf:resource="http://erlangen-crm.org/211015/E2_Temporal_Entity"/>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/211015/E2_Temporal_Entity"/>
   </owl:ObjectProperty>
@@ -4619,7 +4619,7 @@ P7(x,y) ⊃ E53(y)</rdfs:comment>
       <owl:ObjectProperty rdf:about="http://erlangen-crm.org/211015/P7i_witnessed"/>
     </owl:inverseOf>
   </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:about="http://erlangen-crm.org/211015/P167_at">
+  <owl:ObjectProperty rdf:about="http://erlangen-crm.org/211015/P167_includes">
     <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Scope note:      
 This property associates an instance of E93 Presence with an instance of E53 Place that geometrically includes the spatial projection of the respective instance of E93 Presence. Besides others, this property may be used to state in which space an object has been for some known time, such as a room of a castle or in a drawer. It may also be used to describe a confinement of the spatial extent of some realm during a known time-span.
@@ -4636,7 +4636,7 @@ P167(x,y) ⊃ E53(y)
 P167(x,y) ⊃ (∃z)[ E53(z) ∧ P161(x,z) ∧ P89(z,y)]</rdfs:comment>
     <rdfs:range rdf:resource="http://erlangen-crm.org/211015/E53_Place"/>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/211015/E93_Presence"/>
-    <owl:inverseOf rdf:resource="http://erlangen-crm.org/211015/P167i_was_place_of"/>
+    <owl:inverseOf rdf:resource="http://erlangen-crm.org/211015/P167i_was_within"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/211015/P146_separated_from">
     <rdfs:domain rdf:resource="http://erlangen-crm.org/211015/E86_Leaving"/>
@@ -4849,8 +4849,8 @@ P107(x,y,z) ⊃ [P107(x,y) ∧ E55(z)]
     <rdfs:subPropertyOf rdf:resource="http://erlangen-crm.org/211015/P157_is_at_rest_relative_to"/>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/211015/E53_Place"/>
   </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:about="http://erlangen-crm.org/211015/P164i_was_time-span_of">
-    <owl:inverseOf rdf:resource="http://erlangen-crm.org/211015/P164_during"/>
+  <owl:ObjectProperty rdf:about="http://erlangen-crm.org/211015/P164i_temporally_specifies">
+    <owl:inverseOf rdf:resource="http://erlangen-crm.org/211015/P164_is_temporally_specified_by"/>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/211015/E52_Time-Span"/>
     <rdfs:range rdf:resource="http://erlangen-crm.org/211015/E93_Presence"/>
     <rdfs:subPropertyOf rdf:resource="http://erlangen-crm.org/211015/P160i_is_temporal_projection_of"/>
@@ -5099,7 +5099,7 @@ P141(x,y) ⊃ E1(y)</rdfs:comment>
     >P2i</skos:notation>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/211015/P195i_had_presence">
-    <owl:inverseOf rdf:resource="http://erlangen-crm.org/211015/P195_was_presence_of"/>
+    <owl:inverseOf rdf:resource="http://erlangen-crm.org/211015/P195_was_a_presence_of"/>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >P195 had presence</rdfs:label>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/211015/E18_Physical_Thing"/>
@@ -5397,7 +5397,7 @@ P144.1 kind of member: E55 Type</rdfs:comment>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >P174 starts before the end of</rdfs:label>
     <rdfs:domain rdf:resource="http://erlangen-crm.org/211015/E2_Temporal_Entity"/>
-    <rdfs:subPropertyOf rdf:resource="http://erlangen-crm.org/211015/P173_starts_before_or_at_the_end_of"/>
+    <rdfs:subPropertyOf rdf:resource="http://erlangen-crm.org/211015/P173_starts_before_or_with_the_end_of"/>
     <rdfs:range rdf:resource="http://erlangen-crm.org/211015/E2_Temporal_Entity"/>
     <owl:inverseOf rdf:resource="http://erlangen-crm.org/211015/P174i_ends_after_the_start_of"/>
     <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -5427,14 +5427,14 @@ P174(x,y) ⊃ P173(x,y)</rdfs:comment>
     >P76i</skos:notation>
     <rdfs:label xml:lang="en">P76 provides access to</rdfs:label>
   </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:about="http://erlangen-crm.org/211015/P177_assigned_property_type">
+  <owl:ObjectProperty rdf:about="http://erlangen-crm.org/211015/P177_assigned_property_of_type">
     <rdfs:subPropertyOf rdf:resource="http://erlangen-crm.org/211015/P2_has_type"/>
     <owl:inverseOf>
       <owl:ObjectProperty rdf:about="http://erlangen-crm.org/211015/P177i_is_type_of_property_assigned"/>
     </owl:inverseOf>
     <rdfs:range rdf:resource="http://erlangen-crm.org/211015/E55_Type"/>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >P177 assigned property type</rdfs:label>
+    >P177 assigned property of type</rdfs:label>
     <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Scope note:
 This property associates an instance of E13 Attribute Assignment with the type of property or relation that this assignment maintains to hold between the item to which it assigns an attribute and the attribute itself.
@@ -6416,12 +6416,12 @@ P102(x,y) ⊃ P1(x,y)</rdfs:comment>
     <rdfs:label xml:lang="en">P49 is former or current keeper of</rdfs:label>
     <rdfs:range rdf:resource="http://erlangen-crm.org/211015/E18_Physical_Thing"/>
   </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:about="http://erlangen-crm.org/211015/P173i_ends_with_or_after_the_start_of">
+  <owl:ObjectProperty rdf:about="http://erlangen-crm.org/211015/P173i_ends_after_or_with_the_start_of">
     <rdfs:domain rdf:resource="http://erlangen-crm.org/211015/E2_Temporal_Entity"/>
     <rdfs:range rdf:resource="http://erlangen-crm.org/211015/E2_Temporal_Entity"/>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >P173 starts before or at the end of</rdfs:label>
-    <owl:inverseOf rdf:resource="http://erlangen-crm.org/211015/P173_starts_before_or_at_the_end_of"/>
+    >P173 ends after or with the start of</rdfs:label>
+    <owl:inverseOf rdf:resource="http://erlangen-crm.org/211015/P173_starts_before_or_with_the_end_of"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/211015/P196i_is_defined_by">
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -6574,7 +6574,7 @@ P68(x,y) ⊃ P67(x,y)</rdfs:comment>
     <rdfs:subPropertyOf rdf:resource="http://erlangen-crm.org/211015/P2i_is_type_of"/>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >P177 is type of property assigned</rdfs:label>
-    <owl:inverseOf rdf:resource="http://erlangen-crm.org/211015/P177_assigned_property_type"/>
+    <owl:inverseOf rdf:resource="http://erlangen-crm.org/211015/P177_assigned_property_of_type"/>
     <rdfs:range rdf:resource="http://erlangen-crm.org/211015/E13_Attribute_Assignment"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/211015/P35i_was_identified_by">
@@ -7173,7 +7173,7 @@ P198(x,y) ⊃ E18(y)
     <rdfs:domain rdf:resource="http://erlangen-crm.org/211015/E2_Temporal_Entity"/>
     <rdfs:range rdf:resource="http://erlangen-crm.org/211015/E2_Temporal_Entity"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:subPropertyOf rdf:resource="http://erlangen-crm.org/211015/P182_ends_before_or_at_the_start_of"/>
+    <rdfs:subPropertyOf rdf:resource="http://erlangen-crm.org/211015/P182_ends_before_or_with_the_start_of"/>
     <owl:inverseOf rdf:resource="http://erlangen-crm.org/211015/P183i_starts_after_the_end_of"/>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >P183 ends before the start of</rdfs:label>
