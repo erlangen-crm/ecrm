@@ -3225,7 +3225,7 @@ P95(x,y) ⊃ E66(x)
 P95(x,y) ⊃ E74(y)
 P95(x,y) ⊃ P92(x,y)</rdfs:comment>
   </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:about="http://erlangen-crm.org/211015/P167i_was_within"/>
+  <owl:ObjectProperty rdf:about="http://erlangen-crm.org/211015/P167i_includes"/>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/211015/P107i_is_current_or_former_member_of">
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >P107i</skos:notation>
@@ -3650,7 +3650,7 @@ P176(x,y) ⊃ P175(x,y)</rdfs:comment>
     >P54i</skos:notation>
     <rdfs:label xml:lang="en">P54 is current permanent location of</rdfs:label>
   </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:about="http://erlangen-crm.org/211015/P167_includes">
+  <owl:ObjectProperty rdf:about="http://erlangen-crm.org/211015/P167_was_within">
     <rdfs:domain rdf:resource="http://erlangen-crm.org/211015/E93_Presence"/>
     <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Scope note:      
@@ -3667,7 +3667,7 @@ P167(x,y) ⊃ E93(x)
 P167(x,y) ⊃ E53(y)
 P167(x,y) ⊃ (∃z)[ E53(z) ∧ P161(x,z) ∧ P89(z,y)]</rdfs:comment>
     <rdfs:range rdf:resource="http://erlangen-crm.org/211015/E53_Place"/>
-    <owl:inverseOf rdf:resource="http://erlangen-crm.org/211015/P167i_was_within"/>
+    <owl:inverseOf rdf:resource="http://erlangen-crm.org/211015/P167i_includes"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://erlangen-crm.org/211015/P68_foresees_use_of">
     <rdfs:subPropertyOf>
@@ -7394,23 +7394,6 @@ P79 (x,y) ⊃ E52 (x)
 P79 (x,y) ⊃ E62(y)
 P79(x,y) ⊃ P3(x,y)</rdfs:comment>
     <rdfs:label xml:lang="en">P79 beginning is qualified by</rdfs:label>
-  </owl:DatatypeProperty>
-  <owl:DatatypeProperty rdf:about="http://erlangen-crm.org/211015/P169_defines_spacetime_volume">
-    <rdfs:domain rdf:resource="http://erlangen-crm.org/211015/E92_Spacetime_Volume"/>
-    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Scope note:
-This property associates an instance of E95 Spacetime Primitive with the instance of E92 Spacetime Volume it defines.  
-
-Examples:
-- {40°30'23"N 21°14'53"E, 40°31'40"N 21°16'43"E, 200BC-2020AD} (E95) defines spacetime volume Martin’s spatiotemporal enclosure 2020 for the evolution of the settlement of today’s city of Kastoria, Greece, since its conquest by the Romans (E92). [A square covering the current built settlement structure of Kastoria, Greece, through the years 200BC to 2020AD, which includes the extents of earlier phases of the city]
-
-In First Order Logic:
-P169(x,y) ⊃ E95(x)
-P169(x,y) ⊃ E92(y)
-P169(x,y) ⊃ P1i(x,y)</rdfs:comment>
-    <rdfs:subPropertyOf rdf:resource="http://erlangen-crm.org/211015/P1i_identifies"/>
-    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >P169 defines spacetime volume</rdfs:label>
   </owl:DatatypeProperty>
   <owl:TransitiveProperty rdf:about="http://erlangen-crm.org/211015/P46_is_composed_of">
     <rdfs:label xml:lang="en">P46 is composed of</rdfs:label>
