@@ -155,7 +155,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">E5 Event</rdfs:label>
     <rdfs:label xml:lang="de">E5 Ereignis</rdfs:label>
     <rdfs:label xml:lang="el">E5 Συμβάν</rdfs:label>
-    <rdfs:label xml:lang="fr">E5 Événement</rdfs:label>
+    <rdfs:label xml:lang="fr">E5 Évènement</rdfs:label>
     <rdfs:label xml:lang="pt">E5 Evento</rdfs:label>
     <rdfs:label xml:lang="ru">E5 Событие</rdfs:label>
     <rdfs:label xml:lang="zh">E5 事件</rdfs:label>
@@ -339,7 +339,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">E10 Transfer of Custody</rdfs:label>
     <rdfs:label xml:lang="de">E10 Übertragung des Gewahrsams</rdfs:label>
     <rdfs:label xml:lang="el">E10 Μεταβίβαση Κατοχής</rdfs:label>
-    <rdfs:label xml:lang="fr">E10 Changement de détenteur</rdfs:label>
+    <rdfs:label xml:lang="fr">E10 Transfert de la garde</rdfs:label>
     <rdfs:label xml:lang="pt">E10 Transferência de Custódia</rdfs:label>
     <rdfs:label xml:lang="ru">E10 Передача Опеки</rdfs:label>
     <rdfs:label xml:lang="zh">E10 转移监护权</rdfs:label>
@@ -448,7 +448,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">E13 Attribute Assignment</rdfs:label>
     <rdfs:label xml:lang="de">E13 Merkmalszuweisung</rdfs:label>
     <rdfs:label xml:lang="el">E13 Απόδοση Ιδιοτήτων</rdfs:label>
-    <rdfs:label xml:lang="fr">E13 Affectation d'attribut</rdfs:label>
+    <rdfs:label xml:lang="fr">E13 Assignation d’attribut</rdfs:label>
     <rdfs:label xml:lang="pt">E13 Atribuição de Característica</rdfs:label>
     <rdfs:label xml:lang="ru">E13 Присвоение Атрибута</rdfs:label>
     <rdfs:label xml:lang="zh">E13 属性赋值</rdfs:label>
@@ -480,7 +480,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">E14 Condition Assessment</rdfs:label>
     <rdfs:label xml:lang="de">E14 Zustandsfeststellung</rdfs:label>
     <rdfs:label xml:lang="el">E14 Εκτίμηση Κατάστασης</rdfs:label>
-    <rdfs:label xml:lang="fr">E14 Expertise de l'état matériel</rdfs:label>
+    <rdfs:label xml:lang="fr">E14 Évaluation d’état matériel</rdfs:label>
     <rdfs:label xml:lang="pt">E14 Avaliação do Estado Material</rdfs:label>
     <rdfs:label xml:lang="ru">E14 Оценка Состояния</rdfs:label>
     <rdfs:label xml:lang="zh">E14 状态评估</rdfs:label>
@@ -516,7 +516,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">E15 Identifier Assignment</rdfs:label>
     <rdfs:label xml:lang="de">E15 Kennzeichenzuweisung</rdfs:label>
     <rdfs:label xml:lang="el">E15 Απόδοση Αναγνωριστικού</rdfs:label>
-    <rdfs:label xml:lang="fr">E15 Attribution d’identificateur</rdfs:label>
+    <rdfs:label xml:lang="fr">E15 Assignation d’identifiant</rdfs:label>
     <rdfs:label xml:lang="pt">E15 Atribuição de Identificador</rdfs:label>
     <rdfs:label xml:lang="ru">E15 Назначение Идентификатора</rdfs:label>
     <rdfs:label xml:lang="zh">E15 标识符赋值</rdfs:label>
@@ -583,7 +583,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">E17 Type Assignment</rdfs:label>
     <rdfs:label xml:lang="de">E17 Typuszuweisung</rdfs:label>
     <rdfs:label xml:lang="el">E17 Απόδοση Τύπου</rdfs:label>
-    <rdfs:label xml:lang="fr">E17 Attribution de type</rdfs:label>
+    <rdfs:label xml:lang="fr">E17 Assignation de type</rdfs:label>
     <rdfs:label xml:lang="pt">E17 Atribuição de Tipo</rdfs:label>
     <rdfs:label xml:lang="ru">E17 Присвоение Типа</rdfs:label>
     <rdfs:label xml:lang="zh">E17 类型赋值</rdfs:label>
@@ -762,6 +762,7 @@ In First Order Logic:
   </owl:Class>
   <owl:Class rdf:about="E22_Human-Made_Object">
     <rdfs:label xml:lang="en">E22 Human-Made Object</rdfs:label>
+    <rdfs:label xml:lang="fr">E22 Objet élaboré par l’humain</rdfs:label>
     <skos:notation>E22</skos:notation>
     <rdfs:subClassOf rdf:resource="E19_Physical_Object"/>
     <rdfs:subClassOf rdf:resource="E24_Physical_Human-Made_Thing"/>
@@ -782,6 +783,7 @@ In First Order Logic:
   </owl:Class>
   <owl:Class rdf:about="E24_Physical_Human-Made_Thing">
     <rdfs:label xml:lang="en">E24 Physical Human-Made Thing</rdfs:label>
+    <rdfs:label xml:lang="fr">E24 Chose matérielle élaborée par l’humain</rdfs:label>
     <skos:notation>E24</skos:notation>
     <rdfs:subClassOf rdf:resource="E18_Physical_Thing"/>
     <rdfs:subClassOf rdf:resource="E71_Human-Made_Thing"/>
@@ -815,6 +817,7 @@ In First Order Logic:
   </owl:Class>
   <owl:Class rdf:about="E25_Human-Made_Feature">
     <rdfs:label xml:lang="en">E25 Human-Made Feature</rdfs:label>
+    <rdfs:label xml:lang="fr">E25 Caractéristique élaborée par l'humain</rdfs:label>
     <skos:notation>E25</skos:notation>
     <rdfs:subClassOf rdf:resource="E24_Physical_Human-Made_Thing"/>
     <rdfs:subClassOf rdf:resource="E26_Physical_Feature"/>
@@ -837,7 +840,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">E26 Physical Feature</rdfs:label>
     <rdfs:label xml:lang="de">E26 Materielles Merkmal</rdfs:label>
     <rdfs:label xml:lang="el">E26 Υλικό Μόρφωμα</rdfs:label>
-    <rdfs:label xml:lang="fr">E26 Caractéristique matérielle</rdfs:label>
+    <rdfs:label xml:lang="fr">E26 Caractéristique physique</rdfs:label>
     <rdfs:label xml:lang="pt">E26 Característica Material</rdfs:label>
     <rdfs:label xml:lang="ru">E26 Физический Признак</rdfs:label>
     <rdfs:label xml:lang="zh">E26 物理特征</rdfs:label>
@@ -935,7 +938,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">E29 Design or Procedure</rdfs:label>
     <rdfs:label xml:lang="de">E29 Entwurf oder Verfahren</rdfs:label>
     <rdfs:label xml:lang="el">E29 Σχέδιο</rdfs:label>
-    <rdfs:label xml:lang="fr">E29 Conception ou procédure</rdfs:label>
+    <rdfs:label xml:lang="fr">E29 Conceptualisation ou procédure</rdfs:label>
     <rdfs:label xml:lang="pt">E29 Projeto ou Procedimento</rdfs:label>
     <rdfs:label xml:lang="ru">E29 Проект или Процедура</rdfs:label>
     <rdfs:label xml:lang="zh">E29 设计或程序</rdfs:label>
@@ -1156,7 +1159,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">E36 Visual Item</rdfs:label>
     <rdfs:label xml:lang="de">E36 Bildliches</rdfs:label>
     <rdfs:label xml:lang="el">E36 Οπτικό Στοιχείο</rdfs:label>
-    <rdfs:label xml:lang="fr">E36 Item visuel</rdfs:label>
+    <rdfs:label xml:lang="fr">E36 Entité visuelle</rdfs:label>
     <rdfs:label xml:lang="pt">E36 Item Visual</rdfs:label>
     <rdfs:label xml:lang="ru">E36 Визуальный Предмет</rdfs:label>
     <rdfs:label xml:lang="zh">E36 可视项</rdfs:label>
@@ -1207,7 +1210,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">E39 Actor</rdfs:label>
     <rdfs:label xml:lang="de">E39 Akteur</rdfs:label>
     <rdfs:label xml:lang="el">E39 Δράστης</rdfs:label>
-    <rdfs:label xml:lang="fr">E39 Agent</rdfs:label>
+    <rdfs:label xml:lang="fr">E39 Actant</rdfs:label>
     <rdfs:label xml:lang="pt">E39 Agente</rdfs:label>
     <rdfs:label xml:lang="ru">E39 Агент</rdfs:label>
     <rdfs:label xml:lang="zh">E39 参与者</rdfs:label>
@@ -1270,7 +1273,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">E42 Identifier</rdfs:label>
     <rdfs:label xml:lang="de">E42 Kennung</rdfs:label>
     <rdfs:label xml:lang="el">E42 Κωδικός Αναγνώρισης</rdfs:label>
-    <rdfs:label xml:lang="fr">E42 Identificateur d'objet</rdfs:label>
+    <rdfs:label xml:lang="fr">E42 Identifiant</rdfs:label>
     <rdfs:label xml:lang="pt">E42 Identificador de Objeto</rdfs:label>
     <rdfs:label xml:lang="ru">E42 Идентификатор Объекта</rdfs:label>
     <rdfs:label xml:lang="zh">E42 标识符</rdfs:label>
@@ -1302,7 +1305,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">E52 Time-Span</rdfs:label>
     <rdfs:label xml:lang="de">E52 Zeitspanne</rdfs:label>
     <rdfs:label xml:lang="el">E52 Χρονικό Διάστημα</rdfs:label>
-    <rdfs:label xml:lang="fr">E52 Durée</rdfs:label>
+    <rdfs:label xml:lang="fr">E52 Intervalle temporel</rdfs:label>
     <rdfs:label xml:lang="pt">E52 Período de Tempo</rdfs:label>
     <rdfs:label xml:lang="ru">E52 Интервал Времени</rdfs:label>
     <rdfs:label xml:lang="zh">E52 时段</rdfs:label>
@@ -1370,7 +1373,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">E54 Dimension</rdfs:label>
     <rdfs:label xml:lang="de">E54 Maß</rdfs:label>
     <rdfs:label xml:lang="el">E54 Μέγεθος</rdfs:label>
-    <rdfs:label xml:lang="fr">E54 Dimensions</rdfs:label>
+    <rdfs:label xml:lang="fr">E54 Dimension</rdfs:label>
     <rdfs:label xml:lang="pt">E54 Dimensão</rdfs:label>
     <rdfs:label xml:lang="ru">E54 Величина</rdfs:label>
     <rdfs:label xml:lang="zh">E54 度量规格</rdfs:label>
@@ -1532,7 +1535,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">E63 Beginning of Existence</rdfs:label>
     <rdfs:label xml:lang="de">E63 Daseinsbeginn</rdfs:label>
     <rdfs:label xml:lang="el">E63 Αρχή Ύπαρξης</rdfs:label>
-    <rdfs:label xml:lang="fr">E63 Début d'existence</rdfs:label>
+    <rdfs:label xml:lang="fr">E63 Début d’existence</rdfs:label>
     <rdfs:label xml:lang="pt">E63 Início da Existência</rdfs:label>
     <rdfs:label xml:lang="ru">E63 Начало Существования</rdfs:label>
     <rdfs:label xml:lang="zh">E63 初始</rdfs:label>
@@ -1563,7 +1566,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">E64 End of Existence</rdfs:label>
     <rdfs:label xml:lang="de">E64 Daseinsende</rdfs:label>
     <rdfs:label xml:lang="el">E64 Τέλος Ύπαρξης</rdfs:label>
-    <rdfs:label xml:lang="fr">E64 Fin d'existence</rdfs:label>
+    <rdfs:label xml:lang="fr">E64 Fin d’existence</rdfs:label>
     <rdfs:label xml:lang="pt">E64 Fim da Existência</rdfs:label>
     <rdfs:label xml:lang="ru">E64 Конец Существования</rdfs:label>
     <rdfs:label xml:lang="zh">E64 结束</rdfs:label>
@@ -1779,6 +1782,7 @@ In First Order Logic:
   </owl:Class>
   <owl:Class rdf:about="E71_Human-Made_Thing">
     <rdfs:label xml:lang="en">E71 Human-Made Thing</rdfs:label>
+    <rdfs:label xml:lang="fr">E71 Chose élaborée par l’humain</rdfs:label>
     <skos:notation>E71</skos:notation>
     <rdfs:subClassOf rdf:resource="E70_Thing"/>
     <rdfs:comment xml:lang="en">Scope note:
@@ -1835,7 +1839,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">E73 Information Object</rdfs:label>
     <rdfs:label xml:lang="de">E73 Informationsgegenstand</rdfs:label>
     <rdfs:label xml:lang="el">E73 Πληροφοριακό Αντικείμενο</rdfs:label>
-    <rdfs:label xml:lang="fr">E73 Objet d'information</rdfs:label>
+    <rdfs:label xml:lang="fr">E73 Objet informationnel</rdfs:label>
     <rdfs:label xml:lang="pt">E73 Objeto de Informação</rdfs:label>
     <rdfs:label xml:lang="ru">E73 Информационный Объект</rdfs:label>
     <rdfs:label xml:lang="zh">E73 信息对象</rdfs:label>
@@ -1949,6 +1953,7 @@ In First Order Logic:
   </owl:Class>
   <owl:Class rdf:about="E78_Curated_Holding">
     <rdfs:label xml:lang="en">E78 Curated Holding</rdfs:label>
+    <rdfs:label xml:lang="fr">E78 Collection</rdfs:label>
     <skos:notation>E78</skos:notation>
     <rdfs:subClassOf rdf:resource="E24_Physical_Human-Made_Thing"/>
     <rdfs:subClassOf>
@@ -1977,7 +1982,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">E79 Part Addition</rdfs:label>
     <rdfs:label xml:lang="de">E79 Teilhinzufügung</rdfs:label>
     <rdfs:label xml:lang="el">E79 Προσθήκη Μερών</rdfs:label>
-    <rdfs:label xml:lang="fr">E79 Addition d'élément</rdfs:label>
+    <rdfs:label xml:lang="fr">E79 Ajout d'élément</rdfs:label>
     <rdfs:label xml:lang="pt">E79 Adição de Parte</rdfs:label>
     <rdfs:label xml:lang="ru">E79 Добавление Части</rdfs:label>
     <rdfs:label xml:lang="zh">E79 部分增加</rdfs:label>
@@ -2013,7 +2018,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">E80 Part Removal</rdfs:label>
     <rdfs:label xml:lang="de">E80 Teilentfernung</rdfs:label>
     <rdfs:label xml:lang="el">E80 Αφαίρεση Μερών</rdfs:label>
-    <rdfs:label xml:lang="fr">E80 Soustraction d'élément</rdfs:label>
+    <rdfs:label xml:lang="fr">E80 Retrait d'élément</rdfs:label>
     <rdfs:label xml:lang="pt">E80 Remoção de Parte</rdfs:label>
     <rdfs:label xml:lang="ru">E80 Удаление Части</rdfs:label>
     <rdfs:label xml:lang="zh">E80 部分去除</rdfs:label>
@@ -2116,6 +2121,7 @@ In First Order Logic:
   <owl:Class rdf:about="E85_Joining">
     <rdfs:label xml:lang="en">E85 Joining</rdfs:label>
     <rdfs:label xml:lang="de">E85 Beitritt</rdfs:label>
+    <rdfs:label xml:lang="fr">E85 Adhésion</rdfs:label>
     <rdfs:label xml:lang="zh">E85 加入</rdfs:label>
     <skos:notation>E85</skos:notation>
     <rdfs:subClassOf rdf:resource="E7_Activity"/>
@@ -2148,6 +2154,7 @@ In First Order Logic:
   <owl:Class rdf:about="E86_Leaving">
     <rdfs:label xml:lang="en">E86 Leaving</rdfs:label>
     <rdfs:label xml:lang="de">E86 Austritt</rdfs:label>
+    <rdfs:label xml:lang="fr">E86 Départ</rdfs:label>
     <rdfs:label xml:lang="zh">E86 离开</rdfs:label>
     <skos:notation>E86</skos:notation>
     <rdfs:subClassOf rdf:resource="E7_Activity"/>
@@ -2180,6 +2187,7 @@ In First Order Logic:
   <owl:Class rdf:about="E87_Curation_Activity">
     <rdfs:label xml:lang="en">E87 Curation Activity</rdfs:label>
     <rdfs:label xml:lang="de">E87 Kuratorische Tätigkeit</rdfs:label>
+    <rdfs:label xml:lang="fr">E87 Activité curatoriale</rdfs:label>
     <rdfs:label xml:lang="zh">E87 管理</rdfs:label>
     <skos:notation>E87</skos:notation>
     <rdfs:subClassOf rdf:resource="E7_Activity"/>
@@ -2205,6 +2213,7 @@ In First Order Logic:
   <owl:Class rdf:about="E89_Propositional_Object">
     <rdfs:label xml:lang="en">E89 Propositional Object</rdfs:label>
     <rdfs:label xml:lang="de">E89 Aussagenobjekt</rdfs:label>
+    <rdfs:label xml:lang="fr">E89 Objet propositionnel</rdfs:label>
     <rdfs:label xml:lang="zh">E89 命题对象</rdfs:label>
     <skos:notation>E89</skos:notation>
     <rdfs:subClassOf rdf:resource="E28_Conceptual_Object"/>
@@ -2247,6 +2256,7 @@ In First Order Logic:
   <owl:Class rdf:about="E90_Symbolic_Object">
     <rdfs:label xml:lang="en">E90 Symbolic Object</rdfs:label>
     <rdfs:label xml:lang="de">E90 Symbolisches Objekt</rdfs:label>
+    <rdfs:label xml:lang="fr">E90 Objet symbolique</rdfs:label>
     <rdfs:label xml:lang="zh">E90 符号对象</rdfs:label>
     <skos:notation>E90</skos:notation>
     <rdfs:subClassOf rdf:resource="E28_Conceptual_Object"/>
@@ -2278,6 +2288,7 @@ In First Order Logic:
   </owl:Class>
   <owl:Class rdf:about="E92_Spacetime_Volume">
     <rdfs:label xml:lang="en">E92 Spacetime Volume</rdfs:label>
+    <rdfs:label xml:lang="fr">E92 Volume spatio-temporel</rdfs:label>
     <skos:notation>E92</skos:notation>
     <rdfs:subClassOf rdf:resource="E1_CRM_Entity"/>
     <rdfs:comment xml:lang="en">Scope note:
@@ -2296,6 +2307,7 @@ In First Order Logic:
   </owl:Class>
   <owl:Class rdf:about="E93_Presence">
     <rdfs:label xml:lang="en">E93 Presence</rdfs:label>
+    <rdfs:label xml:lang="fr">E93 Présence</rdfs:label>
     <skos:notation>E93</skos:notation>
     <rdfs:subClassOf rdf:resource="E92_Spacetime_Volume"/>
     <rdfs:comment xml:lang="en">Scope note:
@@ -2314,6 +2326,7 @@ In First Order Logic:
   </owl:Class>
   <owl:Class rdf:about="E96_Purchase">
     <rdfs:label xml:lang="en">E96 Purchase</rdfs:label>
+    <rdfs:label xml:lang="fr">E96 Achat</rdfs:label>
     <skos:notation>E96</skos:notation>
     <rdfs:subClassOf rdf:resource="E8_Acquisition"/>
     <rdfs:comment xml:lang="en">Scope note:
@@ -2330,6 +2343,7 @@ In First Order Logic:
   </owl:Class>
   <owl:Class rdf:about="E97_Monetary_Amount">
     <rdfs:label xml:lang="en">E97 Monetary Amount</rdfs:label>
+    <rdfs:label xml:lang="fr">E97 Valeur monétaire</rdfs:label>
     <skos:notation>E97</skos:notation>
     <rdfs:subClassOf rdf:resource="E54_Dimension"/>
     <rdfs:comment xml:lang="en">Scope note:
@@ -2345,6 +2359,7 @@ In First Order Logic:
   </owl:Class>
   <owl:Class rdf:about="E98_Currency">
     <rdfs:label xml:lang="en">E98 Currency</rdfs:label>
+    <rdfs:label xml:lang="fr">E98 Unité monétaire</rdfs:label>
     <skos:notation>E98</skos:notation>
     <rdfs:subClassOf rdf:resource="E58_Measurement_Unit"/>
     <rdfs:comment xml:lang="en">Scope note:
@@ -2362,6 +2377,7 @@ In First Order Logic:
   </owl:Class>
   <owl:Class rdf:about="E99_Product_Type">
     <rdfs:label xml:lang="en">E99 Product Type</rdfs:label>
+    <rdfs:label xml:lang="fr">E99 Modèle de produit</rdfs:label>
     <skos:notation>E99</skos:notation>
     <rdfs:subClassOf rdf:resource="E55_Type"/>
     <rdfs:comment xml:lang="en">Scope note:
@@ -2383,7 +2399,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">P1 is identified by</rdfs:label>
     <rdfs:label xml:lang="de">P1 wird bezeichnet als</rdfs:label>
     <rdfs:label xml:lang="el">P1 αναγνωρίζεται ως</rdfs:label>
-    <rdfs:label xml:lang="fr">P1 est identifiée par</rdfs:label>
+    <rdfs:label xml:lang="fr">P1 est identifié par</rdfs:label>
     <rdfs:label xml:lang="pt">P1 é identificado por</rdfs:label>
     <rdfs:label xml:lang="ru">P1 идентифицируется посредством</rdfs:label>
     <rdfs:label xml:lang="zh">P1 被标识为</rdfs:label>
@@ -2447,7 +2463,7 @@ In First Order Logic of the inverse property:
     <rdfs:label xml:lang="en">P2 has type</rdfs:label>
     <rdfs:label xml:lang="de">P2 hat den Typus</rdfs:label>
     <rdfs:label xml:lang="el">P2 έχει τύπο</rdfs:label>
-    <rdfs:label xml:lang="fr">P2 est de type</rdfs:label>
+    <rdfs:label xml:lang="fr">P2 a pour type</rdfs:label>
     <rdfs:label xml:lang="pt">P2 é do tipo</rdfs:label>
     <rdfs:label xml:lang="ru">P2 имеет тип</rdfs:label>
     <rdfs:label xml:lang="zh">P2 有类型</rdfs:label>
@@ -2536,7 +2552,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">P4 has time-span</rdfs:label>
     <rdfs:label xml:lang="de">P4 hat Zeitspanne</rdfs:label>
     <rdfs:label xml:lang="el">P4 βρισκόταν σε εξέλιξη</rdfs:label>
-    <rdfs:label xml:lang="fr">P4 a pour durée</rdfs:label>
+    <rdfs:label xml:lang="fr">P4 a pour intervalle temporel</rdfs:label>
     <rdfs:label xml:lang="pt">P4 tem período de tempo</rdfs:label>
     <rdfs:label xml:lang="ru">P4 имеет временной отрезок</rdfs:label>
     <rdfs:label xml:lang="zh">P4 发生时段是</rdfs:label>
@@ -2562,7 +2578,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">P4 is time-span of</rdfs:label>
     <rdfs:label xml:lang="de">P4 ist Zeitspanne von</rdfs:label>
     <rdfs:label xml:lang="el">P4 είναι χρονικό διάστημα του/της</rdfs:label>
-    <rdfs:label xml:lang="fr">P4 est la durée de</rdfs:label>
+    <rdfs:label xml:lang="fr">P4 est l’intervalle temporel de</rdfs:label>
     <rdfs:label xml:lang="pt">P4 é o período de tempo de</rdfs:label>
     <rdfs:label xml:lang="ru">P4 является временным отрезком для</rdfs:label>
     <rdfs:label xml:lang="zh">P4 是时段</rdfs:label>
@@ -2589,7 +2605,7 @@ In First Order Logic of the inverse property:
     <rdfs:label xml:lang="en">P5 consists of</rdfs:label>
     <rdfs:label xml:lang="de">P5 besteht aus</rdfs:label>
     <rdfs:label xml:lang="el">P5 αποτελείται από</rdfs:label>
-    <rdfs:label xml:lang="fr">P5 consiste en</rdfs:label>
+    <rdfs:label xml:lang="fr">P5 comprend</rdfs:label>
     <rdfs:label xml:lang="pt">P5 consiste de</rdfs:label>
     <rdfs:label xml:lang="ru">P5 состоит из</rdfs:label>
     <rdfs:label xml:lang="zh">P5 包括</rdfs:label>
@@ -2708,7 +2724,7 @@ In First Order Logic of the inverse property:
     <rdfs:label xml:lang="en">P8 took place on or within</rdfs:label>
     <rdfs:label xml:lang="de">P8 fand statt auf oder innerhalb von</rdfs:label>
     <rdfs:label xml:lang="el">P8 έλαβε χώρα σε ή εντός</rdfs:label>
-    <rdfs:label xml:lang="fr">P8 a eu lieu sur ou dans</rdfs:label>
+    <rdfs:label xml:lang="fr">P8 a eu lieu à</rdfs:label>
     <rdfs:label xml:lang="pt">P8 ocorreu em ou dentro</rdfs:label>
     <rdfs:label xml:lang="ru">P8 имел место на или в</rdfs:label>
     <rdfs:label xml:lang="zh">P8 发生的所在对象是</rdfs:label>
@@ -2769,7 +2785,7 @@ In First Order Logic of the inverse property:
     <rdfs:label xml:lang="en">P9 consists of</rdfs:label>
     <rdfs:label xml:lang="de">P9 setzt sich zusammen aus</rdfs:label>
     <rdfs:label xml:lang="el">P9 αποτελείται από</rdfs:label>
-    <rdfs:label xml:lang="fr">P9 consiste en</rdfs:label>
+    <rdfs:label xml:lang="fr">P9 comprend</rdfs:label>
     <rdfs:label xml:lang="pt">P9 consiste de</rdfs:label>
     <rdfs:label xml:lang="ru">P9 состоит из</rdfs:label>
     <rdfs:label xml:lang="zh">P9 包括</rdfs:label>
@@ -2833,7 +2849,7 @@ In First Order Logic of the inverse property:
     <rdfs:label xml:lang="en">P10 falls within</rdfs:label>
     <rdfs:label xml:lang="de">P10 fällt in</rdfs:label>
     <rdfs:label xml:lang="el">P10 εμπίπτει</rdfs:label>
-    <rdfs:label xml:lang="fr">P10 s’insère dans le cours de</rdfs:label>
+    <rdfs:label xml:lang="fr">P10 s’insère dans</rdfs:label>
     <rdfs:label xml:lang="pt">P10 está contido em</rdfs:label>
     <rdfs:label xml:lang="ru">P10 находится в пределах</rdfs:label>
     <rdfs:label xml:lang="zh">P10 属于</rdfs:label>
@@ -2896,7 +2912,7 @@ In First Order Logic of the inverse property:
     <rdfs:label xml:lang="en">P11 had participant</rdfs:label>
     <rdfs:label xml:lang="de">P11 hatte Teilnehmer</rdfs:label>
     <rdfs:label xml:lang="el">P11 είχε συμμέτοχο</rdfs:label>
-    <rdfs:label xml:lang="fr">P11 a eu pour participant</rdfs:label>
+    <rdfs:label xml:lang="fr">P11 a eu pour actant participant</rdfs:label>
     <rdfs:label xml:lang="pt">P11 tem participante</rdfs:label>
     <rdfs:label xml:lang="ru">P11 имел участника</rdfs:label>
     <rdfs:label xml:lang="zh">P11 有参与者</rdfs:label>
@@ -2958,7 +2974,7 @@ In First Order Logic of the inverse property:
     <rdfs:label xml:lang="en">P12 occurred in the presence of</rdfs:label>
     <rdfs:label xml:lang="de">P12 fand statt im Beisein von</rdfs:label>
     <rdfs:label xml:lang="el">P12 συνέβη παρουσία του/της</rdfs:label>
-    <rdfs:label xml:lang="fr">P12 est arrivé en présence de</rdfs:label>
+    <rdfs:label xml:lang="fr">P12 a eu lieu en présence de</rdfs:label>
     <rdfs:label xml:lang="pt">P12 ocorreu na presença de</rdfs:label>
     <rdfs:label xml:lang="ru">P12 появился в присутствии</rdfs:label>
     <rdfs:label xml:lang="zh">P12 已出现</rdfs:label>
@@ -2985,7 +3001,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">P12 was present at</rdfs:label>
     <rdfs:label xml:lang="de">P12 war anwesend bei</rdfs:label>
     <rdfs:label xml:lang="el">P12 ήταν παρών/παρούσα/παρόν σε</rdfs:label>
-    <rdfs:label xml:lang="fr">P12 était présent à</rdfs:label>
+    <rdfs:label xml:lang="fr">P12 a été présent à</rdfs:label>
     <rdfs:label xml:lang="pt">P12 estava presente no</rdfs:label>
     <rdfs:label xml:lang="ru">P12 присутствовал при</rdfs:label>
     <rdfs:label xml:lang="zh">P12 出现在</rdfs:label>
@@ -3041,7 +3057,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">P13 was destroyed by</rdfs:label>
     <rdfs:label xml:lang="de">P13 wurde zerstört durch</rdfs:label>
     <rdfs:label xml:lang="el">P13 καταστράφηκε από</rdfs:label>
-    <rdfs:label xml:lang="fr">P13 a été détruite par</rdfs:label>
+    <rdfs:label xml:lang="fr">P13 a été détruit par</rdfs:label>
     <rdfs:label xml:lang="pt">P13 foi destruído por</rdfs:label>
     <rdfs:label xml:lang="ru">P13 был уничтожен посредством</rdfs:label>
     <rdfs:label xml:lang="zh">P13 被破坏</rdfs:label>
@@ -3070,7 +3086,7 @@ In First Order Logic of the inverse property:
     <rdfs:label xml:lang="en">P14 carried out by</rdfs:label>
     <rdfs:label xml:lang="de">P14 wurde ausgeführt von</rdfs:label>
     <rdfs:label xml:lang="el">P14 πραγματοποιήθηκε από</rdfs:label>
-    <rdfs:label xml:lang="fr">P14 réalisée par</rdfs:label>
+    <rdfs:label xml:lang="fr">P14 a été effectué par</rdfs:label>
     <rdfs:label xml:lang="pt">P14 realizada por</rdfs:label>
     <rdfs:label xml:lang="ru">P14 выполнялся</rdfs:label>
     <rdfs:label xml:lang="zh">P14 执行者是</rdfs:label>
@@ -3103,7 +3119,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">P14 performed</rdfs:label>
     <rdfs:label xml:lang="de">P14 führte aus</rdfs:label>
     <rdfs:label xml:lang="el">P14 πραγματοποίησε</rdfs:label>
-    <rdfs:label xml:lang="fr">P14 a exécuté</rdfs:label>
+    <rdfs:label xml:lang="fr">P14 a effectué</rdfs:label>
     <rdfs:label xml:lang="pt">P14 executou</rdfs:label>
     <rdfs:label xml:lang="ru">P14 выполнял</rdfs:label>
     <rdfs:label xml:lang="zh">P14 执行</rdfs:label>
@@ -3133,7 +3149,7 @@ In First Order Logic of the inverse property:
     <rdfs:label xml:lang="en">P15 was influenced by</rdfs:label>
     <rdfs:label xml:lang="de">P15 wurde beeinflußt durch</rdfs:label>
     <rdfs:label xml:lang="el">P15 επηρεάστηκε από</rdfs:label>
-    <rdfs:label xml:lang="fr">P15 a été influencée par</rdfs:label>
+    <rdfs:label xml:lang="fr">P15 a été influencé par</rdfs:label>
     <rdfs:label xml:lang="pt">P15 foi influenciado por</rdfs:label>
     <rdfs:label xml:lang="ru">P15 находился под влиянием</rdfs:label>
     <rdfs:label xml:lang="zh">P15 被影响</rdfs:label>
@@ -3187,7 +3203,7 @@ In First Order Logic of the inverse property:
     <rdfs:label xml:lang="en">P16 used specific object</rdfs:label>
     <rdfs:label xml:lang="de">P16 benutzte das bestimmte Objekt</rdfs:label>
     <rdfs:label xml:lang="el">P16 χρησιμοποίησε αντικείμενο</rdfs:label>
-    <rdfs:label xml:lang="fr">P16 a utilisé l'objet spécifique</rdfs:label>
+    <rdfs:label xml:lang="fr">P16 a mobilisé l’objet spécifique</rdfs:label>
     <rdfs:label xml:lang="pt">P16 usou objeto específico</rdfs:label>
     <rdfs:label xml:lang="ru">P16 использовал особый объект</rdfs:label>
     <rdfs:label xml:lang="zh">P16 使用特定对象</rdfs:label>
@@ -3224,7 +3240,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">P16 was used for</rdfs:label>
     <rdfs:label xml:lang="de">P16 wurde benutzt für</rdfs:label>
     <rdfs:label xml:lang="el">P16 χρησιμοποιήθηκε για</rdfs:label>
-    <rdfs:label xml:lang="fr">P16 a été utilisé pour</rdfs:label>
+    <rdfs:label xml:lang="fr">P16 a été mobilisé pour</rdfs:label>
     <rdfs:label xml:lang="pt">P16 foi usado por</rdfs:label>
     <rdfs:label xml:lang="ru">P16 был использован для</rdfs:label>
     <rdfs:label xml:lang="zh">P16 用于</rdfs:label>
@@ -3258,7 +3274,7 @@ In First Order Logic of the inverse property:
     <rdfs:label xml:lang="en">P17 was motivated by</rdfs:label>
     <rdfs:label xml:lang="de">P17 wurde angeregt durch</rdfs:label>
     <rdfs:label xml:lang="el">P17 είχε ως αφορμή</rdfs:label>
-    <rdfs:label xml:lang="fr">P17 a été motivée par</rdfs:label>
+    <rdfs:label xml:lang="fr">P17 a été motivé par</rdfs:label>
     <rdfs:label xml:lang="pt">P17 foi motivado por</rdfs:label>
     <rdfs:label xml:lang="ru">P17 был обусловлен посредством</rdfs:label>
     <rdfs:label xml:lang="zh">P17 被促动</rdfs:label>
@@ -3318,7 +3334,7 @@ In First Order Logic of the inverse property:
     <rdfs:label xml:lang="en">P19 was intended use of</rdfs:label>
     <rdfs:label xml:lang="de">P19 war beabsichtigteter Gebrauch von</rdfs:label>
     <rdfs:label xml:lang="el">P19 ήταν προορισμένη χρήση του</rdfs:label>
-    <rdfs:label xml:lang="fr">P19 était l'utilisation prévue de</rdfs:label>
+    <rdfs:label xml:lang="fr">P19 a été l’usage prévu de</rdfs:label>
     <rdfs:label xml:lang="pt">P19 era prevista a utilização de</rdfs:label>
     <rdfs:label xml:lang="ru">P19 был предполагаемым использованием для</rdfs:label>
     <rdfs:label xml:lang="zh">P19 特定用途是</rdfs:label>
@@ -3349,7 +3365,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">P19 was made for</rdfs:label>
     <rdfs:label xml:lang="de">P19 wurde hergestellt für</rdfs:label>
     <rdfs:label xml:lang="el">P19 έγινε για</rdfs:label>
-    <rdfs:label xml:lang="fr">P19 a été fabriquée pour</rdfs:label>
+    <rdfs:label xml:lang="fr">P19 a été élaboré pour</rdfs:label>
     <rdfs:label xml:lang="pt">P19 foi feito para</rdfs:label>
     <rdfs:label xml:lang="ru">P19 был создан для</rdfs:label>
     <rdfs:label xml:lang="zh">P19 用于</rdfs:label>
@@ -3377,7 +3393,7 @@ In First Order Logic of the inverse property:
     <rdfs:label xml:lang="en">P20 had specific purpose</rdfs:label>
     <rdfs:label xml:lang="de">P20 hatte den bestimmten Zweck</rdfs:label>
     <rdfs:label xml:lang="el">P20 είχε συγκεκριμένο σκοπό</rdfs:label>
-    <rdfs:label xml:lang="fr">P20 avait pour but spécifique</rdfs:label>
+    <rdfs:label xml:lang="fr">P20 a eu pour finalité spécifique</rdfs:label>
     <rdfs:label xml:lang="pt">P20 tinha propósito específico</rdfs:label>
     <rdfs:label xml:lang="ru">P20 имел конкретную цель</rdfs:label>
     <rdfs:label xml:lang="zh">P20 有特定目的</rdfs:label>
@@ -3405,7 +3421,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">P20 was purpose of</rdfs:label>
     <rdfs:label xml:lang="de">P20 war Zweck von</rdfs:label>
     <rdfs:label xml:lang="el">P20 ήταν σκοπός του/της</rdfs:label>
-    <rdfs:label xml:lang="fr">P20 était le but de</rdfs:label>
+    <rdfs:label xml:lang="fr">P20 a été la finalité de</rdfs:label>
     <rdfs:label xml:lang="pt">P20 era o propósito de</rdfs:label>
     <rdfs:label xml:lang="ru">P20 был целью для</rdfs:label>
     <rdfs:label xml:lang="zh">P20 是为了</rdfs:label>
@@ -3433,7 +3449,7 @@ In First Order Logic of the inverse property:
     <rdfs:label xml:lang="en">P21 had general purpose</rdfs:label>
     <rdfs:label xml:lang="de">P21 hatte den allgemeinen Zweck</rdfs:label>
     <rdfs:label xml:lang="el">P21 είχε γενικό σκοπό</rdfs:label>
-    <rdfs:label xml:lang="fr">P21 avait pour but général</rdfs:label>
+    <rdfs:label xml:lang="fr">P21 a eu pour finalité générale</rdfs:label>
     <rdfs:label xml:lang="pt">P21 tinha propósito geral</rdfs:label>
     <rdfs:label xml:lang="ru">P21 имел общую цель</rdfs:label>
     <rdfs:label xml:lang="zh">P21 有一般目的</rdfs:label>
@@ -3465,7 +3481,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">P21 was purpose of</rdfs:label>
     <rdfs:label xml:lang="de">P21 war Zweck von</rdfs:label>
     <rdfs:label xml:lang="el">P21 ήταν σκοπός του/της</rdfs:label>
-    <rdfs:label xml:lang="fr">P21 était le but de</rdfs:label>
+    <rdfs:label xml:lang="fr">P21 a été la finalité de</rdfs:label>
     <rdfs:label xml:lang="pt">P21 era o propósito de</rdfs:label>
     <rdfs:label xml:lang="ru">P21 был целью для</rdfs:label>
     <rdfs:label xml:lang="zh">P21 是为了</rdfs:label>
@@ -3498,7 +3514,7 @@ In First Order Logic of the inverse property:
     <rdfs:label xml:lang="en">P22 transferred title to</rdfs:label>
     <rdfs:label xml:lang="de">P22 übertrug Besitztitel auf</rdfs:label>
     <rdfs:label xml:lang="el">P22 μετεβίβασε τον τίτλο σε</rdfs:label>
-    <rdfs:label xml:lang="fr">P22 a fait passer le droit de propriété à</rdfs:label>
+    <rdfs:label xml:lang="fr">P22 a transféré le titre de propriété à</rdfs:label>
     <rdfs:label xml:lang="pt">P22 transferiu os direitos de propriedade para</rdfs:label>
     <rdfs:label xml:lang="ru">P22 передал право собственности</rdfs:label>
     <rdfs:label xml:lang="zh">P22 转移所有权至</rdfs:label>
@@ -3529,7 +3545,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">P22 acquired title through</rdfs:label>
     <rdfs:label xml:lang="de">P22 erwarb Besitztitel durch</rdfs:label>
     <rdfs:label xml:lang="el">P22 απέκτησε τον τίτλο μέσω</rdfs:label>
-    <rdfs:label xml:lang="fr">P22 a acquis le droit de propriété du fait de</rdfs:label>
+    <rdfs:label xml:lang="fr">P22 a acquis le titre de propriété par</rdfs:label>
     <rdfs:label xml:lang="pt">P22 adquiriu os direitos de propriedade por meio da</rdfs:label>
     <rdfs:label xml:lang="ru">P22 получил право собственности через</rdfs:label>
     <rdfs:label xml:lang="zh">P22 获得所有权</rdfs:label>
@@ -3559,7 +3575,7 @@ In First Order Logic of the inverse property:
     <rdfs:label xml:lang="en">P23 transferred title from</rdfs:label>
     <rdfs:label xml:lang="de">P23 übertrug Besitztitel von</rdfs:label>
     <rdfs:label xml:lang="el">P23 μετεβίβασε τον τίτλο από</rdfs:label>
-    <rdfs:label xml:lang="fr">P23 a fait passer le droit de propriété de</rdfs:label>
+    <rdfs:label xml:lang="fr">P23 a transféré le titre de propriété de</rdfs:label>
     <rdfs:label xml:lang="pt">P23 transferiu os direitos de propriedade de</rdfs:label>
     <rdfs:label xml:lang="ru">P23 передал право собственности от</rdfs:label>
     <rdfs:label xml:lang="zh">P23 转移所有权自</rdfs:label>
@@ -3588,7 +3604,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">P23 surrendered title through</rdfs:label>
     <rdfs:label xml:lang="de">P23 trat Besitztitel ab in</rdfs:label>
     <rdfs:label xml:lang="el">P23 παρέδωσε τον τίτλο μέσω</rdfs:label>
-    <rdfs:label xml:lang="fr">P23 a perdu le droit de propriété du fait de</rdfs:label>
+    <rdfs:label xml:lang="fr">P23 a cédé le titre de propriété à</rdfs:label>
     <rdfs:label xml:lang="pt">P23 perdeu os direitos de propriedade por meio da</rdfs:label>
     <rdfs:label xml:lang="ru">P23 право собственности отдано через</rdfs:label>
     <rdfs:label xml:lang="zh">P23 出让所有权</rdfs:label>
@@ -3617,7 +3633,7 @@ In First Order Logic of the inverse property:
     <rdfs:label xml:lang="en">P24 transferred title of</rdfs:label>
     <rdfs:label xml:lang="de">P24 übertrug Besitz über</rdfs:label>
     <rdfs:label xml:lang="el">P24 μετεβίβασε τον τίτλο του/της</rdfs:label>
-    <rdfs:label xml:lang="fr">P24 a fait passer le droit de propriété sur</rdfs:label>
+    <rdfs:label xml:lang="fr">P24 a transféré le titre de propriété de</rdfs:label>
     <rdfs:label xml:lang="pt">P24 transferiu os direitos de propriedade sobre o</rdfs:label>
     <rdfs:label xml:lang="ru">P24 передал право собственности на</rdfs:label>
     <rdfs:label xml:lang="zh">P24 转移所有权的是</rdfs:label>
@@ -3644,7 +3660,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">P24 changed ownership through</rdfs:label>
     <rdfs:label xml:lang="de">P24 ging über in Besitz durch</rdfs:label>
     <rdfs:label xml:lang="el">P24 άλλαξε ιδιοκτησία μέσω</rdfs:label>
-    <rdfs:label xml:lang="fr">P24 a changé de mains du fait de</rdfs:label>
+    <rdfs:label xml:lang="fr">P24 a changé de propriétaire par</rdfs:label>
     <rdfs:label xml:lang="pt">P24 mudou de proprietário por meio de</rdfs:label>
     <rdfs:label xml:lang="ru">P24 сменил владельца через</rdfs:label>
     <rdfs:label xml:lang="zh">P24 变更所有权</rdfs:label>
@@ -3787,7 +3803,7 @@ In First Order Logic of the inverse property:
     <rdfs:label xml:lang="en">P27 moved from</rdfs:label>
     <rdfs:label xml:lang="de">P27 bewegte weg von</rdfs:label>
     <rdfs:label xml:lang="el">P27 μετακινήθηκε από</rdfs:label>
-    <rdfs:label xml:lang="fr">P27 a retiré de</rdfs:label>
+    <rdfs:label xml:lang="fr">P27 a déplacé depuis</rdfs:label>
     <rdfs:label xml:lang="pt">P27 locomoveu de</rdfs:label>
     <rdfs:label xml:lang="ru">P27 перемещен из</rdfs:label>
     <rdfs:label xml:lang="zh">P27 移自</rdfs:label>
@@ -3816,7 +3832,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">P27 was origin of</rdfs:label>
     <rdfs:label xml:lang="de">P27 war Ausgangsort von</rdfs:label>
     <rdfs:label xml:lang="el">P27 ήταν αφετηρία του/της</rdfs:label>
-    <rdfs:label xml:lang="fr">P27 a été l'origine de</rdfs:label>
+    <rdfs:label xml:lang="fr">P27 a été le point de départ de</rdfs:label>
     <rdfs:label xml:lang="pt">P27 era origem de</rdfs:label>
     <rdfs:label xml:lang="ru">P27 был исходной точкой для</rdfs:label>
     <rdfs:label xml:lang="zh">P27 是起点</rdfs:label>
@@ -3845,7 +3861,7 @@ In First Order Logic of the inverse property:
     <rdfs:label xml:lang="en">P28 custody surrendered by</rdfs:label>
     <rdfs:label xml:lang="de">P28 übergab Gewahrsam an</rdfs:label>
     <rdfs:label xml:lang="el">P28 μετεβίβασε κατοχή από</rdfs:label>
-    <rdfs:label xml:lang="fr">P28 changement de détenteur au détriment de</rdfs:label>
+    <rdfs:label xml:lang="fr">P28 a mis fin à la garde par</rdfs:label>
     <rdfs:label xml:lang="pt">P28 custódia concedida por</rdfs:label>
     <rdfs:label xml:lang="ru">P28 опека отдана</rdfs:label>
     <rdfs:label xml:lang="zh">P28 监护权转自</rdfs:label>
@@ -3875,7 +3891,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">P28 surrendered custody through</rdfs:label>
     <rdfs:label xml:lang="de">P28 wurde Gewahrsam übergeben durch</rdfs:label>
     <rdfs:label xml:lang="el">P28 παρέδωσε κατοχή μέσω</rdfs:label>
-    <rdfs:label xml:lang="fr">P28 a cessé d’être détenteur à cause de</rdfs:label>
+    <rdfs:label xml:lang="fr">P28 a cédé la garde par</rdfs:label>
     <rdfs:label xml:lang="pt">P28 final da custódia por meio de</rdfs:label>
     <rdfs:label xml:lang="ru">P28 опека отдана через</rdfs:label>
     <rdfs:label xml:lang="zh">P28 出让监护权</rdfs:label>
@@ -3905,7 +3921,7 @@ In First Order Logic of the inverse property:
     <rdfs:label xml:lang="en">P29 custody received by</rdfs:label>
     <rdfs:label xml:lang="de">P29 übertrug Gewahrsam auf</rdfs:label>
     <rdfs:label xml:lang="el">P29 μετεβίβασε κατοχή σε</rdfs:label>
-    <rdfs:label xml:lang="fr">P29 changement de détenteur au profit de</rdfs:label>
+    <rdfs:label xml:lang="fr">P29 a confié la garde par</rdfs:label>
     <rdfs:label xml:lang="pt">P29 custódia recebida por</rdfs:label>
     <rdfs:label xml:lang="ru">P29 опека получена</rdfs:label>
     <rdfs:label xml:lang="zh">P29 监护权转至</rdfs:label>
@@ -3935,7 +3951,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">P29 received custody through</rdfs:label>
     <rdfs:label xml:lang="de">P29 erhielt Gewahrsam durch</rdfs:label>
     <rdfs:label xml:lang="el">P29 παρέλαβε κατοχή μέσω</rdfs:label>
-    <rdfs:label xml:lang="fr">P29 est devenu détenteur grâce à</rdfs:label>
+    <rdfs:label xml:lang="fr">P29 a reçu la garde par</rdfs:label>
     <rdfs:label xml:lang="pt">P29 início da custódia por meio de</rdfs:label>
     <rdfs:label xml:lang="ru">P29 получил опеку через</rdfs:label>
     <rdfs:label xml:lang="zh">P29 获得监护权</rdfs:label>
@@ -3965,7 +3981,7 @@ In First Order Logic of the inverse property:
     <rdfs:label xml:lang="en">P30 transferred custody of</rdfs:label>
     <rdfs:label xml:lang="de">P30 übertrug Gewahrsam über</rdfs:label>
     <rdfs:label xml:lang="el">P30 μετεβίβασε κατοχή του/της/των</rdfs:label>
-    <rdfs:label xml:lang="fr">P30 changement de détenteur concernant</rdfs:label>
+    <rdfs:label xml:lang="fr">P30 a transféré la garde de</rdfs:label>
     <rdfs:label xml:lang="pt">P30 transferida custódia de</rdfs:label>
     <rdfs:label xml:lang="ru">P30 передало опеку на</rdfs:label>
     <rdfs:label xml:lang="zh">P30 转移监护权的是</rdfs:label>
@@ -3992,7 +4008,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">P30 custody transferred through</rdfs:label>
     <rdfs:label xml:lang="de">P30 wechselte Gewahrsam durch</rdfs:label>
     <rdfs:label xml:lang="el">P30 άλλαξε κατοχή μέσω</rdfs:label>
-    <rdfs:label xml:lang="fr">P30 a changé de détenteur du fait de</rdfs:label>
+    <rdfs:label xml:lang="fr">P30 a été l’objet d’un transfert de garde par</rdfs:label>
     <rdfs:label xml:lang="pt">P30 custódia transferida por meio de</rdfs:label>
     <rdfs:label xml:lang="ru">P30 опека передана через</rdfs:label>
     <rdfs:label xml:lang="zh">P30 变更监护权</rdfs:label>
@@ -4075,7 +4091,7 @@ In First Order Logic of the inverse property:
     <rdfs:label xml:lang="en">P32 used general technique</rdfs:label>
     <rdfs:label xml:lang="de">P32 benutzte das allgemeine Verfahren</rdfs:label>
     <rdfs:label xml:lang="el">P32 χρησιμοποίησε γενική τεχνική</rdfs:label>
-    <rdfs:label xml:lang="fr">P32 a employé comme technique générique</rdfs:label>
+    <rdfs:label xml:lang="fr">P32 a mobilisé comme technique générale</rdfs:label>
     <rdfs:label xml:lang="pt">P32 usou técnica geral</rdfs:label>
     <rdfs:label xml:lang="ru">P32 использовал общую технику</rdfs:label>
     <rdfs:label xml:lang="zh">P32 使用通用技术</rdfs:label>
@@ -4104,7 +4120,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">P32 was technique of</rdfs:label>
     <rdfs:label xml:lang="de">P32 war Verfahren von</rdfs:label>
     <rdfs:label xml:lang="el">P32 ήταν τεχνική του/της</rdfs:label>
-    <rdfs:label xml:lang="fr">P32 a été la technique mise en œuvre dans</rdfs:label>
+    <rdfs:label xml:lang="fr">P32 a été la technique générale mise en œuvre dans</rdfs:label>
     <rdfs:label xml:lang="pt">P32 foi técnica da</rdfs:label>
     <rdfs:label xml:lang="ru">P32 был техникой для</rdfs:label>
     <rdfs:label xml:lang="zh">P32 是技术</rdfs:label>
@@ -4133,7 +4149,7 @@ In First Order Logic of the inverse property:
     <rdfs:label xml:lang="en">P33 used specific technique</rdfs:label>
     <rdfs:label xml:lang="de">P33 benutzte das bestimmte Verfahren</rdfs:label>
     <rdfs:label xml:lang="el">P33 χρησιμοποίησε συγκεκριμένη τεχνική</rdfs:label>
-    <rdfs:label xml:lang="fr">P33 a employé comme technique spécifique</rdfs:label>
+    <rdfs:label xml:lang="fr">P33 a mobilisé comme technique spécifique</rdfs:label>
     <rdfs:label xml:lang="pt">P33 usou técnica específica</rdfs:label>
     <rdfs:label xml:lang="ru">P33 использовал особую технику</rdfs:label>
     <rdfs:label xml:lang="zh">P33 使用特定技术</rdfs:label>
@@ -4164,7 +4180,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">P33 was used by</rdfs:label>
     <rdfs:label xml:lang="de">P33 wurde benutzt von</rdfs:label>
     <rdfs:label xml:lang="el">P33 χρησιμοποιήθηκε για</rdfs:label>
-    <rdfs:label xml:lang="fr">P33 a été employée par</rdfs:label>
+    <rdfs:label xml:lang="fr">P33 a été la technique spécifique mise en œuvre dans</rdfs:label>
     <rdfs:label xml:lang="pt">P33 foi usada por</rdfs:label>
     <rdfs:label xml:lang="ru">P33 был использован посредством</rdfs:label>
     <rdfs:label xml:lang="zh">P33 被使用</rdfs:label>
@@ -4195,7 +4211,7 @@ In First Order Logic of the inverse property:
     <rdfs:label xml:lang="en">P34 concerned</rdfs:label>
     <rdfs:label xml:lang="de">P34 betraf</rdfs:label>
     <rdfs:label xml:lang="el">P34 αφορούσε σε</rdfs:label>
-    <rdfs:label xml:lang="fr">P34 a concerné</rdfs:label>
+    <rdfs:label xml:lang="fr">P34 a porté sur</rdfs:label>
     <rdfs:label xml:lang="pt">P34 interessada</rdfs:label>
     <rdfs:label xml:lang="ru">P34 имел дело с</rdfs:label>
     <rdfs:label xml:lang="zh">P34 已评估</rdfs:label>
@@ -4226,7 +4242,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">P34 was assessed by</rdfs:label>
     <rdfs:label xml:lang="de">P34 wurde beurteilt durch</rdfs:label>
     <rdfs:label xml:lang="el">P34 εκτιμήθηκε από</rdfs:label>
-    <rdfs:label xml:lang="fr">P34 expertisé par le biais de</rdfs:label>
+    <rdfs:label xml:lang="fr">P34 a été évalué par</rdfs:label>
     <rdfs:label xml:lang="pt">P34 foi avaliada por</rdfs:label>
     <rdfs:label xml:lang="ru">P34 был оценен посредством</rdfs:label>
     <rdfs:label xml:lang="zh">P34 被评估</rdfs:label>
@@ -4287,7 +4303,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">P35 was identified by</rdfs:label>
     <rdfs:label xml:lang="de">P35 wurde identifiziert durch</rdfs:label>
     <rdfs:label xml:lang="el">P35 έχει διαπιστωθεί από</rdfs:label>
-    <rdfs:label xml:lang="fr">P35 est identifié par</rdfs:label>
+    <rdfs:label xml:lang="fr">P35 a été identifié par</rdfs:label>
     <rdfs:label xml:lang="pt">P35 foi identificado por</rdfs:label>
     <rdfs:label xml:lang="ru">P35 идентифицирован посредством</rdfs:label>
     <rdfs:label xml:lang="zh">P35 被标识</rdfs:label>
@@ -4317,7 +4333,7 @@ In First Order Logic of the inverse property:
     <rdfs:label xml:lang="en">P37 assigned</rdfs:label>
     <rdfs:label xml:lang="de">P37 wies zu</rdfs:label>
     <rdfs:label xml:lang="el">P37 απέδωσε</rdfs:label>
-    <rdfs:label xml:lang="fr">P37 a attribué</rdfs:label>
+    <rdfs:label xml:lang="fr">P37 a assigné</rdfs:label>
     <rdfs:label xml:lang="pt">P37 atribuiu</rdfs:label>
     <rdfs:label xml:lang="ru">P37 назначил</rdfs:label>
     <rdfs:label xml:lang="zh">P37 分配了</rdfs:label>
@@ -4347,7 +4363,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">P37 was assigned by</rdfs:label>
     <rdfs:label xml:lang="de">P37 wurde zugewiesen durch</rdfs:label>
     <rdfs:label xml:lang="el">P37 αποδόθηκε ως ιδιότητα από</rdfs:label>
-    <rdfs:label xml:lang="fr">P37 a été attribuée par</rdfs:label>
+    <rdfs:label xml:lang="fr">P37 a été assigné par</rdfs:label>
     <rdfs:label xml:lang="pt">P37 foi atribuído por</rdfs:label>
     <rdfs:label xml:lang="ru">P37 был присвоен посредством</rdfs:label>
     <rdfs:label xml:lang="zh">P37 被分配</rdfs:label>
@@ -4377,7 +4393,7 @@ In First Order Logic of the inverse property:
     <rdfs:label xml:lang="en">P38 deassigned</rdfs:label>
     <rdfs:label xml:lang="de">P38 hob Zuweisung auf von</rdfs:label>
     <rdfs:label xml:lang="el">P38 ακύρωσε</rdfs:label>
-    <rdfs:label xml:lang="fr">P38 a désattribué</rdfs:label>
+    <rdfs:label xml:lang="fr">P38 a retiré l'assignation</rdfs:label>
     <rdfs:label xml:lang="pt">P38 retirou a atribuição do</rdfs:label>
     <rdfs:label xml:lang="ru">P38 отменил назначение</rdfs:label>
     <rdfs:label xml:lang="zh">P38 取消了</rdfs:label>
@@ -4407,7 +4423,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">P38 was deassigned by</rdfs:label>
     <rdfs:label xml:lang="de">P38 wurde aufgehoben durch</rdfs:label>
     <rdfs:label xml:lang="el">P38 ακυρώθηκε από</rdfs:label>
-    <rdfs:label xml:lang="fr">P38 a été désattribué par</rdfs:label>
+    <rdfs:label xml:lang="fr">P38 a été retiré par</rdfs:label>
     <rdfs:label xml:lang="pt">P38 foi retirada a atribuição por</rdfs:label>
     <rdfs:label xml:lang="ru">P38 был отменен посредством</rdfs:label>
     <rdfs:label xml:lang="zh">P38 被取消</rdfs:label>
@@ -4527,7 +4543,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">P40 was observed in</rdfs:label>
     <rdfs:label xml:lang="de">P40 wurde beobachtet in</rdfs:label>
     <rdfs:label xml:lang="el">P40 παρατηρήθηκε από</rdfs:label>
-    <rdfs:label xml:lang="fr">P40 a été relevée au cours de</rdfs:label>
+    <rdfs:label xml:lang="fr">P40 a été relevé par</rdfs:label>
     <rdfs:label xml:lang="pt">P40 foi verificada durante</rdfs:label>
     <rdfs:label xml:lang="ru">P40 наблюдался в</rdfs:label>
     <rdfs:label xml:lang="zh">P40 被观测</rdfs:label>
@@ -4588,7 +4604,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">P41 was classified by</rdfs:label>
     <rdfs:label xml:lang="de">P41 wurde klassifiziert durch</rdfs:label>
     <rdfs:label xml:lang="el">P41 χαρακτηρίσθηκε από</rdfs:label>
-    <rdfs:label xml:lang="fr">P41 a été classifiée par le biais de</rdfs:label>
+    <rdfs:label xml:lang="fr">P41 a été classifié par</rdfs:label>
     <rdfs:label xml:lang="pt">P41 foi classificada por</rdfs:label>
     <rdfs:label xml:lang="ru">P41 был классифицирован посредством</rdfs:label>
     <rdfs:label xml:lang="zh">P41 被分类</rdfs:label>
@@ -4617,7 +4633,7 @@ In First Order Logic of the inverse property:
     <rdfs:label xml:lang="en">P42 assigned</rdfs:label>
     <rdfs:label xml:lang="de">P42 wies zu</rdfs:label>
     <rdfs:label xml:lang="el">P42 απέδωσε ως ιδιότητα</rdfs:label>
-    <rdfs:label xml:lang="fr">P42 a attribué</rdfs:label>
+    <rdfs:label xml:lang="fr">P42 a assigné</rdfs:label>
     <rdfs:label xml:lang="pt">P42 atribuiu</rdfs:label>
     <rdfs:label xml:lang="ru">P42 назначил</rdfs:label>
     <rdfs:label xml:lang="zh">P42 分配类型</rdfs:label>
@@ -4648,7 +4664,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">P42 was assigned by</rdfs:label>
     <rdfs:label xml:lang="de">P42 wurde zugewiesen durch</rdfs:label>
     <rdfs:label xml:lang="el">P42 αποδόθηκε από</rdfs:label>
-    <rdfs:label xml:lang="fr">P42 a été attribué par</rdfs:label>
+    <rdfs:label xml:lang="fr">P42 a été assigné par</rdfs:label>
     <rdfs:label xml:lang="pt">P42 foi atribuído por</rdfs:label>
     <rdfs:label xml:lang="ru">P42 был присвоен посредством</rdfs:label>
     <rdfs:label xml:lang="zh">P42 被分配类型</rdfs:label>
@@ -4709,7 +4725,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">P43 is dimension of</rdfs:label>
     <rdfs:label xml:lang="de">P43 ist Dimension von</rdfs:label>
     <rdfs:label xml:lang="el">P43 είναι μέγεθος του</rdfs:label>
-    <rdfs:label xml:lang="fr">P43 est dimension de</rdfs:label>
+    <rdfs:label xml:lang="fr">P43 est la dimension de</rdfs:label>
     <rdfs:label xml:lang="pt">P43 é dimensão de</rdfs:label>
     <rdfs:label xml:lang="ru">P43 является величиной для</rdfs:label>
     <rdfs:label xml:lang="zh">P43 是度量规格</rdfs:label>
@@ -4768,7 +4784,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">P44 is condition of</rdfs:label>
     <rdfs:label xml:lang="de">P44 ist Zustand von</rdfs:label>
     <rdfs:label xml:lang="el">P44 είναι κατάσταση του</rdfs:label>
-    <rdfs:label xml:lang="fr">P44 état matériel de</rdfs:label>
+    <rdfs:label xml:lang="fr">P44 est l'état matériel de</rdfs:label>
     <rdfs:label xml:lang="pt">P44 estado material de</rdfs:label>
     <rdfs:label xml:lang="ru">P44 является условием для</rdfs:label>
     <rdfs:label xml:lang="zh">P44 是状况</rdfs:label>
@@ -4797,7 +4813,7 @@ In First Order Logic of the inverse property:
     <rdfs:label xml:lang="en">P45 consists of</rdfs:label>
     <rdfs:label xml:lang="de">P45 besteht aus</rdfs:label>
     <rdfs:label xml:lang="el">P45 αποτελείται από</rdfs:label>
-    <rdfs:label xml:lang="fr">P45 consiste en</rdfs:label>
+    <rdfs:label xml:lang="fr">P45 comprend</rdfs:label>
     <rdfs:label xml:lang="pt">P45 consiste de</rdfs:label>
     <rdfs:label xml:lang="ru">P45 составлен из</rdfs:label>
     <rdfs:label xml:lang="zh">P45 包含</rdfs:label>
@@ -4825,7 +4841,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">P45 is incorporated in</rdfs:label>
     <rdfs:label xml:lang="de">P45 ist enthalten in</rdfs:label>
     <rdfs:label xml:lang="el">P45 είναι ενσωματωμένος/η/ο σε</rdfs:label>
-    <rdfs:label xml:lang="fr">P45 est présent dans</rdfs:label>
+    <rdfs:label xml:lang="fr">P45 est inclus dans</rdfs:label>
     <rdfs:label xml:lang="pt">P45 está presente em</rdfs:label>
     <rdfs:label xml:lang="ru">P45 входит в состав</rdfs:label>
     <rdfs:label xml:lang="zh">P45 结合在</rdfs:label>
@@ -4854,7 +4870,7 @@ In First Order Logic of the inverse property:
     <rdfs:label xml:lang="en">P46 is composed of</rdfs:label>
     <rdfs:label xml:lang="de">P46 ist zusammengesetzt aus</rdfs:label>
     <rdfs:label xml:lang="el">P46 αποτελείται από</rdfs:label>
-    <rdfs:label xml:lang="fr">P46 est composée de</rdfs:label>
+    <rdfs:label xml:lang="fr">P46 est composé de</rdfs:label>
     <rdfs:label xml:lang="pt">P46 é composto de</rdfs:label>
     <rdfs:label xml:lang="ru">P46 составлен из</rdfs:label>
     <rdfs:label xml:lang="zh">P46 组成成分是</rdfs:label>
@@ -4925,7 +4941,7 @@ In First Order Logic of the inverse property:
     <rdfs:label xml:lang="en">P48 has preferred identifier</rdfs:label>
     <rdfs:label xml:lang="de">P48 hat bevorzugtes Kennzeichen</rdfs:label>
     <rdfs:label xml:lang="el">P48 έχει προτιμώμενο αναγνωριστικό</rdfs:label>
-    <rdfs:label xml:lang="fr">P48 a pour identificateur retenu</rdfs:label>
+    <rdfs:label xml:lang="fr">P48 a pour identifiant préférentiel</rdfs:label>
     <rdfs:label xml:lang="pt">P48 tem identificador preferido</rdfs:label>
     <rdfs:label xml:lang="ru">P48 имеет предпочтительный идентификатор</rdfs:label>
     <rdfs:label xml:lang="zh">P48 有优选标识符</rdfs:label>
@@ -4956,7 +4972,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">P48 is preferred identifier of</rdfs:label>
     <rdfs:label xml:lang="de">P48 ist bevorzugtes Kennzeichen für</rdfs:label>
     <rdfs:label xml:lang="el">P48 είναι προτιμώμενο αναγνωριστικό</rdfs:label>
-    <rdfs:label xml:lang="fr">P48 est l’identificateur retenu de</rdfs:label>
+    <rdfs:label xml:lang="fr">P48 est l’identifiant préférentiel de</rdfs:label>
     <rdfs:label xml:lang="pt">P48 é o identificador preferido de</rdfs:label>
     <rdfs:label xml:lang="ru">P48 является предпочтительным идентификатором для</rdfs:label>
     <rdfs:label xml:lang="zh">P48 是优选标识符</rdfs:label>
@@ -4987,7 +5003,7 @@ In First Order Logic of the inverse property:
     <rdfs:label xml:lang="en">P49 has former or current keeper</rdfs:label>
     <rdfs:label xml:lang="de">P49 hat früheren oder derzeitigen Betreuer</rdfs:label>
     <rdfs:label xml:lang="el">P49 είναι ή ήταν στην κατοχή του</rdfs:label>
-    <rdfs:label xml:lang="fr">P49 est ou a été détenu par</rdfs:label>
+    <rdfs:label xml:lang="fr">P49 a pour actant détenteur actuel ou antérieur</rdfs:label>
     <rdfs:label xml:lang="pt">P49 é ou foi guardada por</rdfs:label>
     <rdfs:label xml:lang="ru">P49 имеет бывшего или текущего смотрителя</rdfs:label>
     <rdfs:label xml:lang="zh">P49 有以往或当前保管者</rdfs:label>
@@ -5016,7 +5032,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">P49 is former or current keeper of</rdfs:label>
     <rdfs:label xml:lang="de">P49 ist früherer oder derzeitiger Betreuer von</rdfs:label>
     <rdfs:label xml:lang="el">P49 κατέχει ή κατείχε</rdfs:label>
-    <rdfs:label xml:lang="fr">P49 est ou a été détenteur de</rdfs:label>
+    <rdfs:label xml:lang="fr">P49 est l’actant détenteur actuel ou antérieur de</rdfs:label>
     <rdfs:label xml:lang="pt">P49 é ou foi guardador de</rdfs:label>
     <rdfs:label xml:lang="ru">P49 является бывшим или текущим смотрителем для</rdfs:label>
     <rdfs:label xml:lang="zh">P49 是以往或当前保管者</rdfs:label>
@@ -5045,7 +5061,7 @@ In First Order Logic of the inverse property:
     <rdfs:label xml:lang="en">P50 has current keeper</rdfs:label>
     <rdfs:label xml:lang="de">P50 hat derzeitigen Betreuer</rdfs:label>
     <rdfs:label xml:lang="el">P50 είναι στην κατοχή του</rdfs:label>
-    <rdfs:label xml:lang="fr">P50 est actuellement détenu par</rdfs:label>
+    <rdfs:label xml:lang="fr">P50 a pour actant détenteur actuel</rdfs:label>
     <rdfs:label xml:lang="pt">P50 é guardada por</rdfs:label>
     <rdfs:label xml:lang="ru">P50 имеет текущего смотрителя</rdfs:label>
     <rdfs:label xml:lang="zh">P50 有当前保管者</rdfs:label>
@@ -5076,7 +5092,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">P50 is current keeper of</rdfs:label>
     <rdfs:label xml:lang="de">P50 ist derzeitiger Betreuer von</rdfs:label>
     <rdfs:label xml:lang="el">P50 κατέχει</rdfs:label>
-    <rdfs:label xml:lang="fr">P50 est actuel détenteur de</rdfs:label>
+    <rdfs:label xml:lang="fr">P50 est l’actant détenteur actuel</rdfs:label>
     <rdfs:label xml:lang="pt">P50 é guardador de</rdfs:label>
     <rdfs:label xml:lang="ru">P50 является текущим смотрителем для</rdfs:label>
     <rdfs:label xml:lang="zh">P50 是当前保管者</rdfs:label>
@@ -5107,7 +5123,7 @@ In First Order Logic of the inverse property:
     <rdfs:label xml:lang="en">P51 has former or current owner</rdfs:label>
     <rdfs:label xml:lang="de">P51 hat früheren oder derzeitigen Besitzer</rdfs:label>
     <rdfs:label xml:lang="el">P51 έχει ή είχε ιδιοκτήτη</rdfs:label>
-    <rdfs:label xml:lang="fr">P51 est ou a été possédée par</rdfs:label>
+    <rdfs:label xml:lang="fr">P51 a pour propriétaire actuel ou antérieur</rdfs:label>
     <rdfs:label xml:lang="pt">P51 é ou foi propriedade de</rdfs:label>
     <rdfs:label xml:lang="ru">P51 имеет бывшего или текущего владельца</rdfs:label>
     <rdfs:label xml:lang="zh">P51 有以往或当前所有者</rdfs:label>
@@ -5136,7 +5152,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">P51 is former or current owner of</rdfs:label>
     <rdfs:label xml:lang="de">P51 ist früherer oder derzeitiger Besitzer von</rdfs:label>
     <rdfs:label xml:lang="el">P51 είναι ή ήταν ιδιοκτήτης του/της</rdfs:label>
-    <rdfs:label xml:lang="fr">P51 est ou a été propriétaire de</rdfs:label>
+    <rdfs:label xml:lang="fr">P51 est l’actant propriétaire actuel ou antérieur de</rdfs:label>
     <rdfs:label xml:lang="pt">P51 é ou foi proprietário de</rdfs:label>
     <rdfs:label xml:lang="ru">P51 является бывшим или текущим владельцем для</rdfs:label>
     <rdfs:label xml:lang="zh">P51 是以往或当前所有者</rdfs:label>
@@ -5165,7 +5181,7 @@ In First Order Logic of the inverse property:
     <rdfs:label xml:lang="en">P52 has current owner</rdfs:label>
     <rdfs:label xml:lang="de">P52 hat derzeitigen Besitzer</rdfs:label>
     <rdfs:label xml:lang="el">P52 έχει ιδιοκτήτη</rdfs:label>
-    <rdfs:label xml:lang="fr">P52 est actuellement possédée par</rdfs:label>
+    <rdfs:label xml:lang="fr">P52 a pour propriétaire actuel</rdfs:label>
     <rdfs:label xml:lang="pt">P52 é propriedade de</rdfs:label>
     <rdfs:label xml:lang="ru">P52 имеет текущего владельца</rdfs:label>
     <rdfs:label xml:lang="zh">P52 有当前所有者</rdfs:label>
@@ -5198,7 +5214,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">P52 is current owner of</rdfs:label>
     <rdfs:label xml:lang="de">P52 ist derzeitiger Besitzer von</rdfs:label>
     <rdfs:label xml:lang="el">P52 είναι ιδιοκτήτης του</rdfs:label>
-    <rdfs:label xml:lang="fr">P52 est le propriétaire actuel de</rdfs:label>
+    <rdfs:label xml:lang="fr">P52 est l'actant propriétaire actuel de</rdfs:label>
     <rdfs:label xml:lang="pt">P52 é proprietário de</rdfs:label>
     <rdfs:label xml:lang="ru">P52 является текущим владельцем для</rdfs:label>
     <rdfs:label xml:lang="zh">P52 是当前所有者</rdfs:label>
@@ -5231,7 +5247,7 @@ In First Order Logic of the inverse property:
     <rdfs:label xml:lang="en">P53 has former or current location</rdfs:label>
     <rdfs:label xml:lang="de">P53 hat früheren oder derzeitigen Standort</rdfs:label>
     <rdfs:label xml:lang="el">P53 βρίσκεται ή βρισκόταν σε</rdfs:label>
-    <rdfs:label xml:lang="fr">P53 a ou a eu pour localisation</rdfs:label>
+    <rdfs:label xml:lang="fr">P53 a pour localisation actuelle ou antérieure</rdfs:label>
     <rdfs:label xml:lang="pt">P53 é ou foi localizada em</rdfs:label>
     <rdfs:label xml:lang="ru">P53 имеет текущее или бывшее местоположение</rdfs:label>
     <rdfs:label xml:lang="zh">P53 有之前或当前位置</rdfs:label>
@@ -5261,7 +5277,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">P53 is former or current location of</rdfs:label>
     <rdfs:label xml:lang="de">P53 ist früherer oder derzeitiger Standort von</rdfs:label>
     <rdfs:label xml:lang="el">P53 είναι ή ήταν θέση του</rdfs:label>
-    <rdfs:label xml:lang="fr">P53 est ou a été localisation de</rdfs:label>
+    <rdfs:label xml:lang="fr">P53 est la localisation actuelle ou antérieure de</rdfs:label>
     <rdfs:label xml:lang="pt">P53 é ou foi localização de</rdfs:label>
     <rdfs:label xml:lang="ru">P53 является текущим или бывшим местоположением для</rdfs:label>
     <rdfs:label xml:lang="zh">P53 是之前或当前位置</rdfs:label>
@@ -5291,7 +5307,7 @@ In First Order Logic of the inverse property:
     <rdfs:label xml:lang="en">P54 has current permanent location</rdfs:label>
     <rdfs:label xml:lang="de">P54 hat derzeitigen permanenten Standort</rdfs:label>
     <rdfs:label xml:lang="el">P54 έχει μόνιμη θέση</rdfs:label>
-    <rdfs:label xml:lang="fr">P54 a actuellement pour localisation à demeure</rdfs:label>
+    <rdfs:label xml:lang="fr">P54 a actuellement pour localisation fixe</rdfs:label>
     <rdfs:label xml:lang="pt">P54 é localizado permanentemente em</rdfs:label>
     <rdfs:label xml:lang="ru">P54 имеет текущее постоянное местоположение</rdfs:label>
     <rdfs:label xml:lang="zh">P54 有当前永久位置</rdfs:label>
@@ -5318,7 +5334,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">P54 is current permanent location of</rdfs:label>
     <rdfs:label xml:lang="de">P54 ist derzeitiger permanenter Standort von</rdfs:label>
     <rdfs:label xml:lang="el">P54 είναι μόνιμη θέση του/της</rdfs:label>
-    <rdfs:label xml:lang="fr">P54 est actuellement localisation à demeure de</rdfs:label>
+    <rdfs:label xml:lang="fr">P54 est actuellement la location fixe de</rdfs:label>
     <rdfs:label xml:lang="pt">P54 é localização permanente de</rdfs:label>
     <rdfs:label xml:lang="ru">P54 является текущим постоянным местоположением для</rdfs:label>
     <rdfs:label xml:lang="zh">P54 是当前永久位置</rdfs:label>
@@ -5345,7 +5361,7 @@ In First Order Logic of the inverse property:
     <rdfs:label xml:lang="en">P55 has current location</rdfs:label>
     <rdfs:label xml:lang="de">P55 hat derzeitigen Standort</rdfs:label>
     <rdfs:label xml:lang="el">P55 βρίσκεται σε</rdfs:label>
-    <rdfs:label xml:lang="fr">P55 a pour localisation actuelle</rdfs:label>
+    <rdfs:label xml:lang="fr">P55 a actuellement pour localisation</rdfs:label>
     <rdfs:label xml:lang="pt">P55 é localizado em</rdfs:label>
     <rdfs:label xml:lang="ru">P55 в данный момент находится в</rdfs:label>
     <rdfs:label xml:lang="zh">P55 有当前位置</rdfs:label>
@@ -5377,7 +5393,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">P55 currently holds</rdfs:label>
     <rdfs:label xml:lang="de">P55 hält derzeitig</rdfs:label>
     <rdfs:label xml:lang="el">P55 είναι θέση του</rdfs:label>
-    <rdfs:label xml:lang="fr">P55 est localisation actuelle de</rdfs:label>
+    <rdfs:label xml:lang="fr">P55 est actuellement la localisation de</rdfs:label>
     <rdfs:label xml:lang="pt">P55 é localização atual de</rdfs:label>
     <rdfs:label xml:lang="ru">P55 в данный момент содержит</rdfs:label>
     <rdfs:label xml:lang="zh">P55 当前拥有</rdfs:label>
@@ -5409,7 +5425,7 @@ In First Order Logic of the inverse property:
     <rdfs:label xml:lang="en">P56 bears feature</rdfs:label>
     <rdfs:label xml:lang="de">P56 trägt Merkmal</rdfs:label>
     <rdfs:label xml:lang="el">P56 φέρει μόρφωμα</rdfs:label>
-    <rdfs:label xml:lang="fr">P56 présente pour caractéristique</rdfs:label>
+    <rdfs:label xml:lang="fr">P56 a pour caractéristique</rdfs:label>
     <rdfs:label xml:lang="pt">P56 possui característica</rdfs:label>
     <rdfs:label xml:lang="ru">P56 несет признак</rdfs:label>
     <rdfs:label xml:lang="zh">P56 有特征</rdfs:label>
@@ -5473,7 +5489,7 @@ In First Order Logic of the inverse property:
     <rdfs:label xml:lang="en">P57 has number of parts</rdfs:label>
     <rdfs:label xml:lang="de">P57 hat Anzahl Teile</rdfs:label>
     <rdfs:label xml:lang="el">P57 έχει αριθμό μερών</rdfs:label>
-    <rdfs:label xml:lang="fr">P57 a pour nombre de parties</rdfs:label>
+    <rdfs:label xml:lang="fr">P57 a pour nombre d’éléments</rdfs:label>
     <rdfs:label xml:lang="pt">P57 tem número de partes</rdfs:label>
     <rdfs:label xml:lang="ru">P57 имеет число частей</rdfs:label>
     <rdfs:label xml:lang="zh">P57 有组成部分数</rdfs:label>
@@ -5553,7 +5569,7 @@ In First Order Logic of the inverse property:
     <rdfs:label xml:lang="en">P62 depicts</rdfs:label>
     <rdfs:label xml:lang="de">P62 bildet ab</rdfs:label>
     <rdfs:label xml:lang="el">P62 απεικονίζει</rdfs:label>
-    <rdfs:label xml:lang="fr">P62 figure</rdfs:label>
+    <rdfs:label xml:lang="fr">P62 illustre</rdfs:label>
     <rdfs:label xml:lang="pt">P62 retrata</rdfs:label>
     <rdfs:label xml:lang="ru">P62 описывает</rdfs:label>
     <rdfs:label xml:lang="zh">P62 描绘了</rdfs:label>
@@ -5586,7 +5602,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">P62 is depicted by</rdfs:label>
     <rdfs:label xml:lang="de">P62 wird abgebildet durch</rdfs:label>
     <rdfs:label xml:lang="el">P62 απεικονίζεται σε</rdfs:label>
-    <rdfs:label xml:lang="fr">P62 est figurée sur</rdfs:label>
+    <rdfs:label xml:lang="fr">P62 est illustré par</rdfs:label>
     <rdfs:label xml:lang="pt">P62 é retratada por</rdfs:label>
     <rdfs:label xml:lang="ru">P62 описан посредством</rdfs:label>
     <rdfs:label xml:lang="zh">P62 被描绘</rdfs:label>
@@ -5616,7 +5632,7 @@ In First Order Logic of the inverse property:
     <rdfs:label xml:lang="en">P65 shows visual item</rdfs:label>
     <rdfs:label xml:lang="de">P65 zeigt Bildliches</rdfs:label>
     <rdfs:label xml:lang="el">P65 εμφανίζει οπτικό στοιχείο</rdfs:label>
-    <rdfs:label xml:lang="fr">P65 présente l'item visuel</rdfs:label>
+    <rdfs:label xml:lang="fr">P65 représente l'entité visuelle</rdfs:label>
     <rdfs:label xml:lang="pt">P65 apresenta item visual</rdfs:label>
     <rdfs:label xml:lang="ru">P65 показывает визуальный предмет</rdfs:label>
     <rdfs:label xml:lang="zh">P65 展示可视项</rdfs:label>
@@ -5648,7 +5664,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">P65 is shown by</rdfs:label>
     <rdfs:label xml:lang="de">P65 wird gezeigt durch</rdfs:label>
     <rdfs:label xml:lang="el">P65 εμφανίζεται σε</rdfs:label>
-    <rdfs:label xml:lang="fr">P65 est présenté par</rdfs:label>
+    <rdfs:label xml:lang="fr">P65 est représenté par</rdfs:label>
     <rdfs:label xml:lang="pt">P65 é apresentado por</rdfs:label>
     <rdfs:label xml:lang="ru">P65 показан посредством</rdfs:label>
     <rdfs:label xml:lang="zh">P65 被展示</rdfs:label>
@@ -5680,7 +5696,7 @@ In First Order Logic of the inverse property:
     <rdfs:label xml:lang="en">P67 refers to</rdfs:label>
     <rdfs:label xml:lang="de">P67 verweist auf</rdfs:label>
     <rdfs:label xml:lang="el">P67 αναφέρεται σε</rdfs:label>
-    <rdfs:label xml:lang="fr">P67 fait référence à</rdfs:label>
+    <rdfs:label xml:lang="fr">P67 renvoie à</rdfs:label>
     <rdfs:label xml:lang="pt">P67 referencia</rdfs:label>
     <rdfs:label xml:lang="ru">P67 ссылается на</rdfs:label>
     <rdfs:label xml:lang="zh">P67 涉及</rdfs:label>
@@ -5710,7 +5726,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">P67 is referred to by</rdfs:label>
     <rdfs:label xml:lang="de">P67 wird angeführt von</rdfs:label>
     <rdfs:label xml:lang="el">P67 αναφέρεται από</rdfs:label>
-    <rdfs:label xml:lang="fr">P67 est référencé par</rdfs:label>
+    <rdfs:label xml:lang="fr">P67 fait l'objet d'un renvoi par</rdfs:label>
     <rdfs:label xml:lang="pt">P67 é referenciado por</rdfs:label>
     <rdfs:label xml:lang="ru">P67 имеет ссылку на себя от</rdfs:label>
     <rdfs:label xml:lang="zh">P67 被涉及</rdfs:label>
@@ -5737,7 +5753,7 @@ In First Order Logic of the inverse property:
     <rdfs:label xml:lang="en">P68 foresees use of</rdfs:label>
     <rdfs:label xml:lang="de">P68 sieht den Gebrauch vor von</rdfs:label>
     <rdfs:label xml:lang="el">P68 συνήθως χρησιμοποιεί</rdfs:label>
-    <rdfs:label xml:lang="fr">P68 utilise habituellement</rdfs:label>
+    <rdfs:label xml:lang="fr">P68 prévoit l'usage de</rdfs:label>
     <rdfs:label xml:lang="pt">P68 normalmente emprega</rdfs:label>
     <rdfs:label xml:lang="ru">P68 обычно применяет</rdfs:label>
     <rdfs:label xml:lang="zh">P68 预知使用</rdfs:label>
@@ -5767,7 +5783,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">P68 use foreseen by</rdfs:label>
     <rdfs:label xml:lang="de">P68 vorgesehen für Gebrauch durch defined</rdfs:label>
     <rdfs:label xml:lang="el">P68 συνήθως χρησιμοποιείται από</rdfs:label>
-    <rdfs:label xml:lang="fr">P68 est habituellement utilisé par</rdfs:label>
+    <rdfs:label xml:lang="fr">P68 usage prévu de</rdfs:label>
     <rdfs:label xml:lang="pt">P68 é empregado por</rdfs:label>
     <rdfs:label xml:lang="ru">P68 обычно используется посредством</rdfs:label>
     <rdfs:label xml:lang="zh">P68 被预知使用</rdfs:label>
@@ -5797,7 +5813,7 @@ In First Order Logic of the inverse property:
     <rdfs:label xml:lang="en">P69 has association with</rdfs:label>
     <rdfs:label xml:lang="de">P69 ist verbunden mit</rdfs:label>
     <rdfs:label xml:lang="el">P69 σχετίζεται με</rdfs:label>
-    <rdfs:label xml:lang="fr">P69 est associée à</rdfs:label>
+    <rdfs:label xml:lang="fr">P69 est associé à</rdfs:label>
     <rdfs:label xml:lang="pt">P69 é associado com</rdfs:label>
     <rdfs:label xml:lang="ru">P69 ассоциирован с</rdfs:label>
     <rdfs:label xml:lang="zh">P69 关联</rdfs:label>
@@ -5832,6 +5848,7 @@ In First Order Logic:
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="P69i_is_associated_with">
     <rdfs:label xml:lang="en">P69 is associated with</rdfs:label>
+    <rdfs:label xml:lang="fr">P69 est associé à</rdfs:label>
     <skos:notation>P69i</skos:notation>
     <rdfs:domain rdf:resource="E29_Design_or_Procedure"/>
     <rdfs:range rdf:resource="E29_Design_or_Procedure"/>
@@ -5862,7 +5879,7 @@ In First Order Logic of the inverse property:
     <rdfs:label xml:lang="en">P70 documents</rdfs:label>
     <rdfs:label xml:lang="de">P70 belegt</rdfs:label>
     <rdfs:label xml:lang="el">P70 τεκμηριώνει</rdfs:label>
-    <rdfs:label xml:lang="fr">P70 mentionne</rdfs:label>
+    <rdfs:label xml:lang="fr">P70 documente</rdfs:label>
     <rdfs:label xml:lang="pt">P70 documenta</rdfs:label>
     <rdfs:label xml:lang="ru">P70 документирует</rdfs:label>
     <rdfs:label xml:lang="zh">P70 记录了</rdfs:label>
@@ -5891,7 +5908,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">P70 is documented in</rdfs:label>
     <rdfs:label xml:lang="de">P70 wird belegt in</rdfs:label>
     <rdfs:label xml:lang="el">P70 τεκμηριώνεται σε</rdfs:label>
-    <rdfs:label xml:lang="fr">P70 est mentionnée dans</rdfs:label>
+    <rdfs:label xml:lang="fr">P70 est documenté dans</rdfs:label>
     <rdfs:label xml:lang="pt">P70 é documentado em</rdfs:label>
     <rdfs:label xml:lang="ru">P70 документирован в</rdfs:label>
     <rdfs:label xml:lang="zh">P70 记录在</rdfs:label>
@@ -5920,7 +5937,7 @@ In First Order Logic of the inverse property:
     <rdfs:label xml:lang="en">P71 lists</rdfs:label>
     <rdfs:label xml:lang="de">P71 listet</rdfs:label>
     <rdfs:label xml:lang="el">P71 περιλαμβάνει</rdfs:label>
-    <rdfs:label xml:lang="fr">P71 définit</rdfs:label>
+    <rdfs:label xml:lang="fr">P71 énumère</rdfs:label>
     <rdfs:label xml:lang="pt">P71 define</rdfs:label>
     <rdfs:label xml:lang="ru">P71 перечисляет</rdfs:label>
     <rdfs:label xml:lang="zh">P71 列出</rdfs:label>
@@ -5948,7 +5965,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">P71 is listed in</rdfs:label>
     <rdfs:label xml:lang="de">P71 wird aufgelistet in</rdfs:label>
     <rdfs:label xml:lang="el">P71 περιλαμβάνεται σε</rdfs:label>
-    <rdfs:label xml:lang="fr">P71 est défini par</rdfs:label>
+    <rdfs:label xml:lang="fr">P71 est énuméré par</rdfs:label>
     <rdfs:label xml:lang="pt">P71 é definido por</rdfs:label>
     <rdfs:label xml:lang="ru">P71 перечислен в</rdfs:label>
     <rdfs:label xml:lang="zh">P71 列于</rdfs:label>
@@ -5976,7 +5993,7 @@ In First Order Logic of the inverse property:
     <rdfs:label xml:lang="en">P72 has language</rdfs:label>
     <rdfs:label xml:lang="de">P72 hat Sprache</rdfs:label>
     <rdfs:label xml:lang="el">P72 έχει γλώσσα</rdfs:label>
-    <rdfs:label xml:lang="fr">P72 est en langue</rdfs:label>
+    <rdfs:label xml:lang="fr">P72 a pour langue</rdfs:label>
     <rdfs:label xml:lang="pt">P72 é da língua</rdfs:label>
     <rdfs:label xml:lang="ru">P72 имеет язык</rdfs:label>
     <rdfs:label xml:lang="zh">P72 有语种</rdfs:label>
@@ -6061,7 +6078,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">P73 is translation of</rdfs:label>
     <rdfs:label xml:lang="de">P73 ist Übersetzung von</rdfs:label>
     <rdfs:label xml:lang="el">P73 είναι μετάφραση του/της</rdfs:label>
-    <rdfs:label xml:lang="fr">P73 est la traduction de</rdfs:label>
+    <rdfs:label xml:lang="fr">P73 est traduction de</rdfs:label>
     <rdfs:label xml:lang="pt">P73 é tradução de</rdfs:label>
     <rdfs:label xml:lang="ru">P73 является переводом</rdfs:label>
     <rdfs:label xml:lang="zh">P73 是译文</rdfs:label>
@@ -6092,7 +6109,7 @@ In First Order Logic of the inverse property:
     <rdfs:label xml:lang="en">P74 has current or former residence</rdfs:label>
     <rdfs:label xml:lang="de">P74 hat derzeitigen oder früheren Sitz</rdfs:label>
     <rdfs:label xml:lang="el">P74 έχει ή είχε κατοικία</rdfs:label>
-    <rdfs:label xml:lang="fr">P74 réside ou a résidé à</rdfs:label>
+    <rdfs:label xml:lang="fr">P74 a pour résidence actuelle ou antérieure</rdfs:label>
     <rdfs:label xml:lang="pt">P74 reside ou residiu em</rdfs:label>
     <rdfs:label xml:lang="ru">P74 имеет текущее или бывшее местожительства</rdfs:label>
     <rdfs:label xml:lang="zh">P74 有当前或曾经居住地</rdfs:label>
@@ -6119,7 +6136,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">P74 is current or former residence of</rdfs:label>
     <rdfs:label xml:lang="de">P74 ist derzeitiger oder früherer Sitz von</rdfs:label>
     <rdfs:label xml:lang="el">P74 είναι ή ήταν κατοικία του/της</rdfs:label>
-    <rdfs:label xml:lang="fr">P74 est ou a été la résidence de</rdfs:label>
+    <rdfs:label xml:lang="fr">P74 est la résidence actuelle ou antérieure de</rdfs:label>
     <rdfs:label xml:lang="pt">P74 é ou foi residência de</rdfs:label>
     <rdfs:label xml:lang="ru">P74 является текущим или бывшим местом жительства для</rdfs:label>
     <rdfs:label xml:lang="zh">P74 是当前或曾经居住地</rdfs:label>
@@ -6146,7 +6163,7 @@ In First Order Logic of the inverse property:
     <rdfs:label xml:lang="en">P75 possesses</rdfs:label>
     <rdfs:label xml:lang="de">P75 besitzt</rdfs:label>
     <rdfs:label xml:lang="el">P75 κατέχει</rdfs:label>
-    <rdfs:label xml:lang="fr">P75 est détenteur de</rdfs:label>
+    <rdfs:label xml:lang="fr">P75 possède</rdfs:label>
     <rdfs:label xml:lang="pt">P75 é detentor de</rdfs:label>
     <rdfs:label xml:lang="ru">P75 владеет</rdfs:label>
     <rdfs:label xml:lang="zh">P75 拥有</rdfs:label>
@@ -6172,7 +6189,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">P75 is possessed by</rdfs:label>
     <rdfs:label xml:lang="de">P75 sind im Besitz von</rdfs:label>
     <rdfs:label xml:lang="el">P75 κατέχεται από</rdfs:label>
-    <rdfs:label xml:lang="fr">P75 est détenu par</rdfs:label>
+    <rdfs:label xml:lang="fr">P75 est possédé par</rdfs:label>
     <rdfs:label xml:lang="pt">P75 são detidos por</rdfs:label>
     <rdfs:label xml:lang="ru">P75 принадлежит</rdfs:label>
     <rdfs:label xml:lang="zh">P75 被拥有</rdfs:label>
@@ -6198,7 +6215,7 @@ In First Order Logic of the inverse property:
     <rdfs:label xml:lang="en">P76 has contact point</rdfs:label>
     <rdfs:label xml:lang="de">P76 hat Kontaktpunkt</rdfs:label>
     <rdfs:label xml:lang="el">P76 έχει σημείο επικοινωνίας</rdfs:label>
-    <rdfs:label xml:lang="fr">P76 a pour coordonnées individuelles</rdfs:label>
+    <rdfs:label xml:lang="fr">P76 a pour coordonnées</rdfs:label>
     <rdfs:label xml:lang="pt">P76 possui ponto de contato</rdfs:label>
     <rdfs:label xml:lang="ru">P76 имеет контакт</rdfs:label>
     <rdfs:label xml:lang="zh">P76 有联系方式</rdfs:label>
@@ -6224,7 +6241,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">P76 provides access to</rdfs:label>
     <rdfs:label xml:lang="de">P76 bietet Zugang zu</rdfs:label>
     <rdfs:label xml:lang="el">P76 παρέχει πρόσβαση σε</rdfs:label>
-    <rdfs:label xml:lang="fr">P76 permettent de contacter</rdfs:label>
+    <rdfs:label xml:lang="fr">P76 permet de contacter</rdfs:label>
     <rdfs:label xml:lang="pt">P76 é ponto de contado de</rdfs:label>
     <rdfs:label xml:lang="ru">P76 предоставляет доступ к</rdfs:label>
     <rdfs:label xml:lang="zh">P76 提供访问</rdfs:label>
@@ -6250,7 +6267,7 @@ In First Order Logic of the inverse property:
     <rdfs:label xml:lang="en">P79 beginning is qualified by</rdfs:label>
     <rdfs:label xml:lang="de">P79 hat Anfangsbegründung</rdfs:label>
     <rdfs:label xml:lang="el">P79 αρχή προσδιορίζεται από</rdfs:label>
-    <rdfs:label xml:lang="fr">P79 début est qualifié par</rdfs:label>
+    <rdfs:label xml:lang="fr">P79 a son début qualifié par</rdfs:label>
     <rdfs:label xml:lang="pt">P79 início é qualificado por</rdfs:label>
     <rdfs:label xml:lang="ru">P79 начало ограничено</rdfs:label>
     <rdfs:label xml:lang="zh">P79 起始限定</rdfs:label>
@@ -6276,7 +6293,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">P80 end is qualified by</rdfs:label>
     <rdfs:label xml:lang="de">P80 hat Begründung des Endes</rdfs:label>
     <rdfs:label xml:lang="el">P80 τέλος προσδιορίζεται από</rdfs:label>
-    <rdfs:label xml:lang="fr">P80 fin est qualifiée par</rdfs:label>
+    <rdfs:label xml:lang="fr">P80 a sa fin qualifiée par</rdfs:label>
     <rdfs:label xml:lang="pt">P80 final é qualificado por</rdfs:label>
     <rdfs:label xml:lang="ru">P80 конец ограничен</rdfs:label>
     <rdfs:label xml:lang="zh">P80 结束限定</rdfs:label>
@@ -6302,7 +6319,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">P81 ongoing throughout</rdfs:label>
     <rdfs:label xml:lang="de">P81 andauernd während</rdfs:label>
     <rdfs:label xml:lang="el">P81 καθόλη τη διάρκεια του/της</rdfs:label>
-    <rdfs:label xml:lang="fr">P81 couvre au moins</rdfs:label>
+    <rdfs:label xml:lang="fr">P81 a couvert</rdfs:label>
     <rdfs:label xml:lang="pt">P81 abrange no mínimo</rdfs:label>
     <rdfs:label xml:lang="ru">P81 длится в течение</rdfs:label>
     <rdfs:label xml:lang="zh">P81 最短范围是</rdfs:label>
@@ -6353,7 +6370,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">P82 at some time within</rdfs:label>
     <rdfs:label xml:lang="de">P82 irgendwann innerhalb von</rdfs:label>
     <rdfs:label xml:lang="el">P82 κάποτε εντός</rdfs:label>
-    <rdfs:label xml:lang="fr">P82 couvre au plus</rdfs:label>
+    <rdfs:label xml:lang="fr">P82 a eu lieu durant</rdfs:label>
     <rdfs:label xml:lang="pt">P82 abrange no máximo</rdfs:label>
     <rdfs:label xml:lang="ru">P82 некоторое время в течение</rdfs:label>
     <rdfs:label xml:lang="zh">P82 最长范围是</rdfs:label>
@@ -6435,7 +6452,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">P86 contains</rdfs:label>
     <rdfs:label xml:lang="de">P86 enthält</rdfs:label>
     <rdfs:label xml:lang="el">P86 περιέχει</rdfs:label>
-    <rdfs:label xml:lang="fr">P86 inclut</rdfs:label>
+    <rdfs:label xml:lang="fr">P86 contient</rdfs:label>
     <rdfs:label xml:lang="pt">P86 contém</rdfs:label>
     <rdfs:label xml:lang="ru">P86 содержит</rdfs:label>
     <rdfs:label xml:lang="zh">P86 包含</rdfs:label>
@@ -6465,7 +6482,7 @@ In First Order Logic of the inverse property:
     <rdfs:label xml:lang="en">P89 falls within</rdfs:label>
     <rdfs:label xml:lang="de">P89 fällt in</rdfs:label>
     <rdfs:label xml:lang="el">P89 περιέχεται σε</rdfs:label>
-    <rdfs:label xml:lang="fr">P89 s’insère dans</rdfs:label>
+    <rdfs:label xml:lang="fr">P89 s'insère dans</rdfs:label>
     <rdfs:label xml:lang="pt">P89 está contido em</rdfs:label>
     <rdfs:label xml:lang="ru">P89 содержится в</rdfs:label>
     <rdfs:label xml:lang="zh">P89 位于</rdfs:label>
@@ -6496,7 +6513,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">P89 contains</rdfs:label>
     <rdfs:label xml:lang="de">P89 enthält</rdfs:label>
     <rdfs:label xml:lang="el">P89 περιέχει</rdfs:label>
-    <rdfs:label xml:lang="fr">P89 inclut</rdfs:label>
+    <rdfs:label xml:lang="fr">P89 contient</rdfs:label>
     <rdfs:label xml:lang="pt">P89 contém</rdfs:label>
     <rdfs:label xml:lang="ru">P89 содержит</rdfs:label>
     <rdfs:label xml:lang="zh">P89 包括</rdfs:label>
@@ -6526,7 +6543,7 @@ In First Order Logic of the inverse property:
     <rdfs:label xml:lang="en">P90 has value</rdfs:label>
     <rdfs:label xml:lang="de">P90 hat Wert</rdfs:label>
     <rdfs:label xml:lang="el">P90 έχει τιμή</rdfs:label>
-    <rdfs:label xml:lang="fr">P90 a la valeur</rdfs:label>
+    <rdfs:label xml:lang="fr">P90 a pour valeur</rdfs:label>
     <rdfs:label xml:lang="pt">P90 tem valor</rdfs:label>
     <rdfs:label xml:lang="ru">P90 имеет значение</rdfs:label>
     <rdfs:label xml:lang="zh">P90 有数值</rdfs:label>
@@ -6565,7 +6582,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">P91 has unit</rdfs:label>
     <rdfs:label xml:lang="de">P91 hat Einheit</rdfs:label>
     <rdfs:label xml:lang="el">P91 έχει μονάδα μέτρησης</rdfs:label>
-    <rdfs:label xml:lang="fr">P91 a pour unité</rdfs:label>
+    <rdfs:label xml:lang="fr">P91 a pour unité de mesure</rdfs:label>
     <rdfs:label xml:lang="pt">P91 tem unidade</rdfs:label>
     <rdfs:label xml:lang="ru">P91 имеет единицу</rdfs:label>
     <rdfs:label xml:lang="zh">P91 有单位</rdfs:label>
@@ -6591,7 +6608,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">P91 is unit of</rdfs:label>
     <rdfs:label xml:lang="de">P91 ist Einheit von</rdfs:label>
     <rdfs:label xml:lang="el">P91 αποτελεί μονάδα μέτρησης του/της</rdfs:label>
-    <rdfs:label xml:lang="fr">P91 est l'unité de</rdfs:label>
+    <rdfs:label xml:lang="fr">P91 est l’unité de mesure de</rdfs:label>
     <rdfs:label xml:lang="pt">P91 é unidade de</rdfs:label>
     <rdfs:label xml:lang="ru">P91 является единицей для</rdfs:label>
     <rdfs:label xml:lang="zh">P91 所属单位</rdfs:label>
@@ -6646,7 +6663,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">P92 was brought into existence by</rdfs:label>
     <rdfs:label xml:lang="de">P92 wurde in Existenz gebracht durch</rdfs:label>
     <rdfs:label xml:lang="el">P92 γεννήθηκε από</rdfs:label>
-    <rdfs:label xml:lang="fr">P92 a commencé à exister du fait de</rdfs:label>
+    <rdfs:label xml:lang="fr">P92 a commencé à exister par</rdfs:label>
     <rdfs:label xml:lang="pt">P92 passou a existir por</rdfs:label>
     <rdfs:label xml:lang="ru">P92 был создан посредством</rdfs:label>
     <rdfs:label xml:lang="zh">P92 使导致存在</rdfs:label>
@@ -6675,7 +6692,7 @@ In First Order Logic of the inverse property:
     <rdfs:label xml:lang="en">P93 took out of existence</rdfs:label>
     <rdfs:label xml:lang="de">P93 beendete die Existenz von</rdfs:label>
     <rdfs:label xml:lang="el">P93 αναίρεσε</rdfs:label>
-    <rdfs:label xml:lang="fr">P93 a fait cesser d’exister</rdfs:label>
+    <rdfs:label xml:lang="fr">P93 a mis fin à l’existence de</rdfs:label>
     <rdfs:label xml:lang="pt">P93 cessou a existência de</rdfs:label>
     <rdfs:label xml:lang="ru">P93 положил конец существованию</rdfs:label>
     <rdfs:label xml:lang="zh">P93 结束存在的是</rdfs:label>
@@ -6705,7 +6722,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">P93 was taken out of existence by</rdfs:label>
     <rdfs:label xml:lang="de">P93 wurde seiner Existenz beraubt durch</rdfs:label>
     <rdfs:label xml:lang="el">P93 αναιρέθηκε από</rdfs:label>
-    <rdfs:label xml:lang="fr">P93 a cessé d’exister du fait de</rdfs:label>
+    <rdfs:label xml:lang="fr">P93 a cessé d’exister par</rdfs:label>
     <rdfs:label xml:lang="pt">P93 deixou de existir</rdfs:label>
     <rdfs:label xml:lang="ru">P93 прекратил существование посредством</rdfs:label>
     <rdfs:label xml:lang="zh">P93 被结束存在</rdfs:label>
@@ -6936,7 +6953,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">P97 was father for</rdfs:label>
     <rdfs:label xml:lang="de">P97 war Vater für</rdfs:label>
     <rdfs:label xml:lang="el">P97 ήταν πατέρας του/της</rdfs:label>
-    <rdfs:label xml:lang="fr">P97 a été père dans</rdfs:label>
+    <rdfs:label xml:lang="fr">P97 a été le père pour</rdfs:label>
     <rdfs:label xml:lang="pt">P97 foi pai para</rdfs:label>
     <rdfs:label xml:lang="ru">P97 был отцом для</rdfs:label>
     <rdfs:label xml:lang="zh">P97 是父亲</rdfs:label>
@@ -7143,7 +7160,7 @@ In First Order Logic of the inverse property:
     <rdfs:label xml:lang="en">P101 had as general use</rdfs:label>
     <rdfs:label xml:lang="de">P101 hatte die allgemeine Verwendung</rdfs:label>
     <rdfs:label xml:lang="el">P101 είχε ως γενική χρήση</rdfs:label>
-    <rdfs:label xml:lang="fr">P101 avait comme utilisation générale</rdfs:label>
+    <rdfs:label xml:lang="fr">P101 a eu pour usage général</rdfs:label>
     <rdfs:label xml:lang="pt">P101 tem como uso geral</rdfs:label>
     <rdfs:label xml:lang="ru">P101 имел основное применение</rdfs:label>
     <rdfs:label xml:lang="zh">P101 有一般用途</rdfs:label>
@@ -7173,7 +7190,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">P101 was use of</rdfs:label>
     <rdfs:label xml:lang="de">P101 war die Verwendung von</rdfs:label>
     <rdfs:label xml:lang="el">P101 ήταν χρήση του/της</rdfs:label>
-    <rdfs:label xml:lang="fr">P101 était l’utilisation de</rdfs:label>
+    <rdfs:label xml:lang="fr">P101 a été l'usage général de</rdfs:label>
     <rdfs:label xml:lang="pt">P101 foi uso de</rdfs:label>
     <rdfs:label xml:lang="ru">P101 был применением для</rdfs:label>
     <rdfs:label xml:lang="zh">P101 被用于</rdfs:label>
@@ -7272,7 +7289,7 @@ In First Order Logic of the inverse property:
     <rdfs:label xml:lang="en">P103 was intended for</rdfs:label>
     <rdfs:label xml:lang="de">P103 bestimmt für</rdfs:label>
     <rdfs:label xml:lang="el">P103 προοριζόταν για</rdfs:label>
-    <rdfs:label xml:lang="fr">P103 était destiné à</rdfs:label>
+    <rdfs:label xml:lang="fr">P103 a eu pour raison d'être</rdfs:label>
     <rdfs:label xml:lang="pt">P103 era destinado à</rdfs:label>
     <rdfs:label xml:lang="ru">P103 был задуман для</rdfs:label>
     <rdfs:label xml:lang="zh">P103 被用于</rdfs:label>
@@ -7299,7 +7316,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">P103 was intention of</rdfs:label>
     <rdfs:label xml:lang="de">P103 war Bestimmung von</rdfs:label>
     <rdfs:label xml:lang="el">P103 ήταν προορισμός του</rdfs:label>
-    <rdfs:label xml:lang="fr">P103 était la raison d'être de</rdfs:label>
+    <rdfs:label xml:lang="fr">P103 a été la raison d'être de</rdfs:label>
     <rdfs:label xml:lang="pt">P103 era a destinação de</rdfs:label>
     <rdfs:label xml:lang="ru">P103 был интенцией для</rdfs:label>
     <rdfs:label xml:lang="zh">P103 目的是</rdfs:label>
@@ -7326,7 +7343,7 @@ In First Order Logic of the inverse property:
     <rdfs:label xml:lang="en">P104 is subject to</rdfs:label>
     <rdfs:label xml:lang="de">P104 Gegenstand von</rdfs:label>
     <rdfs:label xml:lang="el">P104 υπόκειται σε</rdfs:label>
-    <rdfs:label xml:lang="fr">P104 est sujet à</rdfs:label>
+    <rdfs:label xml:lang="fr">P104 est soumis à</rdfs:label>
     <rdfs:label xml:lang="pt">P104 está sujeito à</rdfs:label>
     <rdfs:label xml:lang="ru">P104 является объектом для</rdfs:label>
     <rdfs:label xml:lang="zh">P104 服从</rdfs:label>
@@ -7409,7 +7426,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">P105 has right on</rdfs:label>
     <rdfs:label xml:lang="de">P105 hat Rechte an</rdfs:label>
     <rdfs:label xml:lang="el">P105 έχει δικαίωμα σε</rdfs:label>
-    <rdfs:label xml:lang="fr">P105 détient un droit sur</rdfs:label>
+    <rdfs:label xml:lang="fr">P105 détient le droit sur</rdfs:label>
     <rdfs:label xml:lang="pt">P105 possui direitos sobre</rdfs:label>
     <rdfs:label xml:lang="ru">P105 владеет правом на</rdfs:label>
     <rdfs:label xml:lang="zh">P105 有权利</rdfs:label>
@@ -7500,7 +7517,7 @@ In First Order Logic of the inverse property:
     <rdfs:label xml:lang="en">P107 has current or former member</rdfs:label>
     <rdfs:label xml:lang="de">P107 hat derzeitiges oder früheres Mitglied</rdfs:label>
     <rdfs:label xml:lang="el">P107 έχει ή είχε μέλος</rdfs:label>
-    <rdfs:label xml:lang="fr">P107 a pour membre actuel ou ancien</rdfs:label>
+    <rdfs:label xml:lang="fr">P107 a pour membre actuel ou antérieur</rdfs:label>
     <rdfs:label xml:lang="pt">P107 tem ou teve membro</rdfs:label>
     <rdfs:label xml:lang="ru">P107 имеет действующего или бывшего члена</rdfs:label>
     <rdfs:label xml:lang="zh">P107 有当前或以往成员</rdfs:label>
@@ -7536,7 +7553,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">P107 is current or former member of</rdfs:label>
     <rdfs:label xml:lang="de">P107 ist derzeitiges oder früheres Mitglied von</rdfs:label>
     <rdfs:label xml:lang="el">P107 είναι ή ήταν μέλος του/της</rdfs:label>
-    <rdfs:label xml:lang="fr">P107 est actuel ou ancien membre de</rdfs:label>
+    <rdfs:label xml:lang="fr">P107 est le membre actuel ou antérieur de</rdfs:label>
     <rdfs:label xml:lang="pt">P107 é ou foi membro de</rdfs:label>
     <rdfs:label xml:lang="ru">P107 является действующим или бывшим членом</rdfs:label>
     <rdfs:label xml:lang="zh">P107 是当前或以往成员</rdfs:label>
@@ -7631,7 +7648,7 @@ In First Order Logic of the inverse property:
     <rdfs:label xml:lang="en">P109 has current or former curator</rdfs:label>
     <rdfs:label xml:lang="de">P109 hat derzeitigen oder früheren Kurator</rdfs:label>
     <rdfs:label xml:lang="el">P109 έχει ή είχε επιμελητή</rdfs:label>
-    <rdfs:label xml:lang="fr">P109 a pour conservateur actuel ou ancien</rdfs:label>
+    <rdfs:label xml:lang="fr">P109 a pour responsable actuel ou antérieur de la collection</rdfs:label>
     <rdfs:label xml:lang="pt">P109 tem ou teve curador</rdfs:label>
     <rdfs:label xml:lang="ru">P109 имеет действующего или бывшего хранителя</rdfs:label>
     <rdfs:label xml:lang="zh">P109 有当前或以往管理者</rdfs:label>
@@ -7661,7 +7678,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">P109 is current or former curator of</rdfs:label>
     <rdfs:label xml:lang="de">P109 ist derzeitiger oder früherer Kurator von</rdfs:label>
     <rdfs:label xml:lang="el">P109 είναι ή ήταν επιμελητής του/της</rdfs:label>
-    <rdfs:label xml:lang="fr">P109 est ou a été le conservateur de</rdfs:label>
+    <rdfs:label xml:lang="fr">P109 est responsable actuel ou antérieur de la collection</rdfs:label>
     <rdfs:label xml:lang="pt">P109 é ou foi curador de</rdfs:label>
     <rdfs:label xml:lang="ru">P109 является действующим или бывшим хранителем</rdfs:label>
     <rdfs:label xml:lang="zh">P109 是当前或以往管理者</rdfs:label>
@@ -7867,7 +7884,7 @@ In First Order Logic of the inverse property:
     <rdfs:label xml:lang="en">P113 removed</rdfs:label>
     <rdfs:label xml:lang="de">P113 entfernte</rdfs:label>
     <rdfs:label xml:lang="el">P113 αφαίρεσε</rdfs:label>
-    <rdfs:label xml:lang="fr">P113 a enlevé</rdfs:label>
+    <rdfs:label xml:lang="fr">P113 a retiré</rdfs:label>
     <rdfs:label xml:lang="pt">P113 removeu</rdfs:label>
     <rdfs:label xml:lang="ru">P113 удален</rdfs:label>
     <rdfs:label xml:lang="zh">P113 去除了</rdfs:label>
@@ -7895,7 +7912,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">P113 was removed by</rdfs:label>
     <rdfs:label xml:lang="de">P113 wurde entfernt durch</rdfs:label>
     <rdfs:label xml:lang="el">P113 αφαιρέθηκε από</rdfs:label>
-    <rdfs:label xml:lang="fr">P113 a été enlevée par</rdfs:label>
+    <rdfs:label xml:lang="fr">P113 a été retiré par</rdfs:label>
     <rdfs:label xml:lang="pt">P113 foi removido por</rdfs:label>
     <rdfs:label xml:lang="ru">P113 был удален посредством</rdfs:label>
     <rdfs:label xml:lang="zh">P113 被去除</rdfs:label>
@@ -7924,7 +7941,7 @@ In First Order Logic of the inverse property:
     <rdfs:label xml:lang="en">P121 overlaps with</rdfs:label>
     <rdfs:label xml:lang="de">P121 überlappt mit</rdfs:label>
     <rdfs:label xml:lang="el">P121 επικαλύπτεται με</rdfs:label>
-    <rdfs:label xml:lang="fr">P121 chevauche</rdfs:label>
+    <rdfs:label xml:lang="fr">P121 se superpose partiellement à</rdfs:label>
     <rdfs:label xml:lang="pt">P121 sobrepõe com</rdfs:label>
     <rdfs:label xml:lang="ru">P121 пересекается с</rdfs:label>
     <rdfs:label xml:lang="zh">P121 重叠于</rdfs:label>
@@ -7955,7 +7972,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">P122 borders with</rdfs:label>
     <rdfs:label xml:lang="de">P122 grenzt an</rdfs:label>
     <rdfs:label xml:lang="el">P122 συνορεύει με</rdfs:label>
-    <rdfs:label xml:lang="fr">P122 jouxte</rdfs:label>
+    <rdfs:label xml:lang="fr">P122 est limitrophe de</rdfs:label>
     <rdfs:label xml:lang="pt">P122 fronteira com</rdfs:label>
     <rdfs:label xml:lang="ru">P122 граничит с</rdfs:label>
     <rdfs:label xml:lang="zh">P122 接壤于</rdfs:label>
@@ -8013,7 +8030,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">P123 resulted from</rdfs:label>
     <rdfs:label xml:lang="de">P123 ergab sich aus</rdfs:label>
     <rdfs:label xml:lang="el">P123 προέκυψε από</rdfs:label>
-    <rdfs:label xml:lang="fr">P123 est le résultat de</rdfs:label>
+    <rdfs:label xml:lang="fr">P123 a résulté de</rdfs:label>
     <rdfs:label xml:lang="pt">P123 resultado de</rdfs:label>
     <rdfs:label xml:lang="ru">P123 был результатом</rdfs:label>
     <rdfs:label xml:lang="zh">P123 起因于</rdfs:label>
@@ -8105,7 +8122,7 @@ In First Order Logic of the inverse property:
     <rdfs:label xml:lang="en">P125 used object of type</rdfs:label>
     <rdfs:label xml:lang="de">P125 benutzte Objekt des Typus</rdfs:label>
     <rdfs:label xml:lang="el">P125 χρησιμοποίησε αντικείμενο τύπου</rdfs:label>
-    <rdfs:label xml:lang="fr">P125 a employé un objet du type</rdfs:label>
+    <rdfs:label xml:lang="fr">P125 a mobilisé l’objet du type</rdfs:label>
     <rdfs:label xml:lang="pt">P125 usou objeto do tipo</rdfs:label>
     <rdfs:label xml:lang="ru">P125 использовал объект типа</rdfs:label>
     <rdfs:label xml:lang="zh">P125 使用对象类型</rdfs:label>
@@ -8133,7 +8150,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">P125 was type of object used in</rdfs:label>
     <rdfs:label xml:lang="de">P125 Objekt des Typus ... wurde benutzt in</rdfs:label>
     <rdfs:label xml:lang="el">P125 ήταν o τύπος αντικείμενου που χρησιμοποιήθηκε σε</rdfs:label>
-    <rdfs:label xml:lang="fr">P125 était le type d’objet employé par</rdfs:label>
+    <rdfs:label xml:lang="fr">P125 a été le type d’objet employé pour</rdfs:label>
     <rdfs:label xml:lang="pt">P125 foi tipo do objeto usado em</rdfs:label>
     <rdfs:label xml:lang="ru">P125 был типом объекта использованного в</rdfs:label>
     <rdfs:label xml:lang="zh">P125 是使用的对象类型</rdfs:label>
@@ -8218,7 +8235,7 @@ In First Order Logic of the inverse property:
     <rdfs:label xml:lang="en">P127 has broader term</rdfs:label>
     <rdfs:label xml:lang="de">P127 hat den Oberbegriff</rdfs:label>
     <rdfs:label xml:lang="el">P127 έχει ευρύτερο όρο</rdfs:label>
-    <rdfs:label xml:lang="fr">P127 a pour terme générique</rdfs:label>
+    <rdfs:label xml:lang="fr">P127 a pour terme général</rdfs:label>
     <rdfs:label xml:lang="pt">P127 tem termo genérico</rdfs:label>
     <rdfs:label xml:lang="ru">P127 имеет вышестоящий термин</rdfs:label>
     <rdfs:label xml:lang="zh">P127 上位词</rdfs:label>
@@ -8335,7 +8352,7 @@ In First Order Logic of the inverse property:
     <rdfs:label xml:lang="en">P129 is about</rdfs:label>
     <rdfs:label xml:lang="de">P129 handelt über</rdfs:label>
     <rdfs:label xml:lang="el">P129 έχει ως θέμα</rdfs:label>
-    <rdfs:label xml:lang="fr">P129 est au sujet de</rdfs:label>
+    <rdfs:label xml:lang="fr">P129 a pour sujet</rdfs:label>
     <rdfs:label xml:lang="pt">P129 é sobre</rdfs:label>
     <rdfs:label xml:lang="ru">P129 касается</rdfs:label>
     <rdfs:label xml:lang="zh">P129 有关</rdfs:label>
@@ -8393,7 +8410,7 @@ In First Order Logic of the inverse property:
     <rdfs:label xml:lang="en">P130 shows features of</rdfs:label>
     <rdfs:label xml:lang="de">P130 zeigt Merkmale von</rdfs:label>
     <rdfs:label xml:lang="el">P130 παρουσιάζει χαρακτηριστικά του/της</rdfs:label>
-    <rdfs:label xml:lang="fr">P130 présente des caractéristiques de</rdfs:label>
+    <rdfs:label xml:lang="fr">P130 présente les caractéristiques de</rdfs:label>
     <rdfs:label xml:lang="pt">P130 apresenta características de</rdfs:label>
     <rdfs:label xml:lang="ru">P130 демонстрирует признаки</rdfs:label>
     <rdfs:label xml:lang="zh">P130 显示特征</rdfs:label>
@@ -8428,7 +8445,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">P130 features are also found on</rdfs:label>
     <rdfs:label xml:lang="de">P130 Merkmale auch auf</rdfs:label>
     <rdfs:label xml:lang="el">P130 χαρακτηριστικά του βρίσκονται επίσης σε</rdfs:label>
-    <rdfs:label xml:lang="fr">P130 a des caractéristiques se trouvant aussi sur</rdfs:label>
+    <rdfs:label xml:lang="fr">P130 a les caractéristiques aussi présentes sur</rdfs:label>
     <rdfs:label xml:lang="pt">P130 características são também encontradas em</rdfs:label>
     <rdfs:label xml:lang="ru">P130 признаки также найдены на</rdfs:label>
     <rdfs:label xml:lang="zh">P130 发现特征</rdfs:label>
@@ -8459,6 +8476,7 @@ In First Order Logic of the inverse property:
   <owl:ObjectProperty rdf:about="P132_spatiotemporally_overlaps_with">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
     <rdfs:label xml:lang="en">P132 spatiotemporally overlaps with</rdfs:label>
+    <rdfs:label xml:lang="fr">P132 recoupe spatio-temporellement</rdfs:label>
     <skos:notation>P132</skos:notation>
     <rdfs:domain rdf:resource="E92_Spacetime_Volume"/>
     <rdfs:range rdf:resource="E92_Spacetime_Volume"/>
@@ -8484,6 +8502,7 @@ In First Order Logic:
   <owl:ObjectProperty rdf:about="P133_is_spatiotemporally_separated_from">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
     <rdfs:label xml:lang="en">P133 is spatiotemporally separated from</rdfs:label>
+    <rdfs:label xml:lang="fr">P133 est distinct spatio-temporellement de</rdfs:label>
     <skos:notation>P133</skos:notation>
     <rdfs:domain rdf:resource="E92_Spacetime_Volume"/>
     <rdfs:range rdf:resource="E92_Spacetime_Volume"/>
@@ -8512,7 +8531,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">P134 continued</rdfs:label>
     <rdfs:label xml:lang="de">P134 setzte sich fort in</rdfs:label>
     <rdfs:label xml:lang="el">P134 συνέχισε</rdfs:label>
-    <rdfs:label xml:lang="fr">P134 est la suite de</rdfs:label>
+    <rdfs:label xml:lang="fr">P134 a continué</rdfs:label>
     <rdfs:label xml:lang="pt">P134 continuou</rdfs:label>
     <rdfs:label xml:lang="ru">P134 продолжил</rdfs:label>
     <rdfs:label xml:lang="zh">P134 继续</rdfs:label>
@@ -8544,7 +8563,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">P134 was continued by</rdfs:label>
     <rdfs:label xml:lang="de">P134 wurde fortgesetzt durch</rdfs:label>
     <rdfs:label xml:lang="el">P134 συνεχίστηκε από</rdfs:label>
-    <rdfs:label xml:lang="fr">P134 a été continuée par</rdfs:label>
+    <rdfs:label xml:lang="fr">P134 a été continué par</rdfs:label>
     <rdfs:label xml:lang="pt">P134 foi continuada por</rdfs:label>
     <rdfs:label xml:lang="ru">P134 был продолжен</rdfs:label>
     <rdfs:label xml:lang="zh">P134 被继续</rdfs:label>
@@ -8632,7 +8651,7 @@ In First Order Logic of the inverse property:
     <rdfs:label xml:lang="en">P136 was based on</rdfs:label>
     <rdfs:label xml:lang="de">P136 stützte sich auf</rdfs:label>
     <rdfs:label xml:lang="el">P136 βασίστηκε σε</rdfs:label>
-    <rdfs:label xml:lang="fr">P136 s’est fondée sur</rdfs:label>
+    <rdfs:label xml:lang="fr">P136 a été fondé sur</rdfs:label>
     <rdfs:label xml:lang="pt">P136 foi baseado em</rdfs:label>
     <rdfs:label xml:lang="ru">P136 был основан на</rdfs:label>
     <rdfs:label xml:lang="zh">P136 基于</rdfs:label>
@@ -8665,7 +8684,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">P136 supported type creation</rdfs:label>
     <rdfs:label xml:lang="de">P136 belegte</rdfs:label>
     <rdfs:label xml:lang="el">P136 υποστήριξε τη δημιουργία τύπου</rdfs:label>
-    <rdfs:label xml:lang="fr">P136 a justifié la création de type</rdfs:label>
+    <rdfs:label xml:lang="fr">P136 a fondé la création du type</rdfs:label>
     <rdfs:label xml:lang="pt">P136 suportou a criação de tipo</rdfs:label>
     <rdfs:label xml:lang="ru">P136 поддержал создание типа</rdfs:label>
     <rdfs:label xml:lang="zh">P136 支持类型创建</rdfs:label>
@@ -8793,7 +8812,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">P138 has representation</rdfs:label>
     <rdfs:label xml:lang="de">P138 wird dargestellt durch</rdfs:label>
     <rdfs:label xml:lang="el">P138 παριστάνεται από</rdfs:label>
-    <rdfs:label xml:lang="fr">P138 est représentée par</rdfs:label>
+    <rdfs:label xml:lang="fr">P138 est représenté par</rdfs:label>
     <rdfs:label xml:lang="pt">P138 tem representação</rdfs:label>
     <rdfs:label xml:lang="ru">P138 имеет представление</rdfs:label>
     <rdfs:label xml:lang="zh">P138 有描绘</rdfs:label>
@@ -8825,7 +8844,7 @@ In First Order Logic of the inverse property:
     <rdfs:label xml:lang="en">P139 has alternative form</rdfs:label>
     <rdfs:label xml:lang="de">P139 hat alternative Form</rdfs:label>
     <rdfs:label xml:lang="el">P139 έχει εναλλακτική μορφή</rdfs:label>
-    <rdfs:label xml:lang="fr">P139 a pour autre forme</rdfs:label>
+    <rdfs:label xml:lang="fr">P139 a pour forme alternative</rdfs:label>
     <rdfs:label xml:lang="pt">P139 tem forma alternativa</rdfs:label>
     <rdfs:label xml:lang="ru">P139 имеет альтернативную форму</rdfs:label>
     <rdfs:label xml:lang="zh">P139 有交替形式</rdfs:label>
@@ -8858,6 +8877,7 @@ In First Order Logic:
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="P139i_is_alternative_form_of">
     <rdfs:label xml:lang="en">P139 is alternative form of</rdfs:label>
+    <rdfs:label xml:lang="fr">P139 est la forme alternative de</rdfs:label>
     <skos:notation>P139i</skos:notation>
     <rdfs:domain rdf:resource="E41_Appellation"/>
     <rdfs:range rdf:resource="E41_Appellation"/>
@@ -8886,7 +8906,7 @@ In First Order Logic of the inverse property:
     <rdfs:label xml:lang="en">P140 assigned attribute to</rdfs:label>
     <rdfs:label xml:lang="de">P140 wies Merkmal zu</rdfs:label>
     <rdfs:label xml:lang="el">P140 απέδωσε ιδιότητα σε</rdfs:label>
-    <rdfs:label xml:lang="fr">P140 a affecté un attribut à</rdfs:label>
+    <rdfs:label xml:lang="fr">P140 a assigné l’attribut à</rdfs:label>
     <rdfs:label xml:lang="pt">P140 atribuiu atributo para</rdfs:label>
     <rdfs:label xml:lang="ru">P140 присвоил атрибут для</rdfs:label>
     <rdfs:label xml:lang="zh">P140 分配属性于</rdfs:label>
@@ -8915,7 +8935,7 @@ In First Order Logic:
     <rdfs:label xml:lang="en">P140 was attributed by</rdfs:label>
     <rdfs:label xml:lang="de">P140 bekam Merkmal zugewiesen durch</rdfs:label>
     <rdfs:label xml:lang="el">P140 χαρακτηρίστηκε από</rdfs:label>
-    <rdfs:label xml:lang="fr">P140 a reçu un attribut par</rdfs:label>
+    <rdfs:label xml:lang="fr">P140 a reçu l’attribut par</rdfs:label>
     <rdfs:label xml:lang="pt">P140 foi atribuído por</rdfs:label>
     <rdfs:label xml:lang="ru">P140 получил атрибут посредством</rdfs:label>
     <rdfs:label xml:lang="zh">P140 接受属性</rdfs:label>
@@ -9001,6 +9021,7 @@ In First Order Logic of the inverse property:
   <owl:ObjectProperty rdf:about="P142_used_constituent">
     <rdfs:label xml:lang="en">P142 used constituent</rdfs:label>
     <rdfs:label xml:lang="de">P142 benutzte Bestandteil</rdfs:label>
+    <rdfs:label xml:lang="fr">P142 a mobilisé comme élément</rdfs:label>
     <rdfs:label xml:lang="zh">P142 使用构成成分</rdfs:label>
     <skos:notation>P142</skos:notation>
     <rdfs:domain rdf:resource="E15_Identifier_Assignment"/>
@@ -9029,6 +9050,7 @@ In First Order Logic:
   <owl:ObjectProperty rdf:about="P142i_was_used_in">
     <rdfs:label xml:lang="en">P142 was used in</rdfs:label>
     <rdfs:label xml:lang="de">P142 wurde benutzt in</rdfs:label>
+    <rdfs:label xml:lang="fr">P142 a été mobilisé dans</rdfs:label>
     <rdfs:label xml:lang="zh">P142 用于</rdfs:label>
     <skos:notation>P142i</skos:notation>
     <rdfs:domain rdf:resource="E90_Symbolic_Object"/>
@@ -9057,6 +9079,7 @@ In First Order Logic of the inverse property:
   <owl:ObjectProperty rdf:about="P143_joined">
     <rdfs:label xml:lang="en">P143 joined</rdfs:label>
     <rdfs:label xml:lang="de">P143 verband</rdfs:label>
+    <rdfs:label xml:lang="fr">P143 a fait adhérer</rdfs:label>
     <rdfs:label xml:lang="zh">P143 加入</rdfs:label>
     <skos:notation>P143</skos:notation>
     <rdfs:domain rdf:resource="E85_Joining"/>
@@ -9084,6 +9107,7 @@ In First Order Logic:
   <owl:ObjectProperty rdf:about="P143i_was_joined_by">
     <rdfs:label xml:lang="en">P143 was joined by</rdfs:label>
     <rdfs:label xml:lang="de">P143 wurde verbunden durch</rdfs:label>
+    <rdfs:label xml:lang="fr">P143 a adhéré par</rdfs:label>
     <rdfs:label xml:lang="zh">P143 被加入</rdfs:label>
     <skos:notation>P143i</skos:notation>
     <rdfs:domain rdf:resource="E39_Actor"/>
@@ -9111,6 +9135,7 @@ In First Order Logic of the inverse property:
   <owl:ObjectProperty rdf:about="P144_joined_with">
     <rdfs:label xml:lang="en">P144 joined with</rdfs:label>
     <rdfs:label xml:lang="de">P144 verband mit</rdfs:label>
+    <rdfs:label xml:lang="fr">P144 a fait adhérer à</rdfs:label>
     <rdfs:label xml:lang="zh">P144 加入</rdfs:label>
     <skos:notation>P144</skos:notation>
     <rdfs:domain rdf:resource="E85_Joining"/>
@@ -9144,6 +9169,7 @@ In First Order Logic:
   <owl:ObjectProperty rdf:about="P144i_gained_member_by">
     <rdfs:label xml:lang="en">P144 gained member by</rdfs:label>
     <rdfs:label xml:lang="de">P144 erwarb Mitglied durch</rdfs:label>
+    <rdfs:label xml:lang="fr">P144 a accueilli le membre par</rdfs:label>
     <rdfs:label xml:lang="zh">P144 获得成员</rdfs:label>
     <skos:notation>P144i</skos:notation>
     <rdfs:domain rdf:resource="E74_Group"/>
@@ -9174,6 +9200,7 @@ In First Order Logic of the inverse property:
   <owl:ObjectProperty rdf:about="P145_separated">
     <rdfs:label xml:lang="en">P145 separated</rdfs:label>
     <rdfs:label xml:lang="de">P145 entließ</rdfs:label>
+    <rdfs:label xml:lang="fr">P145 a dissocié</rdfs:label>
     <rdfs:label xml:lang="zh">P145 离开</rdfs:label>
     <skos:notation>P145</skos:notation>
     <rdfs:domain rdf:resource="E86_Leaving"/>
@@ -9200,6 +9227,7 @@ In First Order Logic:
   <owl:ObjectProperty rdf:about="P145i_left_by">
     <rdfs:label xml:lang="en">P145 left by</rdfs:label>
     <rdfs:label xml:lang="de">P145 wurde entlassen durch</rdfs:label>
+    <rdfs:label xml:lang="fr">P145 est dissocié par</rdfs:label>
     <rdfs:label xml:lang="zh">P145 留下</rdfs:label>
     <skos:notation>P145i</skos:notation>
     <rdfs:domain rdf:resource="E39_Actor"/>
@@ -9226,6 +9254,7 @@ In First Order Logic of the inverse property:
   <owl:ObjectProperty rdf:about="P146_separated_from">
     <rdfs:label xml:lang="en">P146 separated from</rdfs:label>
     <rdfs:label xml:lang="de">P146 entließ von</rdfs:label>
+    <rdfs:label xml:lang="fr">P146 a dissocié de</rdfs:label>
     <rdfs:label xml:lang="zh">P146 脱离</rdfs:label>
     <skos:notation>P146</skos:notation>
     <rdfs:domain rdf:resource="E86_Leaving"/>
@@ -9253,6 +9282,7 @@ In First Order Logic:
   <owl:ObjectProperty rdf:about="P146i_lost_member_by">
     <rdfs:label xml:lang="en">P146 lost member by</rdfs:label>
     <rdfs:label xml:lang="de">P146 verlor Mitglied durch</rdfs:label>
+    <rdfs:label xml:lang="fr">P146 a perdu le membre par</rdfs:label>
     <rdfs:label xml:lang="zh">P146 失去成员</rdfs:label>
     <skos:notation>P146i</skos:notation>
     <rdfs:domain rdf:resource="E74_Group"/>
@@ -9280,6 +9310,7 @@ In First Order Logic of the inverse property:
   <owl:ObjectProperty rdf:about="P147_curated">
     <rdfs:label xml:lang="en">P147 curated</rdfs:label>
     <rdfs:label xml:lang="de">P147 betreute kuratorisch</rdfs:label>
+    <rdfs:label xml:lang="fr">P147 a géré</rdfs:label>
     <rdfs:label xml:lang="zh">P147 管理</rdfs:label>
     <skos:notation>P147</skos:notation>
     <rdfs:domain rdf:resource="E87_Curation_Activity"/>
@@ -9304,6 +9335,7 @@ In First Order Logic:
   <owl:ObjectProperty rdf:about="P147i_was_curated_by">
     <rdfs:label xml:lang="en">P147 was curated by</rdfs:label>
     <rdfs:label xml:lang="de">P147 wurde kuratorisch betreut durch</rdfs:label>
+    <rdfs:label xml:lang="fr">P147 a été géré par</rdfs:label>
     <rdfs:label xml:lang="zh">P147 被管理</rdfs:label>
     <skos:notation>P147i</skos:notation>
     <rdfs:domain rdf:resource="E78_Curated_Holding"/>
@@ -9329,6 +9361,7 @@ In First Order Logic of the inverse property:
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
     <rdfs:label xml:lang="en">P148 has component</rdfs:label>
     <rdfs:label xml:lang="de">P148 hat Bestandteil</rdfs:label>
+    <rdfs:label xml:lang="fr">P148 a pour composant</rdfs:label>
     <rdfs:label xml:lang="zh">P148 有组件</rdfs:label>
     <skos:notation>P148</skos:notation>
     <rdfs:domain rdf:resource="E89_Propositional_Object"/>
@@ -9355,6 +9388,7 @@ In First Order Logic:
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
     <rdfs:label xml:lang="en">P148 is component of</rdfs:label>
     <rdfs:label xml:lang="de">P148 ist Bestandteil von</rdfs:label>
+    <rdfs:label xml:lang="fr">P148 est le composant de</rdfs:label>
     <rdfs:label xml:lang="zh">P148 是组件</rdfs:label>
     <skos:notation>P148i</skos:notation>
     <rdfs:domain rdf:resource="E89_Propositional_Object"/>
@@ -9379,6 +9413,7 @@ In First Order Logic of the inverse property:
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="P150_defines_typical_parts_of">
     <rdfs:label xml:lang="en">P150 defines typical parts of</rdfs:label>
+    <rdfs:label xml:lang="fr">P150 définit les éléments typiques de</rdfs:label>
     <skos:notation>P150</skos:notation>
     <rdfs:domain rdf:resource="E55_Type"/>
     <rdfs:range rdf:resource="E55_Type"/>
@@ -9402,6 +9437,7 @@ In First Order Logic:
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="P150i_defines_typical_wholes_for">
     <rdfs:label xml:lang="en">P150 defines typical wholes for</rdfs:label>
+    <rdfs:label xml:lang="fr">P150 définit l’ensemble typique pour</rdfs:label>
     <skos:notation>P150i</skos:notation>
     <rdfs:domain rdf:resource="E55_Type"/>
     <rdfs:range rdf:resource="E55_Type"/>
@@ -9425,6 +9461,7 @@ In First Order Logic of the inverse property:
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="P151_was_formed_from">
     <rdfs:label xml:lang="en">P151 was formed from</rdfs:label>
+    <rdfs:label xml:lang="fr">P151 a été formé à partir de</rdfs:label>
     <skos:notation>P151</skos:notation>
     <rdfs:domain rdf:resource="E66_Formation"/>
     <rdfs:range rdf:resource="E74_Group"/>
@@ -9447,6 +9484,7 @@ In First Order Logic:
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="P151i_participated_in">
     <rdfs:label xml:lang="en">P151 participated in</rdfs:label>
+    <rdfs:label xml:lang="fr">P151 a participé à</rdfs:label>
     <skos:notation>P151i</skos:notation>
     <rdfs:domain rdf:resource="E74_Group"/>
     <rdfs:range rdf:resource="E66_Formation"/>
@@ -9469,6 +9507,7 @@ In First Order Logic of the inverse property:
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="P152_has_parent">
     <rdfs:label xml:lang="en">P152 has parent</rdfs:label>
+    <rdfs:label xml:lang="fr">P152 a pour parent</rdfs:label>
     <skos:notation>P152</skos:notation>
     <rdfs:domain rdf:resource="E21_Person"/>
     <rdfs:range rdf:resource="E21_Person"/>
@@ -9496,6 +9535,7 @@ In First Order Logic:
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="P152i_is_parent_of">
     <rdfs:label xml:lang="en">P152 is parent of</rdfs:label>
+    <rdfs:label xml:lang="fr">P152 est le parent de</rdfs:label>
     <skos:notation>P152i</skos:notation>
     <rdfs:domain rdf:resource="E21_Person"/>
     <rdfs:range rdf:resource="E21_Person"/>
@@ -9523,6 +9563,7 @@ In First Order Logic of the inverse property:
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="P156_occupies">
     <rdfs:label xml:lang="en">P156 occupies</rdfs:label>
+    <rdfs:label xml:lang="fr">P156 occupe</rdfs:label>
     <skos:notation>P156</skos:notation>
     <rdfs:domain rdf:resource="E18_Physical_Thing"/>
     <rdfs:range rdf:resource="E53_Place"/>
@@ -9552,6 +9593,7 @@ In First Order Logic:
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="P156i_is_occupied_by">
     <rdfs:label xml:lang="en">P156 is occupied by</rdfs:label>
+    <rdfs:label xml:lang="fr">P156 est occupé par</rdfs:label>
     <skos:notation>P156i</skos:notation>
     <rdfs:domain rdf:resource="E53_Place"/>
     <rdfs:range rdf:resource="E18_Physical_Thing"/>
@@ -9581,6 +9623,7 @@ In First Order Logic of the inverse property:
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="P157_is_at_rest_relative_to">
     <rdfs:label xml:lang="en">P157 is at rest relative to</rdfs:label>
+    <rdfs:label xml:lang="fr">P157 est à l’arrêt par rapport à</rdfs:label>
     <skos:notation>P157</skos:notation>
     <rdfs:domain rdf:resource="E53_Place"/>
     <rdfs:range rdf:resource="E18_Physical_Thing"/>
@@ -9602,6 +9645,7 @@ In First Order Logic:
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="P157i_provides_reference_space_for">
     <rdfs:label xml:lang="en">P157 provides reference space for</rdfs:label>
+    <rdfs:label xml:lang="fr">P157 procure l’espace de référence pour</rdfs:label>
     <skos:notation>P157i</skos:notation>
     <rdfs:domain rdf:resource="E18_Physical_Thing"/>
     <rdfs:range rdf:resource="E53_Place"/>
@@ -9623,6 +9667,7 @@ In First Order Logic of the inverse property:
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="P160_has_temporal_projection">
     <rdfs:label xml:lang="en">P160 has temporal projection</rdfs:label>
+    <rdfs:label xml:lang="fr">P160 a pour projection temporelle</rdfs:label>
     <skos:notation>P160</skos:notation>
     <rdfs:domain rdf:resource="E92_Spacetime_Volume"/>
     <rdfs:range rdf:resource="E52_Time-Span"/>
@@ -9644,6 +9689,7 @@ In First Order Logic:
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="P160i_is_temporal_projection_of">
     <rdfs:label xml:lang="en">P160 is temporal projection of</rdfs:label>
+    <rdfs:label xml:lang="fr">P160 est la projection temporelle de</rdfs:label>
     <skos:notation>P160i</skos:notation>
     <rdfs:domain rdf:resource="E52_Time-Span"/>
     <rdfs:range rdf:resource="E92_Spacetime_Volume"/>
@@ -9665,6 +9711,7 @@ In First Order Logic of the inverse property:
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="P161_has_spatial_projection">
     <rdfs:label xml:lang="en">P161 has spatial projection</rdfs:label>
+    <rdfs:label xml:lang="fr">P161 a pour projection spatiale</rdfs:label>
     <skos:notation>P161</skos:notation>
     <rdfs:domain rdf:resource="E92_Spacetime_Volume"/>
     <rdfs:range rdf:resource="E53_Place"/>
@@ -9690,6 +9737,7 @@ In First Order Logic:
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="P161i_is_spatial_projection_of">
     <rdfs:label xml:lang="en">P161 is spatial projection of</rdfs:label>
+    <rdfs:label xml:lang="fr">P161 est la projection spatiale de</rdfs:label>
     <skos:notation>P161i</skos:notation>
     <rdfs:domain rdf:resource="E53_Place"/>
     <rdfs:range rdf:resource="E92_Spacetime_Volume"/>
@@ -9715,6 +9763,7 @@ In First Order Logic of the inverse property:
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="P164_is_temporally_specified_by">
     <rdfs:label xml:lang="en">P164 is temporally specified by</rdfs:label>
+    <rdfs:label xml:lang="fr">P164 est temporellement spécifié par</rdfs:label>
     <skos:notation>P164</skos:notation>
     <rdfs:domain rdf:resource="E93_Presence"/>
     <rdfs:range rdf:resource="E52_Time-Span"/>
@@ -9740,6 +9789,7 @@ In First Order Logic:
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="P164i_temporally_specifies">
     <rdfs:label xml:lang="en">P164 temporally specifies</rdfs:label>
+    <rdfs:label xml:lang="fr">P164 spécifie temporellement</rdfs:label>
     <skos:notation>P164i</skos:notation>
     <rdfs:domain rdf:resource="E52_Time-Span"/>
     <rdfs:range rdf:resource="E93_Presence"/>
@@ -9765,6 +9815,7 @@ In First Order Logic of the inverse property:
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="P165_incorporates">
     <rdfs:label xml:lang="en">P165 incorporates</rdfs:label>
+    <rdfs:label xml:lang="fr">P165 inclut</rdfs:label>
     <skos:notation>P165</skos:notation>
     <rdfs:domain rdf:resource="E73_Information_Object"/>
     <rdfs:range rdf:resource="E90_Symbolic_Object"/>
@@ -9796,6 +9847,7 @@ In First Order Logic:
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="P165i_is_incorporated_in">
     <rdfs:label xml:lang="en">P165 is incorporated in</rdfs:label>
+    <rdfs:label xml:lang="fr">P165 est inclus dans</rdfs:label>
     <skos:notation>P165i</skos:notation>
     <rdfs:domain rdf:resource="E90_Symbolic_Object"/>
     <rdfs:range rdf:resource="E73_Information_Object"/>
@@ -9827,6 +9879,7 @@ In First Order Logic of the inverse property:
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="P166_was_a_presence_of">
     <rdfs:label xml:lang="en">P166 was a presence of</rdfs:label>
+    <rdfs:label xml:lang="fr">P166 a été une présence de</rdfs:label>
     <skos:notation>P166</skos:notation>
     <rdfs:domain rdf:resource="E93_Presence"/>
     <rdfs:range rdf:resource="E92_Spacetime_Volume"/>
@@ -9849,6 +9902,7 @@ In First Order Logic:
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="P166i_had_presence">
     <rdfs:label xml:lang="en">P166 had presence</rdfs:label>
+    <rdfs:label xml:lang="fr">P166 a eu pour présence</rdfs:label>
     <skos:notation>P166i</skos:notation>
     <rdfs:domain rdf:resource="E92_Spacetime_Volume"/>
     <rdfs:range rdf:resource="E93_Presence"/>
@@ -9871,6 +9925,7 @@ In First Order Logic of the inverse property:
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="P167_was_within">
     <rdfs:label xml:lang="en">P167 was within</rdfs:label>
+    <rdfs:label xml:lang="fr">P167 s’inscrivait dans</rdfs:label>
     <skos:notation>P167</skos:notation>
     <rdfs:domain rdf:resource="E93_Presence"/>
     <rdfs:range rdf:resource="E53_Place"/>
@@ -9894,6 +9949,7 @@ In First Order Logic:
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="P167i_includes">
     <rdfs:label xml:lang="en">P167 includes</rdfs:label>
+    <rdfs:label xml:lang="fr">P167 comporte</rdfs:label>
     <skos:notation>P167i</skos:notation>
     <rdfs:domain rdf:resource="E53_Place"/>
     <rdfs:range rdf:resource="E93_Presence"/>
@@ -9917,6 +9973,7 @@ In First Order Logic of the inverse property:
   </owl:ObjectProperty>
   <owl:DatatypeProperty rdf:about="P168_place_is_defined_by">
     <rdfs:label xml:lang="en">P168 place is defined by</rdfs:label>
+    <rdfs:label xml:lang="fr">P168 lieu défini par</rdfs:label>
     <skos:notation>P168</skos:notation>
     <rdfs:domain rdf:resource="E53_Place"/>
     <rdfs:comment xml:lang="en">Quantification: one to many, dependent (0,n:1,1)
@@ -9938,6 +9995,7 @@ In First Order Logic:
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="P169i_spacetime_volume_is_defined_by">
     <rdfs:label xml:lang="en">P169 spacetime volume is defined by</rdfs:label>
+    <rdfs:label xml:lang="fr">P169 volume spatio-temporel défini par</rdfs:label>
     <skos:notation>P169i</skos:notation>
     <rdfs:domain rdf:resource="E92_Spacetime_Volume"/>
     <rdfs:comment xml:lang="en">Quantification of the inverse property: many to one, necessary (1,1:0,n)
@@ -9957,6 +10015,7 @@ In First Order Logic of the inverse property:
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="P170i_time_is_defined_by">
     <rdfs:label xml:lang="en">P170 time is defined by</rdfs:label>
+    <rdfs:label xml:lang="fr">P170 temps défini par</rdfs:label>
     <skos:notation>P170i</skos:notation>
     <rdfs:domain rdf:resource="E52_Time-Span"/>
     <rdfs:comment xml:lang="en">Quantification of the inverse property: many to one (0,1:0,n)
@@ -9978,6 +10037,7 @@ In First Order Logic of the inverse property:
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="P171_at_some_place_within">
     <rdfs:label xml:lang="en">P171 at some place within</rdfs:label>
+    <rdfs:label xml:lang="fr">P171 quelque part dans</rdfs:label>
     <skos:notation>P171</skos:notation>
     <rdfs:domain rdf:resource="E53_Place"/>
     <rdfs:comment xml:lang="en">Quantification: many to many (0,n:0,n)
@@ -9998,6 +10058,7 @@ In First Order Logic:
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="P172_contains">
     <rdfs:label xml:lang="en">P172 contains</rdfs:label>
+    <rdfs:label xml:lang="fr">P172 contient</rdfs:label>
     <skos:notation>P172</skos:notation>
     <rdfs:domain rdf:resource="E53_Place"/>
     <rdfs:comment xml:lang="en">Quantification: many to many (0,n:0,n)
@@ -10018,6 +10079,7 @@ In First Order Logic:
   </owl:DatatypeProperty>
   <owl:ObjectProperty rdf:about="P173_starts_before_or_with_the_end_of">
     <rdfs:label xml:lang="en">P173 starts before or with the end of</rdfs:label>
+    <rdfs:label xml:lang="fr">P173 commence avant ou au moment de la fin de</rdfs:label>
     <skos:notation>P173</skos:notation>
     <rdfs:domain rdf:resource="E2_Temporal_Entity"/>
     <rdfs:range rdf:resource="E2_Temporal_Entity"/>
@@ -10055,6 +10117,7 @@ In First Order Logic:
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="P173i_ends_after_or_with_the_start_of">
     <rdfs:label xml:lang="en">P173 ends after or with the start of</rdfs:label>
+    <rdfs:label xml:lang="fr">P173 se termine après ou au moment du début de</rdfs:label>
     <skos:notation>P173i</skos:notation>
     <rdfs:domain rdf:resource="E2_Temporal_Entity"/>
     <rdfs:range rdf:resource="E2_Temporal_Entity"/>
@@ -10092,6 +10155,7 @@ In First Order Logic of the inverse property:
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="P174_starts_before_the_end_of">
     <rdfs:label xml:lang="en">P174 starts before the end of</rdfs:label>
+    <rdfs:label xml:lang="fr">P174 commence avant la fin de</rdfs:label>
     <skos:notation>P174</skos:notation>
     <rdfs:domain rdf:resource="E2_Temporal_Entity"/>
     <rdfs:range rdf:resource="E2_Temporal_Entity"/>
@@ -10132,6 +10196,7 @@ In First Order Logic:
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="P174i_ends_after_the_start_of">
     <rdfs:label xml:lang="en">P174 ends after the start of</rdfs:label>
+    <rdfs:label xml:lang="fr">P174 se termine après le début de</rdfs:label>
     <skos:notation>P174i</skos:notation>
     <rdfs:domain rdf:resource="E2_Temporal_Entity"/>
     <rdfs:range rdf:resource="E2_Temporal_Entity"/>
@@ -10172,6 +10237,7 @@ In First Order Logic of the inverse property:
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="P175_starts_before_or_with_the_start_of">
     <rdfs:label xml:lang="en">P175 starts before or with the start of</rdfs:label>
+    <rdfs:label xml:lang="fr">P175 commence avant ou au moment du début de</rdfs:label>
     <skos:notation>P175</skos:notation>
     <rdfs:domain rdf:resource="E2_Temporal_Entity"/>
     <rdfs:range rdf:resource="E2_Temporal_Entity"/>
@@ -10213,6 +10279,7 @@ In First Order Logic:
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="P175i_starts_after_or_with_the_start_of">
     <rdfs:label xml:lang="en">P175 starts after or with the start of</rdfs:label>
+    <rdfs:label xml:lang="fr">P175 commence après ou au moment du début de</rdfs:label>
     <skos:notation>P175i</skos:notation>
     <rdfs:domain rdf:resource="E2_Temporal_Entity"/>
     <rdfs:range rdf:resource="E2_Temporal_Entity"/>
@@ -10255,6 +10322,7 @@ In First Order Logic of the inverse property:
   <owl:ObjectProperty rdf:about="P176_starts_before_the_start_of">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
     <rdfs:label xml:lang="en">P176 starts before the start of</rdfs:label>
+    <rdfs:label xml:lang="fr">P176 commence avant le début de</rdfs:label>
     <skos:notation>P176</skos:notation>
     <rdfs:domain rdf:resource="E2_Temporal_Entity"/>
     <rdfs:range rdf:resource="E2_Temporal_Entity"/>
@@ -10296,6 +10364,7 @@ In First Order Logic:
   <owl:ObjectProperty rdf:about="P176i_starts_after_the_start_of">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
     <rdfs:label xml:lang="en">P176 starts after the start of</rdfs:label>
+    <rdfs:label xml:lang="fr">P176 commence après le début de</rdfs:label>
     <skos:notation>P176i</skos:notation>
     <rdfs:domain rdf:resource="E2_Temporal_Entity"/>
     <rdfs:range rdf:resource="E2_Temporal_Entity"/>
@@ -10336,6 +10405,7 @@ In First Order Logic of the inverse property:
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="P177_assigned_property_of_type">
     <rdfs:label xml:lang="en">P177 assigned property of type</rdfs:label>
+    <rdfs:label xml:lang="fr">P177 a assigné le type de propriété</rdfs:label>
     <skos:notation>P177</skos:notation>
     <rdfs:domain rdf:resource="E13_Attribute_Assignment"/>
     <rdfs:range rdf:resource="E55_Type"/>
@@ -10362,6 +10432,7 @@ In First Order Logic:
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="P177i_is_type_of_property_assigned">
     <rdfs:label xml:lang="en">P177 is type of property assigned</rdfs:label>
+    <rdfs:label xml:lang="fr">P177 est le type de propriété assigné</rdfs:label>
     <skos:notation>P177i</skos:notation>
     <rdfs:domain rdf:resource="E55_Type"/>
     <rdfs:range rdf:resource="E13_Attribute_Assignment"/>
@@ -10388,6 +10459,7 @@ In First Order Logic of the inverse property:
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="P179_had_sales_price">
     <rdfs:label xml:lang="en">P179 had sales price</rdfs:label>
+    <rdfs:label xml:lang="fr">P179 a eu pour prix de vente</rdfs:label>
     <skos:notation>P179</skos:notation>
     <rdfs:domain rdf:resource="E96_Purchase"/>
     <rdfs:range rdf:resource="E97_Monetary_Amount"/>
@@ -10409,6 +10481,7 @@ In First Order Logic:
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="P179i_was_sales_price_of">
     <rdfs:label xml:lang="en">P179 was sales price of</rdfs:label>
+    <rdfs:label xml:lang="fr">P179 a été le prix de vente de</rdfs:label>
     <skos:notation>P179i</skos:notation>
     <rdfs:domain rdf:resource="E97_Monetary_Amount"/>
     <rdfs:range rdf:resource="E96_Purchase"/>
@@ -10430,6 +10503,7 @@ In First Order Logic of the inverse property:
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="P180_has_currency">
     <rdfs:label xml:lang="en">P180 has currency</rdfs:label>
+    <rdfs:label xml:lang="fr">P180 a pour unité monétaire</rdfs:label>
     <skos:notation>P180</skos:notation>
     <rdfs:domain rdf:resource="E97_Monetary_Amount"/>
     <rdfs:range rdf:resource="E98_Currency"/>
@@ -10452,6 +10526,7 @@ In First Order Logic:
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="P180i_was_currency_of">
     <rdfs:label xml:lang="en">P180 was currency of</rdfs:label>
+    <rdfs:label xml:lang="fr">P180 était l’unité monétaire de</rdfs:label>
     <skos:notation>P180i</skos:notation>
     <rdfs:domain rdf:resource="E98_Currency"/>
     <rdfs:range rdf:resource="E97_Monetary_Amount"/>
@@ -10474,6 +10549,7 @@ In First Order Logic of the inverse property:
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="P182_ends_before_or_with_the_start_of">
     <rdfs:label xml:lang="en">P182 ends before or with the start of</rdfs:label>
+    <rdfs:label xml:lang="fr">P182 se termine avant ou au moment du début de</rdfs:label>
     <skos:notation>P182</skos:notation>
     <rdfs:domain rdf:resource="E2_Temporal_Entity"/>
     <rdfs:range rdf:resource="E2_Temporal_Entity"/>
@@ -10517,6 +10593,7 @@ In First Order Logic:
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="P182i_starts_after_or_with_the_end_of">
     <rdfs:label xml:lang="en">P182 starts after or with the end of</rdfs:label>
+    <rdfs:label xml:lang="fr">P182 commence après ou au moment de la fin de</rdfs:label>
     <skos:notation>P182i</skos:notation>
     <rdfs:domain rdf:resource="E2_Temporal_Entity"/>
     <rdfs:range rdf:resource="E2_Temporal_Entity"/>
@@ -10561,6 +10638,7 @@ In First Order Logic of the inverse property:
   <owl:ObjectProperty rdf:about="P183_ends_before_the_start_of">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
     <rdfs:label xml:lang="en">P183 ends before the start of</rdfs:label>
+    <rdfs:label xml:lang="fr">P183 se termine avant le début de</rdfs:label>
     <skos:notation>P183</skos:notation>
     <rdfs:domain rdf:resource="E2_Temporal_Entity"/>
     <rdfs:range rdf:resource="E2_Temporal_Entity"/>
@@ -10604,6 +10682,7 @@ In First Order Logic:
   <owl:ObjectProperty rdf:about="P183i_starts_after_the_end_of">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
     <rdfs:label xml:lang="en">P183 starts after the end of</rdfs:label>
+    <rdfs:label xml:lang="fr">P183 commence après la fin de</rdfs:label>
     <skos:notation>P183i</skos:notation>
     <rdfs:domain rdf:resource="E2_Temporal_Entity"/>
     <rdfs:range rdf:resource="E2_Temporal_Entity"/>
@@ -10646,6 +10725,7 @@ In First Order Logic of the inverse property:
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="P184_ends_before_or_with_the_end_of">
     <rdfs:label xml:lang="en">P184 ends before or with the end of</rdfs:label>
+    <rdfs:label xml:lang="fr">P184 se termine avant ou au moment de la fin de</rdfs:label>
     <skos:notation>P184</skos:notation>
     <rdfs:domain rdf:resource="E2_Temporal_Entity"/>
     <rdfs:range rdf:resource="E2_Temporal_Entity"/>
@@ -10685,6 +10765,7 @@ In First Order Logic:
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="P184i_ends_with_or_after_the_end_of">
     <rdfs:label xml:lang="en">P184 ends with or after the end of</rdfs:label>
+    <rdfs:label xml:lang="fr">P184 se termine au moment de ou après la fin de</rdfs:label>
     <skos:notation>P184i</skos:notation>
     <rdfs:domain rdf:resource="E2_Temporal_Entity"/>
     <rdfs:range rdf:resource="E2_Temporal_Entity"/>
@@ -10725,6 +10806,7 @@ In First Order Logic of the inverse property:
   <owl:ObjectProperty rdf:about="P185_ends_before_the_end_of">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
     <rdfs:label xml:lang="en">P185 ends before the end of</rdfs:label>
+    <rdfs:label xml:lang="fr">P185 se termine avant la fin de</rdfs:label>
     <skos:notation>P185</skos:notation>
     <rdfs:domain rdf:resource="E2_Temporal_Entity"/>
     <rdfs:range rdf:resource="E2_Temporal_Entity"/>
@@ -10765,6 +10847,7 @@ In First Order Logic:
   <owl:ObjectProperty rdf:about="P185i_ends_after_the_end_of">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
     <rdfs:label xml:lang="en">P185 ends after the end of</rdfs:label>
+    <rdfs:label xml:lang="fr">P185 se termine après la fin de</rdfs:label>
     <skos:notation>P185i</skos:notation>
     <rdfs:domain rdf:resource="E2_Temporal_Entity"/>
     <rdfs:range rdf:resource="E2_Temporal_Entity"/>
@@ -10804,6 +10887,7 @@ In First Order Logic of the inverse property:
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="P186_produced_thing_of_product_type">
     <rdfs:label xml:lang="en">P186 produced thing of product type</rdfs:label>
+    <rdfs:label xml:lang="fr">P186 a produit la chose du type</rdfs:label>
     <skos:notation>P186</skos:notation>
     <rdfs:domain rdf:resource="E12_Production"/>
     <rdfs:range rdf:resource="E99_Product_Type"/>
@@ -10825,6 +10909,7 @@ In First Order Logic:
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="P186i_is_produced_by">
     <rdfs:label xml:lang="en">P186 is produced by</rdfs:label>
+    <rdfs:label xml:lang="fr">P186 est produit par</rdfs:label>
     <skos:notation>P186i</skos:notation>
     <rdfs:domain rdf:resource="E99_Product_Type"/>
     <rdfs:range rdf:resource="E12_Production"/>
@@ -10846,6 +10931,7 @@ In First Order Logic of the inverse property:
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="P187_has_production_plan">
     <rdfs:label xml:lang="en">P187 has production plan</rdfs:label>
+    <rdfs:label xml:lang="fr">P187 a pour plan de production</rdfs:label>
     <skos:notation>P187</skos:notation>
     <rdfs:domain rdf:resource="E99_Product_Type"/>
     <rdfs:range rdf:resource="E29_Design_or_Procedure"/>
@@ -10866,6 +10952,7 @@ In First Order Logic:
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="P187i_is_production_plan_for">
     <rdfs:label xml:lang="en">P187 is production plan for</rdfs:label>
+    <rdfs:label xml:lang="fr">P187 est le plan de production de</rdfs:label>
     <skos:notation>P187i</skos:notation>
     <rdfs:domain rdf:resource="E29_Design_or_Procedure"/>
     <rdfs:range rdf:resource="E99_Product_Type"/>
@@ -10886,6 +10973,7 @@ In First Order Logic of the inverse property:
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="P188_requires_production_tool">
     <rdfs:label xml:lang="en">P188 requires production tool</rdfs:label>
+    <rdfs:label xml:lang="fr">P188 nécessite l'outil</rdfs:label>
     <skos:notation>P188</skos:notation>
     <rdfs:domain rdf:resource="E99_Product_Type"/>
     <rdfs:range rdf:resource="E19_Physical_Object"/>
@@ -10906,6 +10994,7 @@ In First Order Logic:
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="P188i_is_production_tool_for">
     <rdfs:label xml:lang="en">P188 is production tool for</rdfs:label>
+    <rdfs:label xml:lang="fr">P188 est l'outil de production de</rdfs:label>
     <skos:notation>P188i</skos:notation>
     <rdfs:domain rdf:resource="E19_Physical_Object"/>
     <rdfs:range rdf:resource="E99_Product_Type"/>
@@ -10926,6 +11015,7 @@ In First Order Logic of the inverse property:
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="P189_approximates">
     <rdfs:label xml:lang="en">P189 approximates</rdfs:label>
+    <rdfs:label xml:lang="fr">P189 approxime</rdfs:label>
     <skos:notation>P189</skos:notation>
     <rdfs:domain rdf:resource="E53_Place"/>
     <rdfs:range rdf:resource="E53_Place"/>
@@ -10956,6 +11046,7 @@ In First Order Logic:
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="P189i_is_approximated_by">
     <rdfs:label xml:lang="en">P189 is approximated by</rdfs:label>
+    <rdfs:label xml:lang="fr">P189 est approximé par</rdfs:label>
     <skos:notation>P189i</skos:notation>
     <rdfs:domain rdf:resource="E53_Place"/>
     <rdfs:range rdf:resource="E53_Place"/>
@@ -10983,6 +11074,7 @@ In First Order Logic of the inverse property:
   </owl:ObjectProperty>
   <owl:DatatypeProperty rdf:about="P190_has_symbolic_content">
     <rdfs:label xml:lang="en">P190 has symbolic content</rdfs:label>
+    <rdfs:label xml:lang="fr">P190 a pour contenu symbolique</rdfs:label>
     <skos:notation>P190</skos:notation>
     <rdfs:domain rdf:resource="E90_Symbolic_Object"/>
     <rdfs:subPropertyOf rdf:resource="P3_has_note"/>
@@ -11007,6 +11099,7 @@ In First Order Logic:
   </owl:DatatypeProperty>
   <owl:ObjectProperty rdf:about="P191_had_duration">
     <rdfs:label xml:lang="en">P191 had duration</rdfs:label>
+    <rdfs:label xml:lang="fr">P191 a eu pour durée</rdfs:label>
     <skos:notation>P191</skos:notation>
     <rdfs:domain rdf:resource="E52_Time-Span"/>
     <rdfs:range rdf:resource="E54_Dimension"/>
@@ -11027,6 +11120,7 @@ In First Order Logic:
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="P191i_was_duration_of">
     <rdfs:label xml:lang="en">P191 was duration of</rdfs:label>
+    <rdfs:label xml:lang="fr">P191 était la durée de</rdfs:label>
     <skos:notation>P191i</skos:notation>
     <rdfs:domain rdf:resource="E54_Dimension"/>
     <rdfs:range rdf:resource="E52_Time-Span"/>
@@ -11047,6 +11141,7 @@ In First Order Logic of the inverse property:
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="P195_was_a_presence_of">
     <rdfs:label xml:lang="en">P195 was a presence of</rdfs:label>
+    <rdfs:label xml:lang="fr">P195 a été une présence de</rdfs:label>
     <skos:notation>P195</skos:notation>
     <rdfs:domain rdf:resource="E93_Presence"/>
     <rdfs:range rdf:resource="E18_Physical_Thing"/>
@@ -11070,6 +11165,7 @@ In First Order Logic:
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="P195i_had_presence">
     <rdfs:label xml:lang="en">P195 had presence</rdfs:label>
+    <rdfs:label xml:lang="fr">P195 a eu pour présence</rdfs:label>
     <skos:notation>P195i</skos:notation>
     <rdfs:domain rdf:resource="E18_Physical_Thing"/>
     <rdfs:range rdf:resource="E93_Presence"/>
@@ -11093,6 +11189,7 @@ In First Order Logic of the inverse property:
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="P196_defines">
     <rdfs:label xml:lang="en">P196 defines</rdfs:label>
+    <rdfs:label xml:lang="fr">P196 définit</rdfs:label>
     <skos:notation>P196</skos:notation>
     <rdfs:domain rdf:resource="E18_Physical_Thing"/>
     <rdfs:range rdf:resource="E92_Spacetime_Volume"/>
@@ -11116,6 +11213,7 @@ In First Order Logic:
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="P196i_is_defined_by">
     <rdfs:label xml:lang="en">P196 is defined by</rdfs:label>
+    <rdfs:label xml:lang="fr">P196 est défini par</rdfs:label>
     <skos:notation>P196i</skos:notation>
     <rdfs:domain rdf:resource="E92_Spacetime_Volume"/>
     <rdfs:range rdf:resource="E18_Physical_Thing"/>
@@ -11139,6 +11237,7 @@ In First Order Logic of the inverse property:
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="P197_covered_parts_of">
     <rdfs:label xml:lang="en">P197 covered parts of</rdfs:label>
+    <rdfs:label xml:lang="fr">P197 a couvert des parties de</rdfs:label>
     <skos:notation>P197</skos:notation>
     <rdfs:domain rdf:resource="E93_Presence"/>
     <rdfs:range rdf:resource="E53_Place"/>
@@ -11161,6 +11260,7 @@ In First Order Logic:
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="P197i_was_partially_covered_by">
     <rdfs:label xml:lang="en">P197 was partially covered by</rdfs:label>
+    <rdfs:label xml:lang="fr">P197 a été partiellement couvert par</rdfs:label>
     <skos:notation>P197i</skos:notation>
     <rdfs:domain rdf:resource="E53_Place"/>
     <rdfs:range rdf:resource="E93_Presence"/>
@@ -11184,6 +11284,7 @@ In First Order Logic of the inverse property:
   <owl:ObjectProperty rdf:about="P198_holds_or_supports">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
     <rdfs:label xml:lang="en">P198 holds or supports</rdfs:label>
+    <rdfs:label xml:lang="fr">P198 contient ou soutient</rdfs:label>
     <skos:notation>P198</skos:notation>
     <rdfs:domain rdf:resource="E18_Physical_Thing"/>
     <rdfs:range rdf:resource="E18_Physical_Thing"/>
@@ -11217,6 +11318,7 @@ In First Order Logic:
   <owl:ObjectProperty rdf:about="P198i_is_held_or_supported_by">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
     <rdfs:label xml:lang="en">P198 is held or supported by</rdfs:label>
+    <rdfs:label xml:lang="fr">P198 est contenu ou soutenu par</rdfs:label>
     <skos:notation>P198i</skos:notation>
     <rdfs:domain rdf:resource="E18_Physical_Thing"/>
     <rdfs:range rdf:resource="E18_Physical_Thing"/>
